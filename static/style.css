@@ -32,12 +32,12 @@ h2 {
 
 .navbar-brand,
 .navbar-nav .nav-link {
-    color: #f8fc04 !important;
+    color: #ffffff !important;
 }
 
 .navbar-brand:hover,
 .navbar-nav .nav-link:hover {
-    color: #c0c0c0 !important;
+    color: #ccee0a !important;
 }
 
 /* Table Styles (DataTables) */
