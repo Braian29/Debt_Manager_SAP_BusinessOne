@@ -1,0 +1,136 @@
+<!--templates\index.html-->
+{% extends 'base.html' %}
+
+{% block title %}Listado de Clientes{% endblock %}
+
+{% block content %}
+    <h2>Listado de Clientes</h2>
+    <table id="clientes-table" class="table">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Vendedor</th>
+                <th data-type="num-fmt">Saldo</th>
+                <th data-type="num-fmt">En Fecha</th>
+                <th data-type="num-fmt">Próxima a Vencer</th>
+                <th data-type="num-fmt">Vencida</th>
+                 <th data-type="num-fmt">% Vencido</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for cliente in clientes %}
+            {% if cliente.CardCode %}
+            <tr>
+                <td>{{ cliente.CardCode }}</td>
+                <td>{{ cliente.CardName }}</td>
+                <td>{{ cliente.vendedor }}</td>
+                <td data-order="{{ cliente.CurrentAccountBalance }}">$ {{ cliente.CurrentAccountBalance | format_number }}</td>
+                
+               <td data-order="{{ cliente.saldos_por_categoria['En Fecha'] }}"
+                    {% if cliente.saldos_por_categoria['En Fecha'] > 0 %}
+                       class="saldo-en-fecha"
+                   {% endif %}>
+                     $ {{ cliente.saldos_por_categoria['En Fecha'] | format_number }}
+                </td>
+                   
+                <td data-order="{{ cliente.saldos_por_categoria['Proxima a Vencer'] }}"
+                    {% if cliente.saldos_por_categoria['Proxima a Vencer'] > 0 %}
+                    class="saldo-proxima-vencer"
+                    {% endif %}>
+                    $ {{ cliente.saldos_por_categoria['Proxima a Vencer'] | format_number }}
+                </td>
+                
+                <td data-order="{{ cliente.saldos_por_categoria['Vencida'] }}"
+                    {% if cliente.saldos_por_categoria['Vencida'] > 0 %}
+                    class="saldo-vencida"
+                    {% endif %}>
+                    $ {{ cliente.saldos_por_categoria['Vencida'] | format_number }}
+                </td>
+                <td data-order="{{ cliente.porcentaje_vencido }}">{{ cliente.porcentaje_vencido | format_number }}%</td>
+                <td><a href="{{ url_for('cliente_detail', card_code=cliente.CardCode) }}">Detalle</a></td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </tbody>
+    </table>
+    <script id="data-clientes" type="application/json">
+        {{ clientes | tojson }}
+    </script>
+    <button id="export-excel" class="btn btn-primary mb-2">Descargar Excel</button>
+
+{% endblock %}
+
+{% block styles %}
+  <style>
+    .saldo-en-fecha {
+      background-color: #a6f2a6;
+    }
+    .saldo-proxima-vencer {
+      background-color: #f2f2a6;
+    }
+    .saldo-vencida {
+      background-color: #f2a6a6;
+    }
+  </style>
+{% endblock %}
+
+
+{% block scripts %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+    $(document).ready( function () {
+        var table = $('#clientes-table').DataTable({
+            "language": {
+               "url": "{{ url_for('static', filename='Spanish.json') }}"
+           }
+          
+        });
+          $('#export-excel').on('click', function() {
+          exportTableToExcel(table, 'Listado de Clientes');
+      });
+
+    });
+
+   function exportTableToExcel(table, filename = ''){
+        // Obtener los datos del script
+         var data_json =  $('#data-clientes').text()
+          var data = JSON.parse(data_json)
+        
+        // Crear un array para los encabezados
+        var headers = [];
+        $('#clientes-table thead th').each(function() {
+            headers.push($(this).text());
+        });
+
+        // Crear un array con los datos y encabezados
+        var excelData = [headers];
+         
+        data.forEach(cliente => {
+            var rowData = [];
+             rowData.push(cliente.CardCode);
+             rowData.push(cliente.CardName);
+             rowData.push(cliente.vendedor);
+             rowData.push(cliente.CurrentAccountBalance);
+             rowData.push(cliente.saldos_por_categoria['En Fecha']);
+             rowData.push(cliente.saldos_por_categoria['Proxima a Vencer']);
+             rowData.push(cliente.saldos_por_categoria['Vencida']);
+             rowData.push(cliente.porcentaje_vencido);
+            excelData.push(rowData)
+        })
+       
+        // Crear el libro de Excel y la hoja
+          var wb = XLSX.utils.book_new();
+          var ws = XLSX.utils.aoa_to_sheet(excelData);
+          XLSX.utils.book_append_sheet(wb, ws, "Sheet1");
+
+
+          XLSX.writeFile(wb, filename + '.xlsx');
+      }
+
+</script>
+{% endblock %}

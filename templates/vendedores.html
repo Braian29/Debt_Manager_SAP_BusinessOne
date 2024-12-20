@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}Listado de Vendedores{% endblock %}
+
+{% block content %}
+<h2>Listado de Vendedores</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Código</th>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for vendedor in vendedores %}
+            {% if vendedor.SalesEmployeeCode != -1 %}
+            <tr>
+                <td>{{ vendedor.SalesEmployeeCode }}</td>
+                <td>{{ vendedor.SalesEmployeeName }}</td>
+            </tr>
+            {% endif %}
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

@@ -1,0 +1,169 @@
+[
+    {
+        "odata.metadata": "https://177.85.33.53:50695/b1s/v1/$metadata#SalesPersons",
+        "value": [
+            {
+                "SalesEmployeeCode": -1,
+                "SalesEmployeeName": "-Ning\u00fan empleado del departamento de ventas-",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 4,
+                "SalesEmployeeName": "Horacio Rodriguez",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 1,
+                "SalesEmployeeName": "Franco Goye",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 14,
+                "SalesEmployeeName": "Julieta Casta\u00f1eda",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 2,
+                "SalesEmployeeName": "Martin Regner",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 5,
+                "SalesEmployeeName": "Mariano Lisbichoff",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 6,
+                "SalesEmployeeName": "Jonatan Otaduy",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 7,
+                "SalesEmployeeName": "Suc. Tiscornia",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 8,
+                "SalesEmployeeName": "Suc. Pioneros",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 9,
+                "SalesEmployeeName": "Suc. El Bolson",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 10,
+                "SalesEmployeeName": "Suc. Villa La Angostura",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 11,
+                "SalesEmployeeName": "Superclin",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 12,
+                "SalesEmployeeName": "Luciano Suppes",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 13,
+                "SalesEmployeeName": "Joaquin Goicochea",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 15,
+                "SalesEmployeeName": "Hotel Llao Llao",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 16,
+                "SalesEmployeeName": "Lavadero Bariloche",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 18,
+                "SalesEmployeeName": "Vendedor Cerro",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 17,
+                "SalesEmployeeName": "Vendedor Bols\u00f3n",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 3,
+                "SalesEmployeeName": "Valeria Rodriguez",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 19,
+                "SalesEmployeeName": "Maximiliano Bolado",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 20,
+                "SalesEmployeeName": "Pamela Boock",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 21,
+                "SalesEmployeeName": "Mariana Blanco",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 22,
+                "SalesEmployeeName": "Joaquin Campitelli",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 23,
+                "SalesEmployeeName": "Luz Novo Aguilar",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 24,
+                "SalesEmployeeName": "11",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 25,
+                "SalesEmployeeName": "Federico Bollati",
+                "Telephone": null,
+                "Mobile": null
+            },
+            {
+                "SalesEmployeeCode": 26,
+                "SalesEmployeeName": "Anular",
+                "Telephone": null,
+                "Mobile": null
+            }
+        ]
+    }
+]

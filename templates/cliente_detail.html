@@ -1,0 +1,167 @@
+<!--templates\cliente_detail.html-->
+{% extends 'base.html' %}
+
+{% block title %}Detalle de Cliente{% endblock %}
+
+{% block content %}
+<style>
+    .container {
+    padding: 10px;
+    }
+    @media (max-width: 767px) {
+        .clasificacion {
+        display: block;
+        margin-bottom: 5px;
+       }
+    }
+</style>
+    <div class="container">
+        <div class="d-flex align-items-start">
+            <div class="mb-3 me-4" style="flex: 1;">
+                <h2>Detalle de Cliente: <strong> {{ cliente.CardName }}</strong></h2>
+                <br><br>
+                <p><strong>Código:</strong> {{ cliente.CardCode }}</p>
+                <p><strong>Vendedor: {{ cliente.vendedor }}</strong> </p>
+                <p><strong>Saldo:$ {{ cliente.CurrentAccountBalance | format_number }}</strong> </p>
+            </div>
+            <div style="width: 35%; min-width:300px; max-width:700px; margin-top: 8%; margin-right: 5%;">
+               <canvas id="clasificacionChart"></canvas>
+           </div>
+       </div>
+
+        <h3>Facturas Pendientes</h3>
+        {% if cliente.facturas %}
+            <table id="facturas-table" class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Número</th>
+                        <th>Fecha</th>
+                        <th>Vencimiento</th>
+                        <th data-type="num-fmt">Total</th>
+                        <th data-type="num-fmt">Pagado</th>
+                        <th data-type="num-fmt">Saldo</th>
+                        <th>Días</th>
+                        <th>Clasificación</th>
+                    </tr>
+                </thead>
+                <tbody id="facturas-table-body">
+                    {% for factura in cliente.facturas %}
+                        <tr>
+                            <td>{{ factura.NumAtCard }}</td>
+                            <td>{{ factura.DocDate }}</td>
+                            <td>{{ factura.DocDueDate }}</td>
+                            <td data-order="{{ factura.DocTotal }}">$ {{ factura.DocTotal | format_number}}</td>
+                            <td data-order="{{ factura.PaidToDate if factura.PaidToDate is number else 0 }}">
+                                {% if factura.PaidToDate is number %}
+                                    $ {{ factura.PaidToDate | format_number}}
+                                {% else %}
+                                     N/A
+                                {% endif %}
+                            </td>
+                            <td data-order="{{ factura.SaldoPendiente if factura.SaldoPendiente is number else 0 }}">
+                                {% if factura.SaldoPendiente is number %}
+                                    $ {{ factura.SaldoPendiente | format_number}}
+                                {% else %}
+                                     N/A
+                                {% endif %}
+                            </td>
+                            <td>{{ factura.DiasDesdeCreacion }}</td>
+                            <td >
+                                 {% if factura.Clasificacion == 'En Fecha' %}
+                                    <span class="clasificacion en-fecha">{{ factura.Clasificacion }}</span>
+                                {% elif factura.Clasificacion == 'Proxima a Vencer' %}
+                                    <span class="clasificacion proxima-vencer">{{ factura.Clasificacion }}</span>
+                                {% elif factura.Clasificacion == 'Vencida' %}
+                                    <span class="clasificacion vencida">{{ factura.Clasificacion }}</span>
+                                {% else %}
+                                    {{ factura.Clasificacion }} 
+                                {% endif %}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>No hay facturas pendientes para este cliente.</p>
+        {% endif %}
+
+
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Volver al listado de clientes</a>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    $(document).ready( function () {
+         $.fn.dataTable.ext.type.order['num-fmt-pre'] = function (a) {
+             let number= parseFloat(a.replace(/[^0-9,-]/g, '').replace(',','.'))
+            return isNaN(number) ? 0 : number;
+        };
+        $('#facturas-table').DataTable({
+             "language": {
+                "url": "{{ url_for('static', filename='Spanish.json') }}"
+            },
+              columnDefs: [
+                { type: 'num-fmt', targets: 3 }  // Apply the custom type to the "Total" column
+              ]
+        });
+         // Obtener los datos de la tabla
+        const facturasData = [];
+        $('#facturas-table-body tr').each(function() {
+            const clasificacion = $(this).find('td:eq(7)').text().trim();
+            const saldo = parseFloat($(this).find('td:eq(5)').attr('data-order') || 0); // Obtiene el valor numerico de data-order, sino es 0
+
+            facturasData.push({ clasificacion, saldo });
+        });
+
+        // Procesar los datos para el gráfico
+        const saldosPorClasificacion = facturasData.reduce((acc, factura) => {
+            acc[factura.clasificacion] = (acc[factura.clasificacion] || 0) + factura.saldo;
+            return acc;
+        }, {});
+
+        // Define el orden de clasificación y sus colores
+        const clasificacionesOrdenadas = ['En Fecha', 'Proxima a Vencer', 'Vencida'];
+        const coloresOrdenados = [
+            'rgba(75, 192, 192, 0.2)',  // Verde
+            'rgba(255, 205, 86, 0.2)',  // Amarillo
+            'rgba(255, 99, 132, 0.2)'   // Rojo
+        ];
+         const bordesOrdenados = [
+             'rgb(75, 192, 192)',   // Verde
+            'rgb(255, 205, 86)',     // Amarillo
+             'rgb(255, 99, 132)'    // Rojo
+        ];
+
+        // Extrae los saldos en el orden correcto
+        const saldos = clasificacionesOrdenadas.map(clasificacion => saldosPorClasificacion[clasificacion] || 0);
+        
+        // Crear el gráfico
+        const ctx = document.getElementById('clasificacionChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: clasificacionesOrdenadas,
+                datasets: [{
+                    label: 'Saldo por Clasificación',
+                    data: saldos,
+                    backgroundColor: coloresOrdenados,
+                     borderColor: bordesOrdenados,
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    } );
+</script>
+{% endblock %}

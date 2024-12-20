@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding-bottom: 20px; /* espacio en la parte inferior para que el contenido no toque el final */
+}
+
+.container {
+    max-width: 90%; /* Ajusta el ancho máximo del contenedor principal */
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #343a40 !important;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #f8fc04 !important;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #c0c0c0 !important;
+}
+
+/* Table Styles (DataTables) */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table thead th {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid #495057;
+    font-weight: bold;
+}
+
+.table tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table tbody tr:hover {
+    background-color: #f2f2f2;
+}
+
+.table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.table a:hover {
+    text-decoration: underline;
+}
+/* DataTables Styles */
+div.dataTables_wrapper div.dataTables_filter input {
+     border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px;
+     margin-left: 10px;
+     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+div.dataTables_wrapper div.dataTables_filter input:focus{
+  border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+      border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px;
+    margin-right: 10px;
+   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+div.dataTables_wrapper div.dataTables_length select:focus{
+      border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination {
+    justify-content: flex-end; /* Alinea la paginación a la derecha */
+     margin-top: 10px;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination li.page-item a.page-link{
+     color: #007bff; /* Color del texto del enlace de la paginación */
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+div.dataTables_wrapper div.dataTables_paginate ul.pagination li.page-item a.page-link:hover{
+     color: #007bff;
+        background-color: #e9ecef;
+}
+ div.dataTables_wrapper div.dataTables_paginate ul.pagination li.page-item.active a.page-link{
+  color: #fff;
+    background-color: #007bff;
+        border-color: #007bff;
+}
+
+
+.clasificacion {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+}
+.en-fecha {
+    color: green;
+}
+.proxima-vencer {
+    color: orange;
+}
+.vencida {
+    color: red;
+}
+
+.saldo-en-fecha {
+  background-color: #a6f2a6;
+}
+.saldo-proxima-vencer {
+  background-color: #f2f2a6;
+}
+.saldo-vencida {
+  background-color: #f2a6a6;
+}

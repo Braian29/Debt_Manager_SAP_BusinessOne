@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard de Cobranzas{% endblock %}
+
+{% block content %}
+<h2>Dashboard de Cobranzas</h2>
+<p><strong>Total de Deuda:</strong> {{ total_deuda }}</p>
+
+<h3>Deuda por Vendedor</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Vendedor</th>
+            <th>Deuda Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for vendedor in vendedores %}
+            {% if vendedor.SalesEmployeeCode != -1 %}
+            <tr>
+                 <td>{{ vendedor.SalesEmployeeName }}</td>
+                 <td>{{  
+                        (clientes|selectattr('vendedor_code','equalto',vendedor.SalesEmployeeCode)|map(attribute='CurrentAccountBalance')|sum) 
+                    }}</td>
+            </tr>
+            {% endif %}
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
