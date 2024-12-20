@@ -18,7 +18,7 @@ def get_salesperson_data(base_url="https://177.85.33.53:50695/b1s/v1/", output_f
         bool: True si los datos se obtuvieron y guardaron correctamente, False en caso contrario.
     """
 
-    url = base_url + "SalesPersons?$select=SalesEmployeeCode,SalesEmployeeName,Telephone,Mobile"
+    url = base_url + "SalesPersons?$select=SalesEmployeeCode,SalesEmployeeName,Telephone,Mobile,Email"
     all_data = []
 
     while url:

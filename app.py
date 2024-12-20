@@ -28,6 +28,7 @@ def obtener_conexion():
     conn.row_factory = sqlite3.Row  # Para acceder a los resultados como diccionarios
     return conn
 
+
 def obtener_datos():
     """Obtiene datos de la base de datos y los procesa."""
     conn = obtener_conexion()
@@ -83,11 +84,10 @@ def obtener_datos():
             if clasificacion in saldos_por_categoria:
                saldos_por_categoria[clasificacion] += saldo_pendiente
 
-
         # Calcular porcentaje de vencidos
         saldo_vencido = saldos_por_categoria['Vencida']
         porcentaje_vencido = (saldo_vencido / total_saldo) * 100 if total_saldo else 0
-
+       
         cliente_info = {
             'CardCode': cliente.get('CardCode'),
             'CardName': cliente.get('CardName'),
@@ -99,11 +99,46 @@ def obtener_datos():
             'porcentaje_vencido': porcentaje_vencido
         }
         clientes_con_info.append(cliente_info)
+
         
-    return clientes_con_info, vendedores
+        
+    # Agrupar información por vendedor
+    vendedores_con_saldos = []
+    for vendedor in vendedores:
+        vendedor_code = vendedor.get('SalesEmployeeCode')
+        
+        saldos_por_categoria_vendedor = {
+             'En Fecha': 0,
+             'Proxima a Vencer': 0,
+            'Vencida': 0
+         }
+        total_saldo_vendedor = 0
+        clientes_del_vendedor = [c for c in clientes_con_info if c.get('vendedor_code') == vendedor_code]
+        for cliente in clientes_del_vendedor:
+              for categoria,saldo in cliente.get('saldos_por_categoria').items():
+                  saldos_por_categoria_vendedor[categoria] += saldo
+              total_saldo_vendedor += cliente.get('CurrentAccountBalance',0)
+          
+        saldo_vencido_vendedor = saldos_por_categoria_vendedor['Vencida']
+        porcentaje_vencido_vendedor = (saldo_vencido_vendedor / total_saldo_vendedor) * 100 if total_saldo_vendedor else 0
+
+        vendedor_info = {
+           'SalesEmployeeCode': vendedor.get('SalesEmployeeCode'),
+           'SalesEmployeeName': vendedor.get('SalesEmployeeName'),
+           'saldos_por_categoria': saldos_por_categoria_vendedor,
+           'total_saldo':total_saldo_vendedor,
+           'porcentaje_vencido':porcentaje_vencido_vendedor
+        }
+        vendedores_con_saldos.append(vendedor_info)
+    
+    # Filtrar vendedores con saldo > 0
+    vendedores_con_saldos = [vendedor for vendedor in vendedores_con_saldos if vendedor['total_saldo'] > 0]
 
 
-clientes_con_info, vendedores = obtener_datos()
+    return clientes_con_info, vendedores, vendedores_con_saldos
+
+
+clientes_con_info, vendedores ,vendedores_con_saldos= obtener_datos()
 
 
 @app.route('/')
@@ -124,20 +159,47 @@ def vendedores_list():
     global vendedores  #Indicamos que usaremos la variable global
     return render_template('vendedores.html', vendedores=vendedores)
 
+@app.route('/vendedores_con_saldos')
+def vendedores_con_saldos_list():
+    global vendedores_con_saldos  #Indicamos que usaremos la variable global
+    return render_template('vendedores_con_saldos.html', vendedores=vendedores_con_saldos)
+   
 @app.route('/dashboard')
 def dashboard():
     global clientes_con_info  #Indicamos que usaremos la variable global
+    global vendedores_con_saldos #Indicamos que usaremos la variable global
     total_deuda = sum(cliente.get('CurrentAccountBalance', 0) or 0 for cliente in clientes_con_info)
-    return render_template('dashboard.html', total_deuda=total_deuda, clientes=clientes_con_info)
+
+    # Preparar datos para el gráfico de clientes
+    saldos_por_categoria_clientes = {
+      'En Fecha':0,
+      'Proxima a Vencer':0,
+      'Vencida':0,
+    }
+    for cliente in clientes_con_info:
+       for categoria,saldo in cliente.get('saldos_por_categoria').items():
+          saldos_por_categoria_clientes[categoria] += saldo
+
+    # Preparar datos para el gráfico de vendedores
+    labels_vendedores = [vendedor.get('SalesEmployeeName') for vendedor in vendedores_con_saldos]
+    deudas_vendedores = [vendedor.get('total_saldo',0) for vendedor in vendedores_con_saldos]
+  
+    return render_template('dashboard.html', 
+                           total_deuda=total_deuda, 
+                           saldos_por_categoria_clientes=saldos_por_categoria_clientes,
+                           labels_vendedores = labels_vendedores,
+                           deudas_vendedores = deudas_vendedores
+                           )
 
 
 @app.route('/update_data', methods=['POST'])
 def update_data():
     global clientes_con_info #Indicamos que usaremos la variable global
     global vendedores   #Indicamos que usaremos la variable global
+    global vendedores_con_saldos #Indicamos que usaremos la variable global
     
     if run_scripts():
-         clientes_con_info, vendedores = obtener_datos()
+         clientes_con_info, vendedores , vendedores_con_saldos = obtener_datos()
          return "Datos actualizados correctamente!", 200
     else:
         return "Error al actualizar los datos.", 500

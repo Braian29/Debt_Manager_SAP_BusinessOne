@@ -45,7 +45,8 @@ def crear_base_datos(nombre_db="mi_base_datos.db"):
             SalesEmployeeCode INTEGER PRIMARY KEY,
             SalesEmployeeName TEXT,
             Telephone TEXT,
-            Mobile TEXT
+            Mobile TEXT,
+            Email TEXT
         )
     ''')
     
@@ -133,7 +134,7 @@ def load_dataframes():
         salespersons_data = json.load(f)
     
     # Columnas deseadas para vendedores
-    salespersons_columns = ["SalesEmployeeCode", "SalesEmployeeName", "Telephone", "Mobile"]
+    salespersons_columns = ["SalesEmployeeCode", "SalesEmployeeName", "Telephone", "Mobile", "Email"]
     
     # Extraer empleados de ventas y filtrar columnas
     salespersons = pd.json_normalize(salespersons_data)

@@ -34,6 +34,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "20032",
+            "CardName": "Hotel Nahuel Huapi SA",
+            "DocTotal": 124359.54,
+            "PaidToDate": 27343.47,
+            "NumAtCard": "0031-A-00032053",
+            "DocDate": "2024-12-18",
+            "DocDueDate": "2025-01-17"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20059",
             "CardName": "Tronador SAC.",
             "DocTotal": 1.21,
@@ -41,6 +52,17 @@
             "NumAtCard": "0031-A-00032087",
             "DocDate": "2024-12-19",
             "DocDueDate": "2025-01-08"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20059",
+            "CardName": "Tronador SAC.",
+            "DocTotal": 18516.13,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-A-00032142",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
         }
     },
     {
@@ -177,6 +199,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "20161",
+            "CardName": "Pehuen SRL",
+            "DocTotal": 350775.47,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-A-00032145",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-19"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20200",
             "CardName": "BAHIA MONTANA SA",
             "DocTotal": 818212.54,
@@ -276,11 +309,44 @@
     },
     {
         "Invoices": {
+            "CardCode": "20333",
+            "CardName": "Mamuschka SRL",
+            "DocTotal": 3671645.76,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-A-00032143",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20349",
+            "CardName": "Sindicato Obreros Marit Unidos",
+            "DocTotal": 177987.15,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-B-00005560",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20407",
             "CardName": "Trattoria I Italliano SRL",
             "DocTotal": 84792.44,
             "PaidToDate": 0.0,
             "NumAtCard": "0031-A-00032135",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-19"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20407",
+            "CardName": "Trattoria I Italliano SRL",
+            "DocTotal": 141257.02,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-A-00032139",
             "DocDate": "2024-12-20",
             "DocDueDate": "2025-01-19"
         }
@@ -305,6 +371,17 @@
             "NumAtCard": "0031-B-00005558",
             "DocDate": "2024-12-19",
             "DocDueDate": "2025-01-08"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20622",
+            "CardName": "Direc.De Serv.Soc. P.B.A.",
+            "DocTotal": 233802.17,
+            "PaidToDate": 231130.21,
+            "NumAtCard": "0047-B-00002592",
+            "DocDate": "2024-11-29",
+            "DocDueDate": "2024-12-19"
         }
     },
     {
@@ -595,6 +672,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "21272",
+            "CardName": "Charming Lodge SA",
+            "DocTotal": 86419.79,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-A-00032144",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "21274",
             "CardName": "Alcon SRL",
             "DocTotal": 124008.04,
@@ -771,6 +859,28 @@
     },
     {
         "Invoices": {
+            "CardCode": "21902",
+            "CardName": "Kiwi Blue SAS",
+            "DocTotal": 236670.82,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-A-00032140",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21902",
+            "CardName": "Kiwi Blue SAS",
+            "DocTotal": 148514.97,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-A-00032141",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "21929",
             "CardName": "Lopez Federico",
             "DocTotal": 185296.43,
@@ -793,6 +903,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "21938",
+            "CardName": "Fruticola La Papa SAS.",
+            "DocTotal": 649975.23,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-A-00032146",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "21980",
             "CardName": "Hoteleria Andina SA (Park)",
             "DocTotal": 103325.8,
@@ -800,6 +921,17 @@
             "NumAtCard": "0031-A-00032081",
             "DocDate": "2024-12-19",
             "DocDueDate": "2025-01-18"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22069",
+            "CardName": "Alfonso Hernandez Dadienka",
+            "DocTotal": 170031.08,
+            "PaidToDate": 0.0,
+            "NumAtCard": "9999-A-10001742",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
         }
     },
     {
@@ -947,6 +1079,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "22379",
+            "CardName": "Gutierrez Arana Jose",
+            "DocTotal": 251609.09,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-A-00032138",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "22381",
             "CardName": "De La Fuente Diego",
             "DocTotal": 187615.86,
@@ -954,6 +1097,28 @@
             "NumAtCard": "0031-A-00032120",
             "DocDate": "2024-12-19",
             "DocDueDate": "2025-01-08"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22382",
+            "CardName": "Livingston Ricardo Jorge",
+            "DocTotal": 79562.8,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-B-00005561",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22382",
+            "CardName": "Livingston Ricardo Jorge",
+            "DocTotal": 25837.55,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0031-B-00005562",
+            "DocDate": "2024-12-20",
+            "DocDueDate": "2025-01-09"
         }
     },
     {
@@ -1141,17 +1306,6 @@
             "NumAtCard": "0047-A-00027240",
             "DocDate": "2024-12-16",
             "DocDueDate": "2025-01-05"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "22294",
-            "CardName": "Tradicion SRL.",
-            "DocTotal": 81981.29,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026687",
-            "DocDate": "2024-11-29",
-            "DocDueDate": "2024-12-19"
         }
     },
     {
@@ -1860,13 +2014,13 @@
     },
     {
         "Invoices": {
-            "CardCode": "20622",
-            "CardName": "Direc.De Serv.Soc. P.B.A.",
-            "DocTotal": 233802.17,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-B-00002592",
-            "DocDate": "2024-11-29",
-            "DocDueDate": "2024-12-19"
+            "CardCode": "22152",
+            "CardName": "Truchas Sayhueque SRL.",
+            "DocTotal": 825043.7,
+            "PaidToDate": 29675.28,
+            "NumAtCard": "0047-A-00026560",
+            "DocDate": "2024-11-26",
+            "DocDueDate": "2024-12-16"
         }
     },
     {
@@ -3730,17 +3884,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "22294",
-            "CardName": "Tradicion SRL.",
-            "DocTotal": 173054.97,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026740",
-            "DocDate": "2024-12-02",
-            "DocDueDate": "2024-12-22"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "22111",
             "CardName": "Cabalgatas TW SA",
             "DocTotal": 738670.33,
@@ -3845,17 +3988,6 @@
             "DocTotal": 164781.78,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00026764",
-            "DocDate": "2024-12-02",
-            "DocDueDate": "2024-12-22"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "22092",
-            "CardName": "Bienestar SAS.",
-            "DocTotal": 198627.67,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026766",
             "DocDate": "2024-12-02",
             "DocDueDate": "2024-12-22"
         }
@@ -4298,17 +4430,6 @@
             "NumAtCard": "0053-A-00000943",
             "DocDate": "2024-12-03",
             "DocDueDate": "2024-12-03"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "22092",
-            "CardName": "Bienestar SAS.",
-            "DocTotal": 26792.13,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026837",
-            "DocDate": "2024-12-04",
-            "DocDueDate": "2024-12-24"
         }
     },
     {
@@ -8240,17 +8361,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "21303",
-            "CardName": "Cines Sunstar Bariloche SA",
-            "DocTotal": 940845.23,
-            "PaidToDate": 652907.55,
-            "NumAtCard": "0047-A-00026818",
-            "DocDate": "2024-12-03",
-            "DocDueDate": "2025-01-02"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "20018",
             "CardName": "Del Turista SACEI",
             "DocTotal": 654173.8,
@@ -9853,17 +9963,6 @@
             "NumAtCard": "0031-A-00032052",
             "DocDate": "2024-12-18",
             "DocDueDate": "2025-01-07"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "20032",
-            "CardName": "Hotel Nahuel Huapi SA",
-            "DocTotal": 124359.54,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0031-A-00032053",
-            "DocDate": "2024-12-18",
-            "DocDueDate": "2025-01-17"
         }
     },
     {

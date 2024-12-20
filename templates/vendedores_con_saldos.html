@@ -1,0 +1,123 @@
+<!-- templates/vendedores_con_saldos.html -->
+{% extends 'base.html' %}
+
+{% block title %}Listado de Vendedores con Saldos{% endblock %}
+
+{% block content %}
+    <h2>Listado de Vendedores con Saldos</h2>
+    <table id="vendedores-table" class="table">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th data-type="num-fmt">Saldo Total</th>
+                <th data-type="num-fmt">En Fecha</th>
+                <th data-type="num-fmt">Próxima a Vencer</th>
+                <th data-type="num-fmt">Vencida</th>
+                <th data-type="num-fmt">% Vencido</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for vendedor in vendedores %}
+            <tr>
+                <td>{{ vendedor.SalesEmployeeCode }}</td>
+                <td>{{ vendedor.SalesEmployeeName }}</td>
+                <td data-order="{{vendedor.total_saldo}}">$ {{ vendedor.total_saldo | format_number }}</td>
+                <td data-order="{{ vendedor.saldos_por_categoria['En Fecha'] }}"
+                     {% if vendedor.saldos_por_categoria['En Fecha'] > 0 %}
+                       class="saldo-en-fecha"
+                    {% endif %}>
+                    $ {{ vendedor.saldos_por_categoria['En Fecha'] | format_number }}
+                </td>
+                 <td data-order="{{ vendedor.saldos_por_categoria['Proxima a Vencer'] }}"
+                      {% if vendedor.saldos_por_categoria['Proxima a Vencer'] > 0 %}
+                        class="saldo-proxima-vencer"
+                    {% endif %}>
+                     $ {{ vendedor.saldos_por_categoria['Proxima a Vencer'] | format_number }}
+                </td>
+                <td data-order="{{ vendedor.saldos_por_categoria['Vencida'] }}"
+                    {% if vendedor.saldos_por_categoria['Vencida'] > 0 %}
+                      class="saldo-vencida"
+                    {% endif %}>
+                     $ {{ vendedor.saldos_por_categoria['Vencida'] | format_number }}
+                 </td>
+                <td data-order="{{ vendedor.porcentaje_vencido }}">{{ vendedor.porcentaje_vencido | format_number }}%</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    <script id="data-vendedores" type="application/json">
+         {{ vendedores | tojson }}
+    </script>
+    <button id="export-excel" class="btn btn-primary mb-2">Descargar Excel</button>
+
+{% endblock %}
+
+{% block styles %}
+  <style>
+    .saldo-en-fecha {
+      background-color: #a6f2a6;
+    }
+    .saldo-proxima-vencer {
+      background-color: #f2f2a6;
+    }
+    .saldo-vencida {
+      background-color: #f2a6a6;
+    }
+  </style>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script>
+     $(document).ready( function () {
+        var table = $('#vendedores-table').DataTable({
+            "language": {
+               "url": "{{ url_for('static', filename='Spanish.json') }}"
+           }
+         
+        });
+         $('#export-excel').on('click', function() {
+          exportTableToExcel(table, 'Listado de Vendedores');
+      });
+    });
+
+   function exportTableToExcel(table, filename = ''){
+         // Obtener los datos del script
+         var data_json =  $('#data-vendedores').text()
+         var data = JSON.parse(data_json)
+         
+        // Crear un array para los encabezados
+        var headers = [];
+        $('#vendedores-table thead th').each(function() {
+             headers.push($(this).text());
+        });
+
+        // Crear un array con los datos y encabezados
+        var excelData = [headers];
+         
+        data.forEach(vendedor => {
+            var rowData = [];
+             rowData.push(vendedor.SalesEmployeeCode);
+             rowData.push(vendedor.SalesEmployeeName);
+             rowData.push(vendedor.total_saldo);
+             rowData.push(vendedor.saldos_por_categoria['En Fecha']);
+             rowData.push(vendedor.saldos_por_categoria['Proxima a Vencer']);
+             rowData.push(vendedor.saldos_por_categoria['Vencida']);
+             rowData.push(vendedor.porcentaje_vencido);
+            excelData.push(rowData)
+        })
+        
+        // Crear el libro de Excel y la hoja
+          var wb = XLSX.utils.book_new();
+          var ws = XLSX.utils.aoa_to_sheet(excelData);
+          XLSX.utils.book_append_sheet(wb, ws, "Sheet1");
+        
+           XLSX.writeFile(wb, filename + '.xlsx');
+      }
+
+</script>
+{% endblock %}
