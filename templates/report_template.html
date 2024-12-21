@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reporte de Clientes de {{ vendedor_name }}</title>
+    <style>
+       body { font-family: Arial, sans-serif; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd; /* Borde más fino */
+            padding: 8px 10px; /* Agrega espaciado */
+            text-align: left;
+           
+        }
+          th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+          td[data-type="num-fmt"] {
+            text-align: right;
+           
+        }
+         td[data-type="num-fmt"]::before{
+          content: "$ "; /* Agrega el símbolo $ como pseudo-elemento */
+            }
+         .saldo-en-fecha {
+             background-color: #a6f2a6;
+            }
+        .saldo-proxima-vencer {
+            background-color: #f2f2a6;
+            }
+        .saldo-vencida {
+             background-color: #f2a6a6;
+            }
+    </style>
+</head>
+<body>
+    <h1>Reporte de Clientes de {{ vendedor_name }}</h1>
+    <table id="clientes-table">
+        <thead>
+            <tr>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Saldo</th>
+                <th>En Fecha</th>
+                <th>Próxima a Vencer</th>
+                <th>Vencida</th>
+                 <th>% Vencido</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for cliente in clientes %}
+            <tr>
+                <td>{{ cliente.CardCode }}</td>
+                <td>{{ cliente.CardName }}</td>
+               <td data-type="num-fmt">{{ cliente.CurrentAccountBalance | format_number }}</td>
+                <td data-type="num-fmt" {% if cliente.saldos_por_categoria['En Fecha'] > 0 %}
+                    class="saldo-en-fecha"
+                    {% endif %}>{{ cliente.saldos_por_categoria['En Fecha'] | format_number }}</td>
+                <td data-type="num-fmt" {% if cliente.saldos_por_categoria['Proxima a Vencer'] > 0 %}
+                    class="saldo-proxima-vencer"
+                    {% endif %}>{{ cliente.saldos_por_categoria['Proxima a Vencer'] | format_number }}</td>
+                <td data-type="num-fmt" {% if cliente.saldos_por_categoria['Vencida'] > 0 %}
+                    class="saldo-vencida"
+                    {% endif %}>{{ cliente.saldos_por_categoria['Vencida'] | format_number }}</td>
+                 <td data-type="num-fmt">{{ cliente.porcentaje_vencido | format_number }}%</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
