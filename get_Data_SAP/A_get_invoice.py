@@ -26,7 +26,7 @@ def get_invoice_data(base_url="https://177.85.33.53:50695/b1s/v1/", output_file=
     while True:
         data = {
             "QueryPath": "$crossjoin(Invoices,BusinessPartners)",
-            "QueryOption": f"$expand=Invoices($select=CardCode, CardName, DocTotal, PaidToDate, NumAtCard, DocDate, DocDueDate)&$filter=Invoices/CardCode eq BusinessPartners/CardCode and BusinessPartners/Valid eq 'Y' and BusinessPartners/U_Empleado eq 'N' and Invoices/DocumentStatus eq 'O' and BusinessPartners/CurrentAccountBalance gt 10 &$top={page_size}&$skip={skip}"
+            "QueryOption": f"$expand=Invoices($select=CardCode, CardName, DocTotal, PaidToDate, NumAtCard, DocDate, DocDueDate)&$filter=Invoices/CardCode eq BusinessPartners/CardCode and BusinessPartners/U_Empleado eq 'N' and Invoices/DocumentStatus eq 'O' and BusinessPartners/CurrentAccountBalance gt 10 &$top={page_size}&$skip={skip}"
         }
         print("Enviando datos:")
         print(json.dumps(data, indent=4))

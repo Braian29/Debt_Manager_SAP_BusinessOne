@@ -17,7 +17,7 @@ def get_client_data(base_url="https://177.85.33.53:50695/b1s/v1/", output_file="
         bool: True si los datos se obtuvieron y guardaron correctamente, False en caso contrario.
     """
 
-    url = base_url + "BusinessPartners?$select=CardCode,CardName,PayTermsGrpCode,PriceListNum,SalesPersonCode,Cellular,EmailAddress,CurrentAccountBalance&$filter=CurrentAccountBalance gt 0 and CardType eq 'cCustomer'"
+    url = base_url + "BusinessPartners?$select=CardCode,CardName,PayTermsGrpCode,PriceListNum,SalesPersonCode,Cellular,EmailAddress,CurrentAccountBalance&$filter=CurrentAccountBalance gt 1000 and CardType eq 'cCustomer' and U_Empleado eq 'N'"
     all_data = []
 
     while url:
