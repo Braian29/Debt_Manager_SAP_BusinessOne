@@ -39,9 +39,9 @@
     document.addEventListener('DOMContentLoaded', function() {
          // Datos para el gráfico de deuda por categoria de cliente
         const saldosCategorias = JSON.parse('{{ saldos_por_categoria_clientes | tojson | safe }}');
-         const labelsCategorias = Object.keys(saldosCategorias);
-         const saldos = Object.values(saldosCategorias);
-         const coloresOrdenados = [
+        const labelsCategorias = Object.keys(saldosCategorias);
+        const saldos = Object.values(saldosCategorias);
+        const coloresOrdenados = [
             'green',  // Verde
             'orange',  // Amarillo
             'red'   // Rojo
@@ -70,35 +70,75 @@
                             y: {
                                 beginAtZero: true
                             }
-                         }
+                         },
+                          plugins: {
+                               tooltip: {
+                                    callbacks: {
+                                        label: function(context) {
+                                            let label = context.dataset.label || '';
+                                            if (label) {
+                                            label += ': ';
+                                            }
+                                          label += 'S/ ' + context.formattedValue;
+                                        return label
+                                        },
+                                        title: function(context){
+                                            const index = context[0].dataIndex;
+                                            const label = context[0].label;
+                                            return label;
+                                        },
+                                    }
+                                 }
+                            },
+                         
                       }
             });
-        
-        // Datos para el gráfico de deuda por vendedor
-        const labelsVendedores = JSON.parse('{{ labels_vendedores | tojson | safe}}');
-        const deudasVendedores = JSON.parse('{{ deudas_vendedores | tojson | safe }}');
-         // Configuración del gráfico de deuda por vendedor
+
+          // Datos para el gráfico de deuda por vendedor
+         const labelsVendedores = JSON.parse('{{ labels_vendedores | tojson | safe}}');
+         const deudasVendedores = JSON.parse('{{ deudas_vendedores | tojson | safe }}');
+         
+        // Configuración del gráfico de deuda por vendedor
         const ctxDeudaVendedor = document.getElementById('deudaVendedorChart').getContext('2d');
         const deudaVendedorChart = new Chart(ctxDeudaVendedor, {
-                type: 'bar',
-                data: {
-                    labels: labelsVendedores,
-                    datasets: [{
-                        label: 'Deuda por Vendedor',
-                        data: deudasVendedores,
-                        backgroundColor: 'blue',
-                        borderColor: 'rgb(102, 196, 255)',    
-                        borderWidth: 1
-                       }]
-                    },
-                 options: {
-                     scales: {
-                        y: {
-                           beginAtZero: true
-                           }
+            type: 'bar',
+            data: {
+                labels: labelsVendedores,
+                datasets: [{
+                    label: 'Deuda por Vendedor',
+                    data: deudasVendedores,
+                    backgroundColor: 'blue',
+                    borderColor: 'rgb(102, 196, 255)',
+                    borderWidth: 1
+                }]
+            },
+             options: {
+                 scales: {
+                    y: {
+                       beginAtZero: true
                        }
-                    }
-            });
+                    },
+                    plugins: {
+                         tooltip: {
+                                  callbacks: {
+                                     label: function(context) {
+                                            let label = context.dataset.label || '';
+                                           if (label) {
+                                               label += ': ';
+                                            }
+                                           label += 'S/ ' + context.formattedValue;
+                                            return label;
+                                          },
+                                       title: function(context){
+                                             const index = context[0].dataIndex;
+                                            const label = context[0].label;
+                                            return label;
+                                          },
+                                      }
+                                }
+                           },
+                }
+        });
     });
 </script>
 

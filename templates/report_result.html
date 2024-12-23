@@ -1,0 +1,21 @@
+<!-- templates/report_result.html -->
+{% extends 'base.html' %}
+
+{% block title %}Generación de Reportes{% endblock %}
+
+{% block content %}
+    <h1>Resultado de la Generación de Reportes</h1>
+    
+    {% if message %}
+        <div class="message-container {{ message_type }}">
+            {{ message }}
+        </div>
+    {% endif %}
+    
+    <!-- Puedes agregar contenido adicional aquí, si es necesario -->
+    <a href="{{ url_for('index') }}">Volver a la página principal</a>
+{% endblock %}
+
+{% block scripts %}
+    <!-- Puedes añadir scripts específicos para esta página aquí si es necesario-->
+{% endblock %}

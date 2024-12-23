@@ -1,0 +1,21 @@
+<!-- templates/update_result.html -->
+{% extends 'base.html' %}
+
+{% block title %}Actualización{% endblock %}
+
+{% block content %}
+    <h1>Resultado de la Actualización</h1>
+    
+    {% if message %}
+        <div class="message-container {{ message_type }}">
+            {{ message }}
+        </div>
+    {% endif %}
+    
+    <!-- Puedes añadir más contenido aquí, si es necesario -->
+    <a href="{{ url_for('dashboard') }}">Volver a la página principal</a>
+{% endblock %}
+
+{% block scripts %}
+    <!-- Puedes añadir scripts específicos para esta página aquí si es necesario-->
+{% endblock %}
