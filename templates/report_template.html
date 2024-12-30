@@ -2,75 +2,156 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reporte de Clientes de {{ vendedor_name }}</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <style>
-       body { font-family: Arial, sans-serif; }
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 20px;
+            background-color: #f8f9fa;
+            color: #212529;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            color: #28a745;
+            font-size: 2.2em;
+            margin-bottom: 30px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        .table-wrapper {
+             overflow-x: auto;
+            margin: 20px auto;
+            border-radius: 10px;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
         table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            border-spacing: 0;
+            margin-bottom: 0;
         }
         th, td {
-            border: 1px solid #ddd; /* Borde más fino */
-            padding: 8px 10px; /* Agrega espaciado */
-            text-align: left;
-           
+            text-align: center;
+            border-bottom: 1px solid #dee2e6;
+            word-wrap: break-word;
+            font-size: 0.95em;
+            line-height: 1.5;
+            padding: 0.75rem;
         }
-          th {
-            background-color: #f2f2f2;
-            text-align: left;
+        th {
+            background-color: #28a745;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            position: sticky;
+            top: 0;
+            z-index: 1;
         }
-          td[data-type="num-fmt"] {
+       tr:nth-child(even) {
+            background-color: #f8f9fa;
+        }
+       tr:hover {
+            background-color: #e9ecef;
+       }
+        td[data-type="num-fmt"] {
             text-align: right;
-           
         }
-         td[data-type="num-fmt"]::before{
-          content: "$ "; /* Agrega el símbolo $ como pseudo-elemento */
-            }
-         .saldo-en-fecha {
-             background-color: #a6f2a6;
-            }
-        .saldo-proxima-vencer {
-            background-color: #f2f2a6;
-            }
-        .saldo-vencida {
-             background-color: #f2a6a6;
-            }
+        td[data-type="num-fmt"]::before {
+            content: "$ ";
+            color: #555;
+        }
+        .saldo-en-fecha {
+            background-color: #dcedc8;
+             color: #2e7d32;
+       }
+       .saldo-proxima-vencer {
+            background-color: #fff9c4;
+           color: #f9a825;
+        }
+       .saldo-vencida {
+            background-color: #ffcdd2;
+           color: #c62828;
+        }
+        td[data-type="percent-fmt"] {
+            text-align: right;
+        }
+        /* Nuevos estilos para ajustar el ancho de columnas */
+        #clientes-table th:nth-child(1),
+        #clientes-table td:nth-child(1) {
+            width: 10%; /* Ancho para la columna 'Código' */
+        }
+
+        #clientes-table th:nth-child(2),
+        #clientes-table td:nth-child(2) {
+             width: 30%; /* Ancho para la columna 'Nombre' */
+        }
+       #clientes-table th:nth-child(3),
+       #clientes-table td:nth-child(3),
+       #clientes-table th:nth-child(4),
+        #clientes-table td:nth-child(4),
+       #clientes-table th:nth-child(5),
+        #clientes-table td:nth-child(5),
+        #clientes-table th:nth-child(6),
+        #clientes-table td:nth-child(6),
+        #clientes-table th:nth-child(7),
+       #clientes-table td:nth-child(7)
+      {
+           width: 12% /* Ancho para las columnas restantes */
+       }
     </style>
 </head>
 <body>
     <h1>Reporte de Clientes de {{ vendedor_name }}</h1>
-    <table id="clientes-table">
-        <thead>
-            <tr>
-                <th>Código</th>
-                <th>Nombre</th>
-                <th>Saldo</th>
-                <th>En Fecha</th>
-                <th>Próxima a Vencer</th>
-                <th>Vencida</th>
-                 <th>% Vencido</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for cliente in clientes %}
-            <tr>
-                <td>{{ cliente.CardCode }}</td>
-                <td>{{ cliente.CardName }}</td>
-               <td data-type="num-fmt">{{ cliente.CurrentAccountBalance | format_number }}</td>
-                <td data-type="num-fmt" {% if cliente.saldos_por_categoria['En Fecha'] > 0 %}
-                    class="saldo-en-fecha"
-                    {% endif %}>{{ cliente.saldos_por_categoria['En Fecha'] | format_number }}</td>
-                <td data-type="num-fmt" {% if cliente.saldos_por_categoria['Proxima a Vencer'] > 0 %}
-                    class="saldo-proxima-vencer"
-                    {% endif %}>{{ cliente.saldos_por_categoria['Proxima a Vencer'] | format_number }}</td>
-                <td data-type="num-fmt" {% if cliente.saldos_por_categoria['Vencida'] > 0 %}
-                    class="saldo-vencida"
-                    {% endif %}>{{ cliente.saldos_por_categoria['Vencida'] | format_number }}</td>
-                 <td data-type="num-fmt">{{ cliente.porcentaje_vencido | format_number }}%</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+    <div class="table-wrapper">
+        <table id="clientes-table">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Nombre</th>
+                    <th>Saldo</th>
+                    <th>En Fecha</th>
+                    <th>Próxima a Vencer</th>
+                    <th>Vencida</th>
+                    <th>% Vencido</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for cliente in clientes %}
+                <tr>
+                    <td>{{ cliente.CardCode }}</td>
+                    <td>{{ cliente.CardName }}</td>
+                     <td data-type="num-fmt">{{ cliente.CurrentAccountBalance | format_number }}</td>
+                     <td data-type="num-fmt" 
+                        {% if cliente.saldos_por_categoria['En Fecha'] > 0 %}
+                         class="saldo-en-fecha"
+                        {% endif %}>
+                         {{ cliente.saldos_por_categoria['En Fecha'] | format_number }}
+                    </td>
+                     <td data-type="num-fmt" 
+                        {% if cliente.saldos_por_categoria['Proxima a Vencer'] > 0 %}
+                         class="saldo-proxima-vencer"
+                        {% endif %}>
+                        {{ cliente.saldos_por_categoria['Proxima a Vencer'] | format_number }}
+                    </td>
+                    <td data-type="num-fmt" 
+                        {% if cliente.saldos_por_categoria['Vencida'] > 0 %}
+                        class="saldo-vencida"
+                       {% endif %}>
+                        {{ cliente.saldos_por_categoria['Vencida'] | format_number }}
+                    </td>
+                    <td data-type="percent-fmt">{{ cliente.porcentaje_vencido | format_number }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>

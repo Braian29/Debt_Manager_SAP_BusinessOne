@@ -24,11 +24,11 @@
                 "Email": null
             },
             {
-                "SalesEmployeeCode": 3,
-                "SalesEmployeeName": "Valeria Rodriguez",
+                "SalesEmployeeCode": 17,
+                "SalesEmployeeName": "Vendedor Bols\u00f3n",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": "Braian.alonso@super-clin.com.ar"
+                "Email": "valentin.garayoa@super-clin.com.ar"
             },
             {
                 "SalesEmployeeCode": 2,
@@ -66,11 +66,11 @@
                 "Email": null
             },
             {
-                "SalesEmployeeCode": 9,
-                "SalesEmployeeName": "Suc. El Bolson",
+                "SalesEmployeeCode": 3,
+                "SalesEmployeeName": "Valeria Rodriguez",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": null
+                "Email": "ventasoficina@superclin.com"
             },
             {
                 "SalesEmployeeCode": 10,
@@ -87,25 +87,25 @@
                 "Email": null
             },
             {
-                "SalesEmployeeCode": 12,
-                "SalesEmployeeName": "Luciano Suppes",
+                "SalesEmployeeCode": 21,
+                "SalesEmployeeName": "Mariana Blanco",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": "Braian.alonso@super-clin.com.ar"
+                "Email": "ventas@superclin.com"
             },
             {
-                "SalesEmployeeCode": 13,
-                "SalesEmployeeName": "Joaquin Goicochea",
+                "SalesEmployeeCode": 14,
+                "SalesEmployeeName": "Julieta Casta\u00f1eda",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": "Braian.alonso@super-clin.com.ar"
+                "Email": "julieta.castaneda@superclin.com"
             },
             {
-                "SalesEmployeeCode": 15,
-                "SalesEmployeeName": "Hotel Llao Llao",
+                "SalesEmployeeCode": 20,
+                "SalesEmployeeName": "Pamela Boock",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": null
+                "Email": "pamela.boock@super-clin.com.ar"
             },
             {
                 "SalesEmployeeCode": 16,
@@ -122,39 +122,39 @@
                 "Email": null
             },
             {
-                "SalesEmployeeCode": 17,
-                "SalesEmployeeName": "Vendedor Bols\u00f3n",
-                "Telephone": null,
-                "Mobile": null,
-                "Email": null
-            },
-            {
-                "SalesEmployeeCode": 14,
-                "SalesEmployeeName": "Julieta Casta\u00f1eda",
-                "Telephone": null,
-                "Mobile": null,
-                "Email": "Braian.alonso@super-clin.com.ar"
-            },
-            {
                 "SalesEmployeeCode": 19,
                 "SalesEmployeeName": "Maximiliano Bolado",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": "superclinsys@gmail.com"
+                "Email": "maximiliano.bolado@super-clin.com.ar"
             },
             {
-                "SalesEmployeeCode": 20,
-                "SalesEmployeeName": "Pamela Boock",
+                "SalesEmployeeCode": 15,
+                "SalesEmployeeName": "Hotel Llao Llao",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": "Braian.alonso@super-clin.com.ar"
+                "Email": "maximiliano.bolado@super-clin.com.ar"
             },
             {
-                "SalesEmployeeCode": 21,
-                "SalesEmployeeName": "Mariana Blanco",
+                "SalesEmployeeCode": 13,
+                "SalesEmployeeName": "Joaquin Goicochea",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": "Braian.alonso@super-clin.com.ar"
+                "Email": "Joaquin.Goicochea@super-clin.com.ar"
+            },
+            {
+                "SalesEmployeeCode": 12,
+                "SalesEmployeeName": "Luciano Suppes",
+                "Telephone": null,
+                "Mobile": null,
+                "Email": "luciano.suppes@superclin.com"
+            },
+            {
+                "SalesEmployeeCode": 9,
+                "SalesEmployeeName": "Suc. El Bolson",
+                "Telephone": null,
+                "Mobile": null,
+                "Email": "diego.sede@super-clin.com.ar"
             },
             {
                 "SalesEmployeeCode": 22,

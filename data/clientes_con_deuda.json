@@ -4,47 +4,36 @@
         "value": [
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21982",
-                "CardName": "Jardines De Bariloche S.A. (Mizu)",
-                "PayTermsGrpCode": 68,
+                "CardCode": "21934",
+                "CardName": "Finnegan Patagonia Azul SRL.",
+                "PayTermsGrpCode": 71,
                 "PriceListNum": 4,
-                "SalesPersonCode": 14,
+                "SalesPersonCode": 13,
                 "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 499331.18
+                "EmailAddress": "finneganvla@gmail.com",
+                "CurrentAccountBalance": 118121.47
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21550",
-                "CardName": "Britos Sebastian",
+                "CardCode": "20885",
+                "CardName": "A.G.O.E.C.E.A.S.E",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 20,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "Seba.b.campos@gmail.com",
-                "CurrentAccountBalance": 107045.46
+                "EmailAddress": "turismo@agoec.org.ar",
+                "CurrentAccountBalance": 1177074.24
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21990",
-                "CardName": "Molina Aguirre Eric Leandro",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 3,
-                "SalesPersonCode": 17,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 88309.59
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21981",
-                "CardName": "Jardines De Bariloche S.A. (Suites)",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
+                "CardCode": "20041",
+                "CardName": "Municipalidad Centro Civico",
+                "PayTermsGrpCode": 69,
+                "PriceListNum": 5,
                 "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 340024.75
+                "EmailAddress": "comprasysuministros.brc@gmail.com",
+                "CurrentAccountBalance": 4897376.77
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -59,47 +48,80 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21124",
-                "CardName": "Cabalgatas TW SA",
+                "CardCode": "20047",
+                "CardName": "Syosset SA",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
                 "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "cervezawesley@gmail.com",
-                "CurrentAccountBalance": 2117668.13
+                "EmailAddress": "adminbrc@softhoteles.com.ar",
+                "CurrentAccountBalance": 2049319.22
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21155",
-                "CardName": "Diversey De Argentina SA",
-                "PayTermsGrpCode": 66,
-                "PriceListNum": 2,
-                "SalesPersonCode": 11,
+                "CardCode": "20437",
+                "CardName": "Traquetren S.R.L",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 90909.1
+                "EmailAddress": "vs@traquetren.com",
+                "CurrentAccountBalance": 147277.25
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21573",
-                "CardName": "Campanario SRL",
+                "CardCode": "21763",
+                "CardName": "Eduar Dos SRL",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "hosterianuevopinar@yahoo.com.ar",
+                "CurrentAccountBalance": 161427.01
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20908",
+                "CardName": "Fideicomiso Amaike",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "ecamaike@gmail.com",
+                "CurrentAccountBalance": 570848.63
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20919",
+                "CardName": "Refineria De Grasas Sud. S.A.",
                 "PayTermsGrpCode": 73,
                 "PriceListNum": 2,
-                "SalesPersonCode": 20,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "cerrocampanario@bariloche.com.ar",
-                "CurrentAccountBalance": 205910.25
+                "EmailAddress": "compras@villabeluno.com",
+                "CurrentAccountBalance": 845765.76
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21464",
-                "CardName": "Ordoqui Mountain Sa",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": "2345685525",
-                "EmailAddress": "info@altotraful.com",
-                "CurrentAccountBalance": 1934354.83
+                "CardCode": "22063",
+                "CardName": "A Gusto SAS.",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
+                "SalesPersonCode": 17,
+                "Cellular": null,
+                "EmailAddress": "restoagusto@gmail.com",
+                "CurrentAccountBalance": 176527.94
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22341",
+                "CardName": "A Gusto del Paralelo 42 SAS",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
+                "SalesPersonCode": 17,
+                "Cellular": null,
+                "EmailAddress": "agustoviandas@gmail.com",
+                "CurrentAccountBalance": 51630.6
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -114,6 +136,17 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20098",
+                "CardName": "Gendarmeria Nacional",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "joanfranco@gna.gob.ar",
+                "CurrentAccountBalance": 1303706.36
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "22234",
                 "CardName": "Zazzini Carla Marina y Zazzini Maria Antonella Sociedad de CAP",
                 "PayTermsGrpCode": 73,
@@ -125,25 +158,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20269",
-                "CardName": "Total Sport SRL",
+                "CardCode": "21272",
+                "CardName": "Charming Lodge SA",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
+                "PriceListNum": 4,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "administracion@totalsport.com.ar",
-                "CurrentAccountBalance": 1087889.95
+                "EmailAddress": null,
+                "CurrentAccountBalance": 560763.95
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20730",
-                "CardName": "Cipres SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
+                "CardCode": "21064",
+                "CardName": "Rivera Juan Leonardo",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 4,
                 "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "cipresbariloche@hotmail.com",
-                "CurrentAccountBalance": 144699.51
+                "EmailAddress": "zapalarivera@hotmail.com",
+                "CurrentAccountBalance": 108689.9
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -169,17 +202,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20315",
-                "CardName": "Cesari Maria Julia",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "movinghosteltravelbar@hotmail.com",
-                "CurrentAccountBalance": 395971.58
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20109",
                 "CardName": "Algar SA",
                 "PayTermsGrpCode": 67,
@@ -191,36 +213,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22365",
-                "CardName": "Rupusur SA.",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "mcingolani@rupupehuen.com",
-                "CurrentAccountBalance": 468417.61
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21980",
-                "CardName": "Hoteleria Andina SA (Park)",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 263345.8
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20260",
-                "CardName": "Hoteles El Casco SA",
+                "CardCode": "20111",
+                "CardName": "Camuzzi Gas Del Sur SA",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 20,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "operaciones@hotelelcasco.com",
-                "CurrentAccountBalance": 1526394.91
+                "EmailAddress": "Franco.Toranzo@camuzzigas.com.ar",
+                "CurrentAccountBalance": 143654.13
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -235,14 +235,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20950",
-                "CardName": "Mavica Emprendimientos",
-                "PayTermsGrpCode": 67,
+                "CardCode": "20133",
+                "CardName": "Club Hotel Catedral SA",
+                "PayTermsGrpCode": 68,
                 "PriceListNum": 3,
-                "SalesPersonCode": 14,
+                "SalesPersonCode": 18,
                 "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 825085.47
+                "EmailAddress": "compras@clubhotel.com.ar",
+                "CurrentAccountBalance": 523020.78
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -268,36 +268,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22147",
-                "CardName": "Cajon Negro SAS.",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 368322.18
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20359",
-                "CardName": "Turnet SA",
+                "CardCode": "20151",
+                "CardName": "Organizacion Hoteler Costa SRL",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
                 "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "veronica@bosquedelnahuel.com.ar",
-                "CurrentAccountBalance": 560159.14
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20882",
-                "CardName": "Apart Del Lago SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "contaduria@apartdellago.com.ar",
-                "CurrentAccountBalance": 1867075.81
+                "EmailAddress": "barilochecompras@gmail.com",
+                "CurrentAccountBalance": 697548.23
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -312,6 +290,17 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22362",
+                "CardName": "Piletas del Nahuel SRL",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 74559.29
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20213",
                 "CardName": "London Supply SACIFI",
                 "PayTermsGrpCode": 68,
@@ -320,6 +309,17 @@
                 "Cellular": null,
                 "EmailAddress": "csalgado@londonsupply.com",
                 "CurrentAccountBalance": 1080000.0
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21124",
+                "CardName": "Cabalgatas TW SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "cervezawesley@gmail.com",
+                "CurrentAccountBalance": 2186450.28
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -345,25 +345,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21913",
-                "CardName": "Esencia SRL",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": "2944252876",
-                "EmailAddress": "administracion@esenciapatagonia.com.ar",
-                "CurrentAccountBalance": 890093.11
+                "CardCode": "21497",
+                "CardName": "Cipreses Del Sur Srl",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "carloscai1953@gmail.com",
+                "CurrentAccountBalance": 386461.16
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21501",
-                "CardName": "Manush Bre Wery SRL",
-                "PayTermsGrpCode": 67,
+                "CardCode": "20275",
+                "CardName": "Raigoso Ignacio",
+                "PayTermsGrpCode": 74,
                 "PriceListNum": 3,
-                "SalesPersonCode": 12,
+                "SalesPersonCode": 13,
                 "Cellular": null,
-                "EmailAddress": "administracion@cervezamanush.com.ar",
-                "CurrentAccountBalance": 305292.35
+                "EmailAddress": "info@encantodelrio.com.ar",
+                "CurrentAccountBalance": 258995.88
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -400,28 +400,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20404",
-                "CardName": "Adg Travel S.A.",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "administracion@ghpanamericano.com",
-                "CurrentAccountBalance": 857532.77
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20299",
-                "CardName": "Loitegui Const Inmob Y Financ.",
-                "PayTermsGrpCode": 70,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
-                "Cellular": "2944618635",
-                "EmailAddress": "administracion_chapelco@loisuites.com.ar",
-                "CurrentAccountBalance": 1657964.24
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20812",
                 "CardName": "Asoc Bomb Vol Cerro Campanari",
                 "PayTermsGrpCode": 73,
@@ -444,47 +422,69 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22150",
-                "CardName": "Selina Operation Bariloche SRL",
+                "CardCode": "21848",
+                "CardName": "FADEL S.R.L. (Esandi)",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "nelio.acuna@selina.com",
-                "CurrentAccountBalance": 1405870.71
+                "EmailAddress": "panaderiavilo@hotmail.com.ar",
+                "CurrentAccountBalance": 452473.59
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21936",
-                "CardName": "Fernandez Mendy Susana",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
+                "CardCode": "21177",
+                "CardName": "Canopy Adventure Tour SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "arelauquenbungalows@gmail.com",
-                "CurrentAccountBalance": 472508.35
+                "EmailAddress": "canopy@canopybariloche.com.ar",
+                "CurrentAccountBalance": 126653.7
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22336",
-                "CardName": "Punto Rio Negro SAS.",
+                "CardCode": "22152",
+                "CardName": "Truchas Sayhueque SRL.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 962661.95
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22383",
+                "CardName": "La Avutarda SAS.",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
                 "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "juancarlosizaguirre@gmail.com",
-                "CurrentAccountBalance": 622927.76
+                "EmailAddress": "r-acosta30@hotmail.com",
+                "CurrentAccountBalance": 423418.27
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22342",
-                "CardName": "Sibarits SRL. (Huenu)",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
+                "CardCode": "21733",
+                "CardName": "Cristal SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 2,
+                "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "recepcionelmuelle@dot-hotls.com",
-                "CurrentAccountBalance": 377678.3
+                "EmailAddress": "reservas@hotel-cristal.com.ar",
+                "CurrentAccountBalance": 601388.05
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20291",
+                "CardName": "El Manzanito SA",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": "2944760005",
+                "EmailAddress": "maximiliano.langlois@laescondida.house",
+                "CurrentAccountBalance": 266936.64
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -510,39 +510,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20890",
-                "CardName": "Jardines De Bariloche S.A. (City)",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 1011378.0
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21958",
-                "CardName": "RED DIALMED SA (Bariloche)",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "mariana.leive@dialmed.ar",
-                "CurrentAccountBalance": 1776680.27
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22149",
-                "CardName": "Sibarits SRL. (Muelle Dot)",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "recepcionelmuelle@dot-hotls.com",
-                "CurrentAccountBalance": 420408.62
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20066",
                 "CardName": "Taz A Taz SRL",
                 "PayTermsGrpCode": 67,
@@ -551,6 +518,17 @@
                 "Cellular": null,
                 "EmailAddress": "lamarmite3@gmail.com",
                 "CurrentAccountBalance": 75862.12
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20005",
+                "CardName": "Bahia Manzano S.A",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": "2944514543",
+                "EmailAddress": "proveedores@bahiamanzano.com",
+                "CurrentAccountBalance": 7048538.89
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -565,25 +543,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21959",
-                "CardName": "Los Soles Internacional SA.",
-                "PayTermsGrpCode": 73,
+                "CardCode": "21290",
+                "CardName": "Garcia Jurjo Agustin",
+                "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 21,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "manuela.costoya@lossolesint.com.ar",
-                "CurrentAccountBalance": 33256.49
+                "EmailAddress": "hostellostroncos@gmail.com",
+                "CurrentAccountBalance": 563553.6
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22123",
-                "CardName": "Clafelu SAS",
-                "PayTermsGrpCode": 67,
+                "CardCode": "20829",
+                "CardName": "Club Inn SA.",
+                "PayTermsGrpCode": 68,
                 "PriceListNum": 3,
-                "SalesPersonCode": 12,
+                "SalesPersonCode": 18,
                 "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 76333.4
+                "EmailAddress": "gerencia@hosteriadelcerro.com.ar",
+                "CurrentAccountBalance": 298386.28
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -620,69 +598,47 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21039",
-                "CardName": "Puerto Pireo SA",
+                "CardCode": "22051",
+                "CardName": "Torno Sanchez Juan Cruz",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 3,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "Selvaindiabrc@gmail.com",
+                "CurrentAccountBalance": 198118.68
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22096",
+                "CardName": "GM Inmobiliaria SAS.",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "lucianomrivas@gmail.com",
+                "CurrentAccountBalance": 122816.23
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22309",
+                "CardName": "Pimi SAS",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "mclrestaurante@gmail.com",
+                "CurrentAccountBalance": 84232.69
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21770",
+                "CardName": "Patagonia Food SRL",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
                 "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "info@puertopireo.com.ar",
-                "CurrentAccountBalance": 385579.9
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22350",
-                "CardName": "Socolovsky Eduardo Enrique",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 1553.96
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20687",
-                "CardName": "Rincon De Los Andes SA",
-                "PayTermsGrpCode": 70,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "cadetecompras@rinconclub.com.ar",
-                "CurrentAccountBalance": 956287.43
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22240",
-                "CardName": "Fonseca Alejandro Gonzalo",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "ale.fonse.2013@gmail.com",
-                "CurrentAccountBalance": 258396.8
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22103",
-                "CardName": "Huella Andina Servicios SAS",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 233807.64
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21707",
-                "CardName": "Lo de Mi Abu SAS",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "lodemiabusas@gmail.com",
-                "CurrentAccountBalance": 129073.95
+                "EmailAddress": "Martina@kandahar.com.ar",
+                "CurrentAccountBalance": 103692.98
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -697,14 +653,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20308",
-                "CardName": "Turisur SRL",
+                "CardCode": "20023",
+                "CardName": "Grisu SA",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 4,
-                "SalesPersonCode": 20,
+                "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "compras@turisur.com.ar",
-                "CurrentAccountBalance": 2204275.55
+                "EmailAddress": "grisu@bariloche.com.ar",
+                "CurrentAccountBalance": 2244039.1
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -719,36 +675,36 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22144",
-                "CardName": "Hotelera Del Lago (Resto km1)",
+                "CardCode": "21298",
+                "CardName": "Almasur SA",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 12,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "patagoniahreservas@gmail.com",
-                "CurrentAccountBalance": 617902.4
+                "EmailAddress": "administracion2@almasuites.com.ar",
+                "CurrentAccountBalance": 236247.66
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20560",
-                "CardName": "Hoteleria Cordillerana SA (Val Garden)",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 233936.51
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22345",
-                "CardName": "Fundacion Cerca Tuyo",
+                "CardCode": "21943",
+                "CardName": "Instituto Materno Infantil SRL",
                 "PayTermsGrpCode": 73,
                 "PriceListNum": 2,
-                "SalesPersonCode": 3,
+                "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "cercatuyofundacion@gmail.com",
-                "CurrentAccountBalance": 41935.66
+                "EmailAddress": "jlmartinez@hprbariloche.com",
+                "CurrentAccountBalance": 1365218.12
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22185",
+                "CardName": "Refugio Viejo Sociedad Simple",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 111266.96
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -763,6 +719,17 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20977",
+                "CardName": "Ergo S.R.L.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "romina@grupobold.com.ar",
+                "CurrentAccountBalance": 1774049.84
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20655",
                 "CardName": "Rich SRL",
                 "PayTermsGrpCode": 67,
@@ -771,28 +738,6 @@
                 "Cellular": null,
                 "EmailAddress": null,
                 "CurrentAccountBalance": 229361.9
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20033",
-                "CardName": "Hotel Tres Reyes SA",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "administracion@hotel3reyes.com.ar",
-                "CurrentAccountBalance": 86485.18
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20353",
-                "CardName": "Marcas Al Sur SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "g.adm@marcasalsur.com.ar",
-                "CurrentAccountBalance": 75653.9
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -807,36 +752,47 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21762",
-                "CardName": "Zirolli Bahamon Luis A.",
+                "CardCode": "22178",
+                "CardName": "York Patagonia SAS.",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "yorkpatagoniasas\u26604gmail.com",
+                "CurrentAccountBalance": 48196.74
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20433",
+                "CardName": "Soluciones  E Impresiones SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "administracion@centrodelcopiado.com",
+                "CurrentAccountBalance": 164098.09
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21743",
+                "CardName": "ALCAAL Real Estate S.R.L.",
                 "PayTermsGrpCode": 69,
                 "PriceListNum": 4,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "sofia.suitesdellago@gmail.com",
-                "CurrentAccountBalance": 69348.17
+                "EmailAddress": "susana.maggiora@alcaal.com",
+                "CurrentAccountBalance": 137726.71
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21903",
-                "CardName": "BURO PATAGONICO S. A. S.",
-                "PayTermsGrpCode": 67,
+                "CardCode": "21869",
+                "CardName": "Savafama S.A.",
+                "PayTermsGrpCode": 73,
                 "PriceListNum": 3,
-                "SalesPersonCode": 12,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "administracion@basiahotel.com",
-                "CurrentAccountBalance": 2263389.4
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21848",
-                "CardName": "FADEL S.R.L. (Esandi)",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "panaderiavilo@hotmail.com.ar",
-                "CurrentAccountBalance": 621604.11
+                "EmailAddress": "administracion@tunquelen.com",
+                "CurrentAccountBalance": 142303.75
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -851,25 +807,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20979",
-                "CardName": "Bari Beer S.A.",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 14,
+                "CardCode": "22147",
+                "CardName": "Cajon Negro SAS.",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
                 "Cellular": null,
-                "EmailAddress": "NO USA MAIL",
-                "CurrentAccountBalance": 75891.6
+                "EmailAddress": null,
+                "CurrentAccountBalance": 457990.96
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22295",
-                "CardName": "El Boliche de Alberto SRL",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 3,
+                "CardCode": "21980",
+                "CardName": "Hoteleria Andina SA (Park)",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "elbolichedealberto@hotmail.com",
-                "CurrentAccountBalance": 1205257.51
+                "EmailAddress": "compras@hotelesandinos.com.ar",
+                "CurrentAccountBalance": 512036.88
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -906,6 +862,17 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21959",
+                "CardName": "Los Soles Internacional SA.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "manuela.costoya@lossolesint.com.ar",
+                "CurrentAccountBalance": 78101.56
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20606",
                 "CardName": "Saiz Federico German",
                 "PayTermsGrpCode": 68,
@@ -917,25 +884,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20649",
-                "CardName": "Obra Soc. Empl.Comerc. Actv.Ci",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
+                "CardCode": "20262",
+                "CardName": "Rios Del Sud SA",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "conta_bariloche@osecac.org.ar",
-                "CurrentAccountBalance": 2018091.11
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20558",
-                "CardName": "Freeline SRL",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "donapasta@hotmail.com",
-                "CurrentAccountBalance": 2275797.02
+                "EmailAddress": "proveedores@hotelinterlaken.com.ar",
+                "CurrentAccountBalance": 1309957.85
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -950,47 +906,47 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20114",
-                "CardName": "GNC Bariloche SA",
+                "CardCode": "20161",
+                "CardName": "Pehuen SRL",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "mcingolani@rupupehuen.com",
+                "CurrentAccountBalance": 734757.81
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20272",
+                "CardName": "Tremen Srl",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "axiongallardo@gmail.com",
+                "CurrentAccountBalance": 223399.66
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20126",
+                "CardName": "All Flags SA",
                 "PayTermsGrpCode": 73,
                 "PriceListNum": 2,
                 "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "gncbariloche@gmail.com",
-                "CurrentAccountBalance": 452914.22
+                "EmailAddress": "administracion4@huinid.com",
+                "CurrentAccountBalance": 2233779.24
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21228",
-                "CardName": "Hotton SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "administracionbrc@kentonpalace.com.ar",
-                "CurrentAccountBalance": 594568.4
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22152",
-                "CardName": "Truchas Sayhueque SRL.",
+                "CardCode": "21756",
+                "CardName": "Pargade Horacio Manuel",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 12,
+                "SalesPersonCode": 20,
                 "Cellular": null,
                 "EmailAddress": null,
-                "CurrentAccountBalance": 778524.99
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20195",
-                "CardName": "Angostura Appart SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "administracion@solarrayan.com",
-                "CurrentAccountBalance": 666175.59
+                "CurrentAccountBalance": 481862.24
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1005,6 +961,17 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20135",
+                "CardName": "Consejo Municipal S.C. De Bche",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "cmdespacho@bariloche.gov.ar",
+                "CurrentAccountBalance": 46009.96
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20218",
                 "CardName": "Centro Civico S.R.L",
                 "PayTermsGrpCode": 67,
@@ -1016,25 +983,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22069",
-                "CardName": "Alfonso Hernandez Dadienka",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 20,
+                "CardCode": "21217",
+                "CardName": "Tracaltue SA",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 3,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "dadienka1984@gmail.com",
-                "CurrentAccountBalance": 435032.98
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20135",
-                "CardName": "Consejo Municipal S.C. De Bche",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "cmdespacho@bariloche.gov.ar",
-                "CurrentAccountBalance": 120947.01
+                "EmailAddress": "info@lomascorrentoso.com.ar",
+                "CurrentAccountBalance": 42106.28
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1049,17 +1005,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21154",
-                "CardName": "Municipalidad El Bols\u00f3n",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 9,
-                "Cellular": null,
-                "EmailAddress": "tesoreria3@elbolson.gov.ar",
-                "CurrentAccountBalance": 500425.92
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "22367",
                 "CardName": "San Martin SAS.",
                 "PayTermsGrpCode": 73,
@@ -1071,25 +1016,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20106",
-                "CardName": "Tresbes SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "auditoria@aldeaandinahotel.com",
-                "CurrentAccountBalance": 869234.14
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20025",
-                "CardName": "AES Argentina Generacion SA",
+                "CardCode": "21457",
+                "CardName": "Beta Srl",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 4,
-                "SalesPersonCode": 14,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "proveedores.sa@aes.com",
-                "CurrentAccountBalance": 1413985.52
+                "EmailAddress": "matias.martinez@beta-srl.com",
+                "CurrentAccountBalance": 1628394.91
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1104,80 +1038,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22371",
-                "CardName": "Nisga SA.",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "gerencia@hotelpuertomanzano.com",
-                "CurrentAccountBalance": 642637.99
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20262",
-                "CardName": "Rios Del Sud SA",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "proveedores@hotelinterlaken.com.ar",
-                "CurrentAccountBalance": 1222442.9
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20624",
-                "CardName": "Bomberos Dina Huapi",
-                "PayTermsGrpCode": 67,
+                "CardCode": "21154",
+                "CardName": "Municipalidad El Bols\u00f3n",
+                "PayTermsGrpCode": 71,
                 "PriceListNum": 4,
-                "SalesPersonCode": 3,
+                "SalesPersonCode": 9,
                 "Cellular": null,
-                "EmailAddress": "NO ENVIAR",
-                "CurrentAccountBalance": 652323.28
+                "EmailAddress": "tesoreria3@elbolson.gov.ar",
+                "CurrentAccountBalance": 536549.53
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20407",
-                "CardName": "Trattoria I Italliano SRL",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "trattoriaitaliano2@gmail.com",
-                "CurrentAccountBalance": 2021950.25
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20079",
-                "CardName": "Club Nautico Bariloche",
+                "CardCode": "20243",
+                "CardName": "Manila SA",
                 "PayTermsGrpCode": 73,
                 "PriceListNum": 3,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "administracion@clubnauticobariloche.com.ar",
-                "CurrentAccountBalance": 78094.61
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21174",
-                "CardName": "Bozel Hotelera SA",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "pagos@hotelinterlaken.com.ar",
-                "CurrentAccountBalance": 2035486.11
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22034",
-                "CardName": "Castion SA (Inacayal)",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "proveedores@hotelinterlaken.com.ar",
-                "CurrentAccountBalance": 308298.02
+                "EmailAddress": "info@manilapatagonia.com",
+                "CurrentAccountBalance": 410469.92
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1189,28 +1068,6 @@
                 "Cellular": null,
                 "EmailAddress": "administracion@islavictoriayarrayanes.com",
                 "CurrentAccountBalance": 589113.27
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20809",
-                "CardName": "Bebusti Olga Y Calori SH",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "consultas@hosteriapatagon.com.ar",
-                "CurrentAccountBalance": 482108.98
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21902",
-                "CardName": "Kiwi Blue SAS",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "gerenciabariloche@hostel-inn.com",
-                "CurrentAccountBalance": 1025995.29
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1236,17 +1093,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20059",
-                "CardName": "Tronador SAC.",
-                "PayTermsGrpCode": 66,
-                "PriceListNum": 2,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "facturacion@rapanui.com.ar",
-                "CurrentAccountBalance": 18037015.58
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "22353",
                 "CardName": "Kellen Patagonia SAS",
                 "PayTermsGrpCode": 73,
@@ -1258,58 +1104,36 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20837",
-                "CardName": "Aspen Sa",
-                "PayTermsGrpCode": 70,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
-                "Cellular": "2944296777",
-                "EmailAddress": "particulares@hotelaspen.com.ar",
-                "CurrentAccountBalance": 200000.0
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22168",
-                "CardName": "Casini Mariano Nahuel",
+                "CardCode": "20097",
+                "CardName": "Americano Del Sur SRL",
                 "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
+                "PriceListNum": 3,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "casinimariano@gmail.com",
-                "CurrentAccountBalance": 87790.99
+                "EmailAddress": "Administracion@rinconpatagonico.com.ar",
+                "CurrentAccountBalance": 132125.17
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21274",
-                "CardName": "Alcon SRL",
+                "CardCode": "22342",
+                "CardName": "Sibarits SRL. (Huenu)",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "recepcionelmuelle@dot-hotls.com",
+                "CurrentAccountBalance": 722015.73
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20979",
+                "CardName": "Bari Beer S.A.",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "Mariasilvanabafa@gmail.com",
-                "CurrentAccountBalance": 1195200.53
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20333",
-                "CardName": "Mamuschka SRL",
-                "PayTermsGrpCode": 66,
-                "PriceListNum": 2,
                 "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "proveedores2@mamuschka.com",
-                "CurrentAccountBalance": 17724806.41
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20366",
-                "CardName": "Feju SRL",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "admtierragaucha@gmail.com",
-                "CurrentAccountBalance": 2862355.58
+                "EmailAddress": "NO USA MAIL",
+                "CurrentAccountBalance": 153138.34
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1324,36 +1148,36 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21759",
-                "CardName": "Bozzano Lucas Javier",
+                "CardCode": "22337",
+                "CardName": "Trecar Bariloche SAS.",
                 "PayTermsGrpCode": 73,
                 "PriceListNum": 2,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "trecarsas@gmail.com",
+                "CurrentAccountBalance": 151990.87
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20982",
+                "CardName": "Fideicomiso Hotel Bariloche C",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "administracion2@hamptonbariloche.com",
+                "CurrentAccountBalance": 1683498.09
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20123",
+                "CardName": "Trevisan J Y Trevisan SRL",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 3,
                 "SalesPersonCode": 21,
                 "Cellular": null,
                 "EmailAddress": "NO ENVIAR",
-                "CurrentAccountBalance": 94070.32
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20919",
-                "CardName": "Refineria De Grasas Sud. S.A.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "compras@villabeluno.com",
-                "CurrentAccountBalance": 423153.52
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20986",
-                "CardName": "Hoteleria De Los Lagos SA (Ausonia)",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 878163.81
+                "CurrentAccountBalance": 120259.75
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1368,47 +1192,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21065",
-                "CardName": "Don Hoteles Argentina SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
+                "CardCode": "22374",
+                "CardName": "Administracion Hotelera Cono Sur SA.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
                 "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "nicolas.taron@aadesa.com.ar",
-                "CurrentAccountBalance": 369645.75
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20055",
-                "CardName": "Kilton SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "martinyuri@kiltonsa.com.ar",
-                "CurrentAccountBalance": 507429.97
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20323",
-                "CardName": "Cadena Hotelera Patagonica SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "claudiokehiayan@gmail.com",
-                "CurrentAccountBalance": 1299524.38
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21098",
-                "CardName": "Patagonia Office SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "patagoniashowroom@hotmail.com",
-                "CurrentAccountBalance": 131807.8
+                "EmailAddress": null,
+                "CurrentAccountBalance": 167473.73
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1445,25 +1236,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21272",
-                "CardName": "Charming Lodge SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 20,
+                "CardCode": "20115",
+                "CardName": "Lopez Gustavo Carlos",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 721643.15
+                "EmailAddress": "compras@corralonandino.com.ar",
+                "CurrentAccountBalance": 73961.11
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20060",
-                "CardName": "Marina Del Puerto Manzano SA",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
+                "CardCode": "20260",
+                "CardName": "Hoteles El Casco SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "administracion@marinasaltomanzano.com.ar",
-                "CurrentAccountBalance": 904015.77
+                "EmailAddress": "operaciones@hotelelcasco.com",
+                "CurrentAccountBalance": 680336.13
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1478,25 +1269,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22091",
-                "CardName": "Bosco SRL.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
+                "CardCode": "20323",
+                "CardName": "Cadena Hotelera Patagonica SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
                 "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "administracion2@aguasdelsurhotel.com.ar",
-                "CurrentAccountBalance": 1388475.55
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20957",
-                "CardName": "Musso Dana-Villalba Ana F. S.H",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "mamusiachocolateria@gmail.com",
-                "CurrentAccountBalance": 369686.94
+                "EmailAddress": "claudiokehiayan@gmail.com",
+                "CurrentAccountBalance": 699524.38
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1511,36 +1291,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20009",
-                "CardName": "Casa Palm SACII y A",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
+                "CardCode": "22164",
+                "CardName": "Contra Corriente Wine Lodge SRL.",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
                 "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "costos3@casapalm.com.ar",
-                "CurrentAccountBalance": 2077121.72
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21792",
-                "CardName": "Venecia SAS",
-                "PayTermsGrpCode": 69,
-                "PriceListNum": 5,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "girulabrc@gmail.com",
-                "CurrentAccountBalance": 402972.31
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21457",
-                "CardName": "Beta Srl",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "matias.martinez@beta-srl.com",
-                "CurrentAccountBalance": 1688797.18
+                "EmailAddress": "oficina@patagoniariverguides.com",
+                "CurrentAccountBalance": 4939.52
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1555,58 +1313,47 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22368",
-                "CardName": "Global Oil SRL.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
+                "CardCode": "21550",
+                "CardName": "Britos Sebastian",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
                 "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "adminbariloche@globaloil.com.ar",
-                "CurrentAccountBalance": 555254.77
+                "EmailAddress": "Seba.b.campos@gmail.com",
+                "CurrentAccountBalance": 454329.74
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20665",
-                "CardName": "La Muza Bariloche SAS",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
+                "CardCode": "21819",
+                "CardName": "Desde el Sur S.A.S.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 3,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "admsantamuzza@gmail.com",
-                "CurrentAccountBalance": 917961.01
+                "EmailAddress": "administracion@delcentrobariloche.com.ar",
+                "CurrentAccountBalance": 75388.98
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21540",
-                "CardName": "Design Suites SA",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "administracion-brc@designsuites.com",
-                "CurrentAccountBalance": 94771.8
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22294",
-                "CardName": "Tradicion SRL.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "elbolichedealberto@hotmail.com",
-                "CurrentAccountBalance": 558985.66
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20161",
-                "CardName": "Pehuen SRL",
-                "PayTermsGrpCode": 68,
+                "CardCode": "21274",
+                "CardName": "Alcon SRL",
+                "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 12,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "mcingolani@rupupehuen.com",
-                "CurrentAccountBalance": 352823.96
+                "EmailAddress": "Mariasilvanabafa@gmail.com",
+                "CurrentAccountBalance": 1467001.73
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21902",
+                "CardName": "Kiwi Blue SAS",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "gerenciabariloche@hostel-inn.com",
+                "CurrentAccountBalance": 1088533.03
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1621,14 +1368,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21150",
-                "CardName": "Automotores Fiorasi Y Corradi SA",
+                "CardCode": "20009",
+                "CardName": "Casa Palm SACII y A",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 4,
-                "SalesPersonCode": 21,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "Pazzubrzycki@fiorasiycorradi.com.ar",
-                "CurrentAccountBalance": 80628.3
+                "EmailAddress": "costos3@casapalm.com.ar",
+                "CurrentAccountBalance": 1739097.88
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1643,36 +1390,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20153",
-                "CardName": "Helados Jauja SA",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 17,
+                "CardCode": "21288",
+                "CardName": "Asoc. Mutual Empleados de Comercio de Bariloche",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 2,
+                "SalesPersonCode": 14,
                 "Cellular": null,
                 "EmailAddress": "NO ENVIAR",
-                "CurrentAccountBalance": 180791.41
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22051",
-                "CardName": "Torno Sanchez Juan Cruz",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "Selvaindiabrc@gmail.com",
-                "CurrentAccountBalance": 305570.28
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20622",
-                "CardName": "Direc.De Serv.Soc. P.B.A.",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "polbairesbrc1@hotmail.com",
-                "CurrentAccountBalance": 167932.84
+                "CurrentAccountBalance": 1508813.16
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1687,25 +1412,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20756",
-                "CardName": "Energia SRL",
-                "PayTermsGrpCode": 67,
+                "CardCode": "22371",
+                "CardName": "Nisga SA.",
+                "PayTermsGrpCode": 74,
                 "PriceListNum": 3,
-                "SalesPersonCode": 21,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "contaduria@pizzuti.com.ar",
-                "CurrentAccountBalance": 242902.58
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21087",
-                "CardName": "Cerealera Nireco S.A.S",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "laspenias@gmail.com",
-                "CurrentAccountBalance": 84600.51
+                "EmailAddress": "gerencia@hotelpuertomanzano.com",
+                "CurrentAccountBalance": 2281029.38
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1720,36 +1434,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22157",
-                "CardName": "Patagonia VLA SRL",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 5,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "panchi44@hotmail.com",
-                "CurrentAccountBalance": 784451.76
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21938",
-                "CardName": "Fruticola La Papa SAS.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "lapapa.adm@gmail.com",
-                "CurrentAccountBalance": 649975.18
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20131",
-                "CardName": "Biancucci Jorge Eduardo",
+                "CardCode": "21707",
+                "CardName": "Lo de Mi Abu SAS",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
+                "PriceListNum": 3,
                 "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "ypfnortevla@gmail.com",
-                "CurrentAccountBalance": 42286.82
+                "EmailAddress": "lodemiabusas@gmail.com",
+                "CurrentAccountBalance": 73326.57
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21109",
+                "CardName": "Dilek SAS",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "administracion@dilek.ar",
+                "CurrentAccountBalance": 1397038.54
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1775,25 +1478,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20165",
-                "CardName": "La Llave De Los Paisajes S.A.",
-                "PayTermsGrpCode": 71,
+                "CardCode": "20558",
+                "CardName": "Freeline SRL",
+                "PayTermsGrpCode": 68,
                 "PriceListNum": 3,
-                "SalesPersonCode": 13,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "info@verdemorada.com.ar",
-                "CurrentAccountBalance": 7395.3
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22298",
-                "CardName": "El Berghof",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "meri.emili.nicole@gmail.com",
-                "CurrentAccountBalance": 1033815.02
+                "EmailAddress": "donapasta@hotmail.com",
+                "CurrentAccountBalance": 735194.95
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1808,25 +1500,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22063",
-                "CardName": "A Gusto SAS.",
-                "PayTermsGrpCode": 74,
+                "CardCode": "20055",
+                "CardName": "Kilton SA",
+                "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 17,
+                "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "restoagusto@gmail.com",
-                "CurrentAccountBalance": 24853.52
+                "EmailAddress": "martinyuri@kiltonsa.com.ar",
+                "CurrentAccountBalance": 1447488.88
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22319",
-                "CardName": "Criminesi Maria Victoria",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
+                "CardCode": "22069",
+                "CardName": "Alfonso Hernandez Dadienka",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "humosdelbajo@gmail.com",
-                "CurrentAccountBalance": 344049.56
+                "EmailAddress": "dadienka1984@gmail.com",
+                "CurrentAccountBalance": 25990.87
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1841,25 +1533,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22347",
-                "CardName": "Parrilla Bodegon La Esquina SRL.",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
+                "CardCode": "22282",
+                "CardName": "Sarubo Maria Susana",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "floppy_anto@hotmail.com",
-                "CurrentAccountBalance": 38801.7
+                "EmailAddress": "cafeazulbariloche@gmail.com",
+                "CurrentAccountBalance": 323224.97
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22358",
-                "CardName": "Ponce Claudia Fabiana",
-                "PayTermsGrpCode": 74,
+                "CardCode": "20912",
+                "CardName": "Quiven Pablo Hernan",
+                "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 13,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "contactogreenhousevla@gmail.com",
-                "CurrentAccountBalance": 134031.66
+                "EmailAddress": "Quivenpatagonia@gmail.com",
+                "CurrentAccountBalance": 232100.29
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1874,25 +1566,47 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20005",
-                "CardName": "Bahia Manzano S.A",
-                "PayTermsGrpCode": 70,
+                "CardCode": "20563",
+                "CardName": "Marmiran SA (En Formacion)",
+                "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 13,
-                "Cellular": "2944514543",
-                "EmailAddress": "proveedores@bahiamanzano.com",
-                "CurrentAccountBalance": 6796504.41
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "administracion@soldelnahuel.com.ar",
+                "CurrentAccountBalance": 89068.89
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21121",
-                "CardName": "Gimenez Mariano Martin",
+                "CardCode": "21218",
+                "CardName": "Cerveceria Blest Bariloche SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "agostina.r@cervezablest.com",
+                "CurrentAccountBalance": 952318.51
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21471",
+                "CardName": "El Pub Srl",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
                 "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "therookiebrewing@gmail.com",
-                "CurrentAccountBalance": 64077.6
+                "EmailAddress": "cervezawesley@gmail.com",
+                "CurrentAccountBalance": 1366115.42
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20099",
+                "CardName": "Raices SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "sergiotaub@gmail.com",
+                "CurrentAccountBalance": 1080475.99
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1907,36 +1621,47 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20912",
-                "CardName": "Quiven Pablo Hernan",
+                "CardCode": "22187",
+                "CardName": "Boo de los Mares SAS",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "tesoreria@centrodediaaprendiendoaser.com",
+                "CurrentAccountBalance": 289812.2
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20353",
+                "CardName": "Marcas Al Sur SRL",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
+                "PriceListNum": 4,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "Quivenpatagonia@gmail.com",
-                "CurrentAccountBalance": 92981.52
+                "EmailAddress": "g.adm@marcasalsur.com.ar",
+                "CurrentAccountBalance": 75653.89
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20605",
-                "CardName": "Markeen SRL",
+                "CardCode": "20154",
+                "CardName": "Viegener Gerardo",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "info@cervezamanush.com.ar",
-                "CurrentAccountBalance": 1595868.18
+                "EmailAddress": "NO ENVIAR",
+                "CurrentAccountBalance": 95383.11
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21548",
-                "CardName": "Ceo`S SRL Empresa Hotelera",
-                "PayTermsGrpCode": 68,
+                "CardCode": "20145",
+                "CardName": "Goriziano Federico Bruno A.",
+                "PayTermsGrpCode": 67,
                 "PriceListNum": 4,
-                "SalesPersonCode": 20,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "administrador@gruporoibas.com.ar",
-                "CurrentAccountBalance": 120102.03
+                "EmailAddress": "malgaribariloche@gmail.com",
+                "CurrentAccountBalance": 45628.74
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1962,17 +1687,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21290",
-                "CardName": "Garcia Jurjo Agustin",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "hostellostroncos@gmail.com",
-                "CurrentAccountBalance": 413069.79
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "22313",
                 "CardName": "Tannini SAS.",
                 "PayTermsGrpCode": 73,
@@ -1995,25 +1709,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22065",
-                "CardName": "Hotel Cordillera SRL",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 3,
-                "SalesPersonCode": 17,
+                "CardCode": "21573",
+                "CardName": "Campanario SRL",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 224196.51
+                "EmailAddress": "cerrocampanario@bariloche.com.ar",
+                "CurrentAccountBalance": 344878.21
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20008",
-                "CardName": "Cambria SA",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
+                "CardCode": "20599",
+                "CardName": "Lago Roca SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "administracion@hotelcambria.com.ar",
-                "CurrentAccountBalance": 170501.46
+                "EmailAddress": "mariapiamuneta@gmail.com",
+                "CurrentAccountBalance": 501439.66
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2028,69 +1742,47 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20024",
-                "CardName": "Panatel SA",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "cuentasapagar_bch@panamericano.us",
-                "CurrentAccountBalance": 5799657.4
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21134",
-                "CardName": "Qualihomes S.A",
+                "CardCode": "20756",
+                "CardName": "Energia SRL",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "finanzas@suprabrokers.com",
-                "CurrentAccountBalance": 29965.27
+                "EmailAddress": "contaduria@pizzuti.com.ar",
+                "CurrentAccountBalance": 242902.56
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22191",
-                "CardName": "Requin SRL.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "administracion@elpatacon.com",
-                "CurrentAccountBalance": 187166.27
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22057",
-                "CardName": "Llao Llao Resorts SA.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 15,
-                "Cellular": null,
-                "EmailAddress": "jcoronado@llaollao.com.ar",
-                "CurrentAccountBalance": 31961269.77
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22282",
-                "CardName": "Sarubo Maria Susana",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
+                "CardCode": "20890",
+                "CardName": "Jardines De Bariloche S.A. (City)",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
                 "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "cafeazulbariloche@gmail.com",
-                "CurrentAccountBalance": 323224.98
+                "EmailAddress": "compras@hotelesandinos.com.ar",
+                "CurrentAccountBalance": 969089.47
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21109",
-                "CardName": "Dilek SAS",
+                "CardCode": "20816",
+                "CardName": "De Pablos SRL",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
+                "PriceListNum": 4,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "administracion@dilek.ar",
-                "CurrentAccountBalance": 1280650.53
+                "EmailAddress": "gridobariloche@gmail.com",
+                "CurrentAccountBalance": 875810.26
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20200",
+                "CardName": "BAHIA MONTANA SA",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "proveedores@bahiamanzano.com",
+                "CurrentAccountBalance": 1984411.19
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2105,58 +1797,36 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20143",
-                "CardName": "Hosp.Privado Reg.Del Sur SA",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
+                "CardCode": "20872",
+                "CardName": "Caregnato Gaspar Ramiro",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
                 "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "josorio@hprbariloche.com",
-                "CurrentAccountBalance": 2192522.78
+                "EmailAddress": "Yvi132@live.com.ar",
+                "CurrentAccountBalance": 369035.42
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21223",
-                "CardName": "Pisman Pablo Alejandro",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
+                "CardCode": "22209",
+                "CardName": "Cordillera Blanca SAS.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
                 "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "adm@peninsulapetithotel.com",
-                "CurrentAccountBalance": 563686.71
+                "EmailAddress": null,
+                "CurrentAccountBalance": 320158.6
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21934",
-                "CardName": "Finnegan Patagonia Azul SRL.",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "finneganvla@gmail.com",
-                "CurrentAccountBalance": 59428.55
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21298",
-                "CardName": "Almasur SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "administracion2@almasuites.com.ar",
-                "CurrentAccountBalance": 445519.69
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22292",
-                "CardName": "Acuna Rodolfo Isidro",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
+                "CardCode": "22384",
+                "CardName": "AG Buenos Aires SRL.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
                 "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "dualdelucia11@gmail.com",
-                "CurrentAccountBalance": 324063.62
+                "EmailAddress": "administracion@alricgalindez.com",
+                "CurrentAccountBalance": 466976.26
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2171,58 +1841,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20243",
-                "CardName": "Manila SA",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "info@manilapatagonia.com",
-                "CurrentAccountBalance": 1043323.35
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20368",
-                "CardName": "Cohiues Del Sur Srl.",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": "2604323635",
-                "EmailAddress": "carloscai1953@gmail.com",
-                "CurrentAccountBalance": 991496.7
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22176",
-                "CardName": "Lillo Arenas Orieta Isabel",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "NO ENVIAR",
-                "CurrentAccountBalance": 577281.46
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20354",
-                "CardName": "Emp Empresarios Patagonicos SA",
-                "PayTermsGrpCode": 5,
-                "PriceListNum": 5,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "Administracionhotel@hotelcottbus.com.ar",
-                "CurrentAccountBalance": 2122390.13
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20711",
-                "CardName": "Annapurna Srl",
+                "CardCode": "21995",
+                "CardName": "Patagonia Showroom SA",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "cervezawesley@gmail.com",
-                "CurrentAccountBalance": 1582651.83
+                "EmailAddress": "Sin registro",
+                "CurrentAccountBalance": 213312.81
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2237,14 +1863,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20816",
-                "CardName": "De Pablos SRL",
-                "PayTermsGrpCode": 67,
+                "CardCode": "21548",
+                "CardName": "Ceo`S SRL Empresa Hotelera",
+                "PayTermsGrpCode": 68,
                 "PriceListNum": 4,
-                "SalesPersonCode": 21,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "gridobariloche@gmail.com",
-                "CurrentAccountBalance": 315488.62
+                "EmailAddress": "administrador@gruporoibas.com.ar",
+                "CurrentAccountBalance": 161975.33
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2292,17 +1918,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21756",
-                "CardName": "Pargade Horacio Manuel",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 259053.93
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "21901",
                 "CardName": "STAZIONATI HECTOR ANTONIO",
                 "PayTermsGrpCode": 68,
@@ -2314,25 +1929,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20035",
-                "CardName": "Hotelera Del Lago SA",
+                "CardCode": "21070",
+                "CardName": "Patagonia Dreams S.A.S",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 12,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "patagoniahreservas@gmail.com",
-                "CurrentAccountBalance": 1395982.78
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21281",
-                "CardName": "Capiet Norma Monica",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "levillage@smandes.com.ar",
-                "CurrentAccountBalance": 519250.87
+                "EmailAddress": "info@wallyspatagonia.com.ar",
+                "CurrentAccountBalance": 173028.46
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2347,17 +1951,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22374",
-                "CardName": "Administracion Hotelera Cono Sur SA.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 167473.73
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "21974",
                 "CardName": "Rio Foyel SA",
                 "PayTermsGrpCode": 67,
@@ -2369,25 +1962,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21755",
-                "CardName": "Concepto Patagonico S.R.L",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "operaciones@grupotierragaucha.com.ar",
-                "CurrentAccountBalance": 3116310.87
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20977",
-                "CardName": "Ergo S.R.L.",
+                "CardCode": "20131",
+                "CardName": "Biancucci Jorge Eduardo",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
+                "PriceListNum": 4,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "romina@grupobold.com.ar",
-                "CurrentAccountBalance": 1099159.16
+                "EmailAddress": "ypfnortevla@gmail.com",
+                "CurrentAccountBalance": 223445.29
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2402,6 +1984,17 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20195",
+                "CardName": "Angostura Appart SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "administracion@solarrayan.com",
+                "CurrentAccountBalance": 525038.26
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20886",
                 "CardName": "Restaurant Oso Point Srl",
                 "PayTermsGrpCode": 71,
@@ -2413,14 +2006,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20945",
-                "CardName": "Foster Maria de la Paz",
-                "PayTermsGrpCode": 71,
+                "CardCode": "22075",
+                "CardName": "Hoteleria De Los Lagos SA",
+                "PayTermsGrpCode": 68,
                 "PriceListNum": 4,
-                "SalesPersonCode": 21,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "spatextilandes@gmail.com",
-                "CurrentAccountBalance": 131036.32
+                "EmailAddress": "compras@hotelesandinos.com.ar",
+                "CurrentAccountBalance": 642048.03
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2435,6 +2028,17 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20909",
+                "CardName": "Rocca Sur SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "administracion4@huinid.com",
+                "CurrentAccountBalance": 980179.71
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20692",
                 "CardName": "Catedral Ski Rental SA",
                 "PayTermsGrpCode": 68,
@@ -2446,14 +2050,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20021",
-                "CardName": "Havanna SA",
-                "PayTermsGrpCode": 69,
-                "PriceListNum": 4,
-                "SalesPersonCode": 20,
+                "CardCode": "22212",
+                "CardName": "Organizacion J.V.C. SRL.",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
                 "Cellular": null,
-                "EmailAddress": "rvergara@havanna.com.ar",
-                "CurrentAccountBalance": 6026309.42
+                "EmailAddress": "maitenescondido2019@gmail.com",
+                "CurrentAccountBalance": 187171.7
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2476,17 +2080,6 @@
                 "Cellular": null,
                 "EmailAddress": "proveedores@cervezaberlina.com",
                 "CurrentAccountBalance": 330795.18
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21070",
-                "CardName": "Patagonia Dreams S.A.S",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "info@wallyspatagonia.com.ar",
-                "CurrentAccountBalance": 126910.05
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2523,25 +2116,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20872",
-                "CardName": "Caregnato Gaspar Ramiro",
-                "PayTermsGrpCode": 68,
+                "CardCode": "21778",
+                "CardName": "Diaz Bobillo Victor Jose",
+                "PayTermsGrpCode": 69,
                 "PriceListNum": 4,
-                "SalesPersonCode": 14,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "Yvi132@live.com.ar",
-                "CurrentAccountBalance": 267142.85
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20047",
-                "CardName": "Syosset SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "adminbrc@softhoteles.com.ar",
-                "CurrentAccountBalance": 1193944.0
+                "EmailAddress": "sofia.suitesdellago@gmail.com",
+                "CurrentAccountBalance": 98277.22
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2556,25 +2138,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22208",
-                "CardName": "Arroyo Sureno SA.",
+                "CardCode": "20605",
+                "CardName": "Markeen SRL",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 3,
+                "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "eve@peuma-hue.com",
-                "CurrentAccountBalance": 1262653.74
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20136",
-                "CardName": "Caspani Hnos. SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "victoria.billinghurst@caspani.com.ar",
-                "CurrentAccountBalance": 15370.68
+                "EmailAddress": "info@cervezamanush.com.ar",
+                "CurrentAccountBalance": 2607923.49
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2600,6 +2171,17 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20299",
+                "CardName": "Loitegui Const Inmob Y Financ.",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": "2944618635",
+                "EmailAddress": "administracion_chapelco@loisuites.com.ar",
+                "CurrentAccountBalance": 2962640.93
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20621",
                 "CardName": "Masciarelli y Darriba SH",
                 "PayTermsGrpCode": 67,
@@ -2611,17 +2193,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20023",
-                "CardName": "Grisu SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "grisu@bariloche.com.ar",
-                "CurrentAccountBalance": 1468351.53
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20256",
                 "CardName": "Hotel Aspen Ski Bariloche SRL",
                 "PayTermsGrpCode": 68,
@@ -2630,17 +2201,6 @@
                 "Cellular": null,
                 "EmailAddress": "reservasaspen@hotmail.com",
                 "CurrentAccountBalance": 263707.14
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22075",
-                "CardName": "Hoteleria De Los Lagos SA",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 801310.44
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2677,14 +2237,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20084",
-                "CardName": "Banco De La Nacion Argentina",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 11,
+                "CardCode": "22336",
+                "CardName": "Punto Rio Negro SAS.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 41876.43
+                "EmailAddress": "juancarlosizaguirre@gmail.com",
+                "CurrentAccountBalance": 622937.76
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2710,80 +2270,47 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20984",
-                "CardName": "Hotel Sol Bariloche SA",
+                "CardCode": "22000",
+                "CardName": "Obras y Sistemas SA.",
                 "PayTermsGrpCode": 68,
                 "PriceListNum": 4,
-                "SalesPersonCode": 20,
+                "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 1662094.99
+                "EmailAddress": "administracion@obrasysistemas.com.ar",
+                "CurrentAccountBalance": 155940.78
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22159",
-                "CardName": "Sur Andino SRL.",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
-                "Cellular": "2944618888",
-                "EmailAddress": "havannabcr@gmail.com",
-                "CurrentAccountBalance": 295248.08
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21288",
-                "CardName": "Asoc. Mutual Empleados de Comercio de Bariloche",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 2,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "NO ENVIAR",
-                "CurrentAccountBalance": 1508813.16
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21929",
-                "CardName": "Lopez Federico",
+                "CardCode": "22078",
+                "CardName": "MS Proyectos y Construcciones",
                 "PayTermsGrpCode": 73,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "Federico.lopez.mda@gmail.com",
-                "CurrentAccountBalance": 337363.86
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22039",
-                "CardName": "La Casita CLC SAS.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "hosteriasuizabariloche@gmail.com",
-                "CurrentAccountBalance": 191592.35
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20050",
-                "CardName": "BTC SA",
-                "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "lysycky.viviana@supercanal.tv",
-                "CurrentAccountBalance": 235427.07
+                "EmailAddress": "No enviar",
+                "CurrentAccountBalance": 213891.39
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21742",
-                "CardName": "Cia Insumos Patag\u00f3nicos SA",
+                "CardCode": "22113",
+                "CardName": "Bernabe SAS.",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": "2972499158",
-                "EmailAddress": "dublinsouthpub@gmail.com",
-                "CurrentAccountBalance": 232896.67
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "pavonmarcosdaniel@gmail.com",
+                "CurrentAccountBalance": 669575.34
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21065",
+                "CardName": "Don Hoteles Argentina SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "nicolas.taron@aadesa.com.ar",
+                "CurrentAccountBalance": 110177.91
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2795,28 +2322,6 @@
                 "Cellular": null,
                 "EmailAddress": "administracion@colegioqmark.com",
                 "CurrentAccountBalance": 1223659.52
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22066",
-                "CardName": "Cliente Cumplea\u00f1os",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 1,
-                "SalesPersonCode": 11,
-                "Cellular": null,
-                "EmailAddress": "COMPLETAR",
-                "CurrentAccountBalance": 5014989.5
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20123",
-                "CardName": "Trevisan J Y Trevisan SRL",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "NO ENVIAR",
-                "CurrentAccountBalance": 120259.77
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2853,25 +2358,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22225",
-                "CardName": "Denali Hostels SRL",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
+                "CardCode": "21036",
+                "CardName": "Manantiales Del Bonito SAS",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
                 "Cellular": null,
-                "EmailAddress": "alaskapatagoniahostel@gmail.com",
-                "CurrentAccountBalance": 618945.49
+                "EmailAddress": "salama.gonzalo@gmail.com",
+                "CurrentAccountBalance": 883627.67
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20252",
-                "CardName": "Alliance S.A.S",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
+                "CardCode": "21755",
+                "CardName": "Concepto Patagonico S.R.L",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "atetamanti@alliancesrl.com.ar",
-                "CurrentAccountBalance": 2524618.53
+                "EmailAddress": "operaciones@grupotierragaucha.com.ar",
+                "CurrentAccountBalance": 162192.59
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2905,6 +2410,17 @@
                 "Cellular": null,
                 "EmailAddress": "NO ENVIAR",
                 "CurrentAccountBalance": 75349.16
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21913",
+                "CardName": "Esencia SRL",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
+                "Cellular": "2944252876",
+                "EmailAddress": "administracion@esenciapatagonia.com.ar",
+                "CurrentAccountBalance": 3350204.9
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -2952,91 +2468,113 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20099",
-                "CardName": "Raices SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "sergiotaub@gmail.com",
-                "CurrentAccountBalance": 1134480.5
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20909",
-                "CardName": "Rocca Sur SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "administracion4@huinid.com",
-                "CurrentAccountBalance": 980186.74
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20041",
-                "CardName": "Municipalidad Centro Civico",
-                "PayTermsGrpCode": 69,
-                "PriceListNum": 5,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "comprasysuministros.brc@gmail.com",
-                "CurrentAccountBalance": 3711478.47
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20985",
-                "CardName": "Hoteleria Andina SA (Rodeo)",
+                "CardCode": "20407",
+                "CardName": "Trattoria I Italliano SRL",
                 "PayTermsGrpCode": 68,
-                "PriceListNum": 4,
-                "SalesPersonCode": 14,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 282687.37
+                "EmailAddress": "trattoriaitaliano2@gmail.com",
+                "CurrentAccountBalance": 3866457.06
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22113",
-                "CardName": "Bernabe SAS.",
+                "CardCode": "21223",
+                "CardName": "Pisman Pablo Alejandro",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
                 "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "pavonmarcosdaniel@gmail.com",
-                "CurrentAccountBalance": 669576.72
+                "EmailAddress": "adm@peninsulapetithotel.com",
+                "CurrentAccountBalance": 708098.17
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20272",
-                "CardName": "Tremen Srl",
+                "CardCode": "21938",
+                "CardName": "Fruticola La Papa SAS.",
                 "PayTermsGrpCode": 73,
                 "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "axiongallardo@gmail.com",
-                "CurrentAccountBalance": 135534.63
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22164",
-                "CardName": "Contra Corriente Wine Lodge SRL.",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 3,
                 "SalesPersonCode": 3,
                 "Cellular": null,
-                "EmailAddress": "oficina@patagoniariverguides.com",
-                "CurrentAccountBalance": 569881.2
+                "EmailAddress": "lapapa.adm@gmail.com",
+                "CurrentAccountBalance": 649975.23
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20769",
-                "CardName": "Paper & Toys SRL",
+                "CardCode": "22350",
+                "CardName": "Socolovsky Eduardo Enrique",
                 "PayTermsGrpCode": 73,
                 "PriceListNum": 2,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "No",
-                "CurrentAccountBalance": 90337.0
+                "EmailAddress": null,
+                "CurrentAccountBalance": 1553.98
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20141",
+                "CardName": "La Fonda Del Tio SRL",
+                "PayTermsGrpCode": 66,
+                "PriceListNum": 2,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "agostinafonda@gmail.com",
+                "CurrentAccountBalance": 1987309.47
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20114",
+                "CardName": "GNC Bariloche SA",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "gncbariloche@gmail.com",
+                "CurrentAccountBalance": 452914.23
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21121",
+                "CardName": "Gimenez Mariano Martin",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "therookiebrewing@gmail.com",
+                "CurrentAccountBalance": 64077.62
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21762",
+                "CardName": "Zirolli Bahamon Luis A.",
+                "PayTermsGrpCode": 69,
+                "PriceListNum": 4,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "sofia.suitesdellago@gmail.com",
+                "CurrentAccountBalance": 69348.35
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21174",
+                "CardName": "Bozel Hotelera SA",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "pagos@hotelinterlaken.com.ar",
+                "CurrentAccountBalance": 2474137.82
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22149",
+                "CardName": "Sibarits SRL. (Muelle Dot)",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "recepcionelmuelle@dot-hotls.com",
+                "CurrentAccountBalance": 1149138.91
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3051,25 +2589,36 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21546",
-                "CardName": "Las Morillas Huemul Lorge Srl",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
+                "CardCode": "20018",
+                "CardName": "Del Turista SACEI",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "laura@lasmorillashuemul.com",
-                "CurrentAccountBalance": 643809.96
+                "EmailAddress": "cc2@chocolatesdelturista.com",
+                "CurrentAccountBalance": 6759984.83
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20145",
-                "CardName": "Goriziano Federico Bruno A.",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 21,
+                "CardCode": "22240",
+                "CardName": "Fonseca Alejandro Gonzalo",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
                 "Cellular": null,
-                "EmailAddress": "malgaribariloche@gmail.com",
-                "CurrentAccountBalance": 45628.74
+                "EmailAddress": "ale.fonse.2013@gmail.com",
+                "CurrentAccountBalance": 404694.8
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22385",
+                "CardName": "Trattoria I Italliano SRL (Potenza)",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "trattoriaitaliano2@gmail.com",
+                "CurrentAccountBalance": 402633.75
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3084,69 +2633,58 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20879",
-                "CardName": "Futuro Inversiones Sa",
+                "CardCode": "21705",
+                "CardName": "DF - Consumidor Final",
+                "PayTermsGrpCode": 5,
+                "PriceListNum": 1,
+                "SalesPersonCode": 11,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 2967347.27
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20269",
+                "CardName": "Total Sport SRL",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "info@calfucohotel.com",
-                "CurrentAccountBalance": 263085.06
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22183",
-                "CardName": "Administracion Integral SAS.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "dicomobrc@gmail.com",
-                "CurrentAccountBalance": 113216.12
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20200",
-                "CardName": "BAHIA MONTANA SA",
-                "PayTermsGrpCode": 70,
                 "PriceListNum": 3,
-                "SalesPersonCode": 13,
+                "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "proveedores@bahiamanzano.com",
-                "CurrentAccountBalance": 1729000.42
+                "EmailAddress": "administracion@totalsport.com.ar",
+                "CurrentAccountBalance": 905400.91
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20030",
-                "CardName": "Hotel Edelweiss SACI",
+                "CardCode": "21098",
+                "CardName": "Patagonia Office SRL",
                 "PayTermsGrpCode": 67,
-                "PriceListNum": 5,
-                "SalesPersonCode": 12,
+                "PriceListNum": 3,
+                "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "m.nahuelquinmansilla@nh-hotels.com",
-                "CurrentAccountBalance": 5843204.46
+                "EmailAddress": "patagoniashowroom@hotmail.com",
+                "CurrentAccountBalance": 74805.46
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22114",
-                "CardName": "Cono Sur Logistica SRL.",
+                "CardCode": "20368",
+                "CardName": "Cohiues Del Sur Srl.",
                 "PayTermsGrpCode": 71,
                 "PriceListNum": 4,
                 "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 885192.42
+                "Cellular": "2604323635",
+                "EmailAddress": "carloscai1953@gmail.com",
+                "CurrentAccountBalance": 1398426.22
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21770",
-                "CardName": "Patagonia Food SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
+                "CardCode": "22157",
+                "CardName": "Patagonia VLA SRL",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 5,
+                "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "Martina@kandahar.com.ar",
-                "CurrentAccountBalance": 156530.3
+                "EmailAddress": "panchi44@hotmail.com",
+                "CurrentAccountBalance": 1564010.35
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3161,58 +2699,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22209",
-                "CardName": "Cordillera Blanca SAS.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 320158.6
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20141",
-                "CardName": "La Fonda Del Tio SRL",
-                "PayTermsGrpCode": 66,
-                "PriceListNum": 2,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "agostinafonda@gmail.com",
-                "CurrentAccountBalance": 1987310.7
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20219",
-                "CardName": "Cohue SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "administracion@dilek.ar",
-                "CurrentAccountBalance": 786544.7
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22331",
-                "CardName": "Hotelera Andina",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
+                "CardCode": "20354",
+                "CardName": "Emp Empresarios Patagonicos SA",
+                "PayTermsGrpCode": 5,
+                "PriceListNum": 5,
                 "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "proveedores@hotelinterlaken.com.ar",
-                "CurrentAccountBalance": 1334637.56
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21217",
-                "CardName": "Tracaltue SA",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "info@lomascorrentoso.com.ar",
-                "CurrentAccountBalance": 115628.16
+                "EmailAddress": "Administracionhotel@hotelcottbus.com.ar",
+                "CurrentAccountBalance": 4388612.1
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3227,14 +2721,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20319",
-                "CardName": "Rancho Del Catedral SA",
-                "PayTermsGrpCode": 68,
+                "CardCode": "20037",
+                "CardName": "Huilque SRL",
+                "PayTermsGrpCode": 73,
                 "PriceListNum": 4,
-                "SalesPersonCode": 18,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "compras@hotelesandinos.com.ar",
-                "CurrentAccountBalance": 114555.63
+                "EmailAddress": "manuelah@soulmax.travel",
+                "CurrentAccountBalance": 2181830.98
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3249,28 +2743,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21869",
-                "CardName": "Savafama S.A.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "administracion@tunquelen.com",
-                "CurrentAccountBalance": 142303.75
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22375",
-                "CardName": "Utopia SAS.",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "casavantitter@gmail.com",
-                "CurrentAccountBalance": 352772.02
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20660",
                 "CardName": "Gimenez Ariel Felix",
                 "PayTermsGrpCode": 67,
@@ -3282,113 +2754,25 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22212",
-                "CardName": "Organizacion J.V.C. SRL.",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "maitenescondido2019@gmail.com",
-                "CurrentAccountBalance": 587171.7
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21778",
-                "CardName": "Diaz Bobillo Victor Jose",
-                "PayTermsGrpCode": 69,
+                "CardCode": "20008",
+                "CardName": "Cambria SA",
+                "PayTermsGrpCode": 68,
                 "PriceListNum": 4,
-                "SalesPersonCode": 21,
+                "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "sofia.suitesdellago@gmail.com",
-                "CurrentAccountBalance": 98276.77
+                "EmailAddress": "administracion@hotelcambria.com.ar",
+                "CurrentAccountBalance": 454003.49
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21743",
-                "CardName": "ALCAAL Real Estate S.R.L.",
-                "PayTermsGrpCode": 69,
-                "PriceListNum": 4,
-                "SalesPersonCode": 21,
+                "CardCode": "21706",
+                "CardName": "DF - Responsable Inscripto",
+                "PayTermsGrpCode": 5,
+                "PriceListNum": 1,
+                "SalesPersonCode": 11,
                 "Cellular": null,
-                "EmailAddress": "susana.maggiora@alcaal.com",
-                "CurrentAccountBalance": 313973.05
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22179",
-                "CardName": "AA Hoteles SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "ptorres@aubergeduvin.com.ar",
-                "CurrentAccountBalance": 491502.56
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22343",
-                "CardName": "Sibarits SRL. (El Bosque)",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "recepcionelmuelle@dot-hotls.com",
-                "CurrentAccountBalance": 325153.98
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22303",
-                "CardName": "Maximo Gaston Rodolfo",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "elfrances@yahoo.com.ar",
-                "CurrentAccountBalance": 706538.96
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21591",
-                "CardName": "Casino Club Rio Negro S.A.U.",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "bariloche.compras@casino-club.com.ar",
-                "CurrentAccountBalance": 750739.74
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21988",
-                "CardName": "Dccion Adm Sub Sal Pci Neuquen (VLA)",
-                "PayTermsGrpCode": 70,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
-                "Cellular": "2944267044",
-                "EmailAddress": "adm.hvla@gmail.com",
-                "CurrentAccountBalance": 325355.8
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22109",
-                "CardName": "Pirles Ivana Magdalena",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "no enviar",
-                "CurrentAccountBalance": 409685.01
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20126",
-                "CardName": "All Flags SA",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "administracion4@huinid.com",
-                "CurrentAccountBalance": 2161018.21
+                "EmailAddress": null,
+                "CurrentAccountBalance": 265205.5
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3403,17 +2787,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20982",
-                "CardName": "Fideicomiso Hotel Bariloche C",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "administracion2@hamptonbariloche.com",
-                "CurrentAccountBalance": 154888.36
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20298",
                 "CardName": "Cerveza Berlina SA (fabrica)",
                 "PayTermsGrpCode": 67,
@@ -3425,80 +2798,36 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20908",
-                "CardName": "Fideicomiso Amaike",
+                "CardCode": "20021",
+                "CardName": "Havanna SA",
+                "PayTermsGrpCode": 69,
+                "PriceListNum": 4,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "rvergara@havanna.com.ar",
+                "CurrentAccountBalance": 4992826.07
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21930",
+                "CardName": "Guzman Pablo Anibal",
                 "PayTermsGrpCode": 67,
                 "PriceListNum": 3,
-                "SalesPersonCode": 3,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "ecamaike@gmail.com",
-                "CurrentAccountBalance": 577963.04
+                "EmailAddress": "micomerciobrc@gmail.com",
+                "CurrentAccountBalance": 20020.1
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21735",
-                "CardName": "Badolato S.A.S",
-                "PayTermsGrpCode": 70,
-                "PriceListNum": 3,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "rudolfargentina@gmail.com",
-                "CurrentAccountBalance": 1997591.47
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20037",
-                "CardName": "Huilque SRL",
+                "CardCode": "20769",
+                "CardName": "Paper & Toys SRL",
                 "PayTermsGrpCode": 73,
-                "PriceListNum": 4,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "manuelah@soulmax.travel",
-                "CurrentAccountBalance": 1610480.29
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21471",
-                "CardName": "El Pub Srl",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "cervezawesley@gmail.com",
-                "CurrentAccountBalance": 1181743.06
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21218",
-                "CardName": "Cerveceria Blest Bariloche SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
+                "PriceListNum": 2,
                 "SalesPersonCode": 21,
                 "Cellular": null,
-                "EmailAddress": "agostina.r@cervezablest.com",
-                "CurrentAccountBalance": 846476.34
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21208",
-                "CardName": "Biancucci Jose E Hijos SA",
-                "PayTermsGrpCode": 66,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "barilochecompras@gmail.com",
-                "CurrentAccountBalance": 701655.04
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21231",
-                "CardName": "Rio Correntoso SA",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 2,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "compras@correntoso.com",
-                "CurrentAccountBalance": 1952070.57
+                "EmailAddress": "No",
+                "CurrentAccountBalance": 9837.0
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3513,14 +2842,14 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20151",
-                "CardName": "Organizacion Hoteler Costa SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
+                "CardCode": "20649",
+                "CardName": "Obra Soc. Empl.Comerc. Actv.Ci",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
                 "Cellular": null,
-                "EmailAddress": "barilochecompras@gmail.com",
-                "CurrentAccountBalance": 533127.57
+                "EmailAddress": "conta_bariloche@osecac.org.ar",
+                "CurrentAccountBalance": 686654.57
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3535,6 +2864,633 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21792",
+                "CardName": "Venecia SAS",
+                "PayTermsGrpCode": 69,
+                "PriceListNum": 5,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "girulabrc@gmail.com",
+                "CurrentAccountBalance": 305745.3
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21988",
+                "CardName": "Dccion Adm Sub Sal Pci Neuquen (VLA)",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": "2944267044",
+                "EmailAddress": "adm.hvla@gmail.com",
+                "CurrentAccountBalance": 325355.8
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20404",
+                "CardName": "Adg Travel S.A.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "administracion@ghpanamericano.com",
+                "CurrentAccountBalance": 514660.77
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22303",
+                "CardName": "Maximo Gaston Rodolfo",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "elfrances@yahoo.com.ar",
+                "CurrentAccountBalance": 1084444.49
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21903",
+                "CardName": "BURO PATAGONICO S. A. S.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "administracion@basiahotel.com",
+                "CurrentAccountBalance": 1905561.84
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20059",
+                "CardName": "Tronador SAC.",
+                "PayTermsGrpCode": 66,
+                "PriceListNum": 2,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "facturacion@rapanui.com.ar",
+                "CurrentAccountBalance": 19338154.96
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22109",
+                "CardName": "Pirles Ivana Magdalena",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "no enviar",
+                "CurrentAccountBalance": 409685.01
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21990",
+                "CardName": "Molina Aguirre Eric Leandro",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
+                "SalesPersonCode": 17,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 49309.59
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21735",
+                "CardName": "Badolato S.A.S",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 3,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "rudolfargentina@gmail.com",
+                "CurrentAccountBalance": 2449596.31
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20025",
+                "CardName": "AES Argentina Generacion SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "proveedores.sa@aes.com",
+                "CurrentAccountBalance": 137098.95
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22343",
+                "CardName": "Sibarits SRL. (El Bosque)",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "recepcionelmuelle@dot-hotls.com",
+                "CurrentAccountBalance": 574308.94
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22295",
+                "CardName": "El Boliche de Alberto SRL",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "elbolichedealberto@hotmail.com",
+                "CurrentAccountBalance": 1372080.5
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22294",
+                "CardName": "Tradicion SRL.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "elbolichedealberto@hotmail.com",
+                "CurrentAccountBalance": 508091.77
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22183",
+                "CardName": "Administracion Integral SAS.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "dicomobrc@gmail.com",
+                "CurrentAccountBalance": 223327.5
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22150",
+                "CardName": "Selina Operation Bariloche SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "nelio.acuna@selina.com",
+                "CurrentAccountBalance": 309029.37
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22003",
+                "CardName": "Sojo Jose Tomas",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 3,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "proveedores@cafedelirante.com.ar",
+                "CurrentAccountBalance": 225864.39
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22144",
+                "CardName": "Hotelera Del Lago (Resto km1)",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "patagoniahreservas@gmail.com",
+                "CurrentAccountBalance": 900672.95
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22151",
+                "CardName": "Punto Panoramico SAS.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 117456.83
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20809",
+                "CardName": "Bebusti Olga Y Calori SH",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "consultas@hosteriapatagon.com.ar",
+                "CurrentAccountBalance": 105690.03
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21117",
+                "CardName": "Senora Nene",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "nenebarbarilochecomercial@gmail.com",
+                "CurrentAccountBalance": 147848.98
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20882",
+                "CardName": "Apart Del Lago SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "contaduria@apartdellago.com.ar",
+                "CurrentAccountBalance": 1709676.79
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21559",
+                "CardName": "Chocolates Torres SRL",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "chocolatestorres@gmail.com",
+                "CurrentAccountBalance": 83242.58
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21231",
+                "CardName": "Rio Correntoso SA",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 2,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "compras@correntoso.com",
+                "CurrentAccountBalance": 2735275.03
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22034",
+                "CardName": "Castion SA (Inacayal)",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "proveedores@hotelinterlaken.com.ar",
+                "CurrentAccountBalance": 655662.07
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20333",
+                "CardName": "Mamuschka SRL",
+                "PayTermsGrpCode": 66,
+                "PriceListNum": 2,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "proveedores2@mamuschka.com",
+                "CurrentAccountBalance": 14279462.93
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22373",
+                "CardName": "Jordan Shea Daniel",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
+                "SalesPersonCode": 17,
+                "Cellular": null,
+                "EmailAddress": "shea@mysticfogbeer.com",
+                "CurrentAccountBalance": 76640.98
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21228",
+                "CardName": "Hotton SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "administracionbrc@kentonpalace.com.ar",
+                "CurrentAccountBalance": 132035.09
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21591",
+                "CardName": "Casino Club Rio Negro S.A.U.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "bariloche.compras@casino-club.com.ar",
+                "CurrentAccountBalance": 623486.36
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20687",
+                "CardName": "Rincon De Los Andes SA",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "cadetecompras@rinconclub.com.ar",
+                "CurrentAccountBalance": 460985.92
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21093",
+                "CardName": "Garate Maria Ines",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "Tinchoig@hotmail.com",
+                "CurrentAccountBalance": 342769.54
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20560",
+                "CardName": "Hoteleria Cordillerana SA (Val Garden)",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "compras@hotelesandinos.com.ar",
+                "CurrentAccountBalance": 229077.31
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22114",
+                "CardName": "Cono Sur Logistica SRL.",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 183962.64
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21208",
+                "CardName": "Biancucci Jose E Hijos SA",
+                "PayTermsGrpCode": 66,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "barilochecompras@gmail.com",
+                "CurrentAccountBalance": 714596.09
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20252",
+                "CardName": "Alliance S.A.S",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "atetamanti@alliancesrl.com.ar",
+                "CurrentAccountBalance": 2671008.17
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20879",
+                "CardName": "Futuro Inversiones Sa",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "info@calfucohotel.com",
+                "CurrentAccountBalance": 321309.67
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22159",
+                "CardName": "Sur Andino SRL.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": "2944618888",
+                "EmailAddress": "havannabcr@gmail.com",
+                "CurrentAccountBalance": 152365.9
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22168",
+                "CardName": "Casini Mariano Nahuel",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "casinimariano@gmail.com",
+                "CurrentAccountBalance": 73047.74
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20950",
+                "CardName": "Mavica Emprendimientos",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 4631194.5
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21464",
+                "CardName": "Ordoqui Mountain Sa",
+                "PayTermsGrpCode": 71,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
+                "Cellular": "2345685525",
+                "EmailAddress": "info@altotraful.com",
+                "CurrentAccountBalance": 2107866.37
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20622",
+                "CardName": "Direc.De Serv.Soc. P.B.A.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "polbairesbrc1@hotmail.com",
+                "CurrentAccountBalance": 96233.74
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21501",
+                "CardName": "Manush Bre Wery SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "administracion@cervezamanush.com.ar",
+                "CurrentAccountBalance": 305299.61
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20106",
+                "CardName": "Tresbes SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "auditoria@aldeaandinahotel.com",
+                "CurrentAccountBalance": 828262.77
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22368",
+                "CardName": "Global Oil SRL.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "adminbariloche@globaloil.com.ar",
+                "CurrentAccountBalance": 890153.55
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22331",
+                "CardName": "Hotelera Andina",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "proveedores@hotelinterlaken.com.ar",
+                "CurrentAccountBalance": 2858645.28
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22057",
+                "CardName": "Llao Llao Resorts SA.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 15,
+                "Cellular": null,
+                "EmailAddress": "jcoronado@llaollao.com.ar",
+                "CurrentAccountBalance": 19888481.45
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22375",
+                "CardName": "Utopia SAS.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "casavantitter@gmail.com",
+                "CurrentAccountBalance": 423448.66
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20665",
+                "CardName": "La Muza Bariloche SAS",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "admsantamuzza@gmail.com",
+                "CurrentAccountBalance": 980238.55
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20859",
+                "CardName": "Dccion Adm Sub Sal Pci Neuquen (JUNIN)",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "adm.hvla@gmail.com",
+                "CurrentAccountBalance": 356000.31
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20072",
+                "CardName": "Hosteria Las Balsas SA",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "compras@labalsas.com",
+                "CurrentAccountBalance": 157456.41
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20888",
+                "CardName": "Aguila Mora Suites",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "administracion@aguilamorasuites.com",
+                "CurrentAccountBalance": 814505.46
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20024",
+                "CardName": "Panatel SA",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "cuentasapagar_bch@panamericano.us",
+                "CurrentAccountBalance": 8557630.69
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20730",
+                "CardName": "Cipres SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "cipresbariloche@hotmail.com",
+                "CurrentAccountBalance": 144699.51
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21936",
+                "CardName": "Fernandez Mendy Susana",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "arelauquenbungalows@gmail.com",
+                "CurrentAccountBalance": 819126.6
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20219",
+                "CardName": "Cohue SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "administracion@dilek.ar",
+                "CurrentAccountBalance": 211152.77
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20711",
+                "CardName": "Annapurna Srl",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "cervezawesley@gmail.com",
+                "CurrentAccountBalance": 1954945.04
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21496",
+                "CardName": "Guerrero Ivonne Dora",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 104329.75
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20359",
+                "CardName": "Turnet SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "veronica@bosquedelnahuel.com.ar",
+                "CurrentAccountBalance": 855225.03
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20844",
                 "CardName": "Fun Inst De Tec Nuc P La Salud",
                 "PayTermsGrpCode": 67,
@@ -3542,18 +3498,183 @@
                 "SalesPersonCode": 12,
                 "Cellular": null,
                 "EmailAddress": "pagoproveedores@intecnus.org.ar",
-                "CurrentAccountBalance": 1756323.45
+                "CurrentAccountBalance": 827092.85
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21497",
-                "CardName": "Cipreses Del Sur Srl",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
+                "CardCode": "21039",
+                "CardName": "Puerto Pireo SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
                 "Cellular": null,
-                "EmailAddress": "carloscai1953@gmail.com",
-                "CurrentAccountBalance": 1182159.09
+                "EmailAddress": "info@puertopireo.com.ar",
+                "CurrentAccountBalance": 706496.63
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20986",
+                "CardName": "Hoteleria De Los Lagos SA (Ausonia)",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "compras@hotelesandinos.com.ar",
+                "CurrentAccountBalance": 197111.98
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20308",
+                "CardName": "Turisur SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "compras@turisur.com.ar",
+                "CurrentAccountBalance": 2754369.66
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20315",
+                "CardName": "Cesari Maria Julia",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "movinghosteltravelbar@hotmail.com",
+                "CurrentAccountBalance": 575573.52
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21108",
+                "CardName": "Ochoa Esteban Marcelino",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 260328.99
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21981",
+                "CardName": "Jardines De Bariloche S.A. (Suites)",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "compras@hotelesandinos.com.ar",
+                "CurrentAccountBalance": 332946.61
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22091",
+                "CardName": "Bosco SRL.",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "administracion2@aguasdelsurhotel.com.ar",
+                "CurrentAccountBalance": 2115824.95
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21929",
+                "CardName": "Lopez Federico",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "Federico.lopez.mda@gmail.com",
+                "CurrentAccountBalance": 441236.75
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22179",
+                "CardName": "AA Hoteles SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "ptorres@aubergeduvin.com.ar",
+                "CurrentAccountBalance": 1412644.92
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20030",
+                "CardName": "Hotel Edelweiss SACI",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 5,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "m.nahuelquinmansilla@nh-hotels.com",
+                "CurrentAccountBalance": 5170478.36
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22389",
+                "CardName": "Instituto de Ensenanza General",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 412866.47
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20985",
+                "CardName": "Hoteleria Andina SA (Rodeo)",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "compras@hotelesandinos.com.ar",
+                "CurrentAccountBalance": 1109441.44
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20892",
+                "CardName": "Promociones Y Ventas (Slalom)",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "compras@hotelesandinos.com.ar",
+                "CurrentAccountBalance": 1050211.17
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21982",
+                "CardName": "Jardines De Bariloche S.A. (Mizu)",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 4,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "compras@hotelesandinos.com.ar",
+                "CurrentAccountBalance": 70382.05
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21176",
+                "CardName": "Erdesa SRL",
+                "PayTermsGrpCode": 66,
+                "PriceListNum": 2,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "ckindt@lavaderobariloche.com.ar",
+                "CurrentAccountBalance": 818654.28
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20143",
+                "CardName": "Hosp.Privado Reg.Del Sur SA",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "josorio@hprbariloche.com",
+                "CurrentAccountBalance": 2927355.81
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3564,73 +3685,18 @@
                 "SalesPersonCode": 20,
                 "Cellular": null,
                 "EmailAddress": "dolcerama.adm@gmail.com",
-                "CurrentAccountBalance": 236040.92
+                "CurrentAccountBalance": 364321.63
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20885",
-                "CardName": "A.G.O.E.C.E.A.S.E",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "turismo@agoec.org.ar",
-                "CurrentAccountBalance": 261227.98
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20938",
-                "CardName": "Teshima Cristian Damian",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 3,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "cristianteshima@gmail.com",
-                "CurrentAccountBalance": 201996.39
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21236",
-                "CardName": "Volpi M.E.-Dolce P.A. SH",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "closarrayanes@speedy.com.ar",
-                "CurrentAccountBalance": 82383.52
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20018",
-                "CardName": "Del Turista SACEI",
+                "CardCode": "22365",
+                "CardName": "Rupusur SA.",
                 "PayTermsGrpCode": 68,
                 "PriceListNum": 3,
-                "SalesPersonCode": 20,
+                "SalesPersonCode": 12,
                 "Cellular": null,
-                "EmailAddress": "cc2@chocolatesdelturista.com",
-                "CurrentAccountBalance": 6733862.87
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21036",
-                "CardName": "Manantiales Del Bonito SAS",
-                "PayTermsGrpCode": 71,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "salama.gonzalo@gmail.com",
-                "CurrentAccountBalance": 506386.71
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20599",
-                "CardName": "Lago Roca SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "mariapiamuneta@gmail.com",
-                "CurrentAccountBalance": 21001.89
+                "EmailAddress": "mcingolani@rupupehuen.com",
+                "CurrentAccountBalance": 468417.61
             }
         ]
     }

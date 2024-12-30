@@ -182,6 +182,8 @@ def dashboard():
 
 @app.route('/update_data', methods=['POST'])
 def update_data():
+    from get_Data_SAP.sesion import cookies, headers
+
     global clientes_con_info
     global vendedores
     global vendedores_con_saldos
@@ -212,8 +214,8 @@ def generate_report_pdf(template_name, data, output_path):
 
 def send_email(subject, body, to_email, pdf_path, cc=None):
     """Envía un correo electrónico con un PDF adjunto."""
-    fromaddr = "braian.alonso@super-clin.com.ar"  # Tu correo electrónico
-    password = "alon3786"      # Tu contraseña
+    fromaddr = "cuentas@super-clin.com.ar"  # Tu correo electrónico
+    password = "sup8559"      # Tu contraseña
     
     msg = MIMEMultipart()
     msg['From'] = fromaddr
@@ -252,7 +254,7 @@ def generate_reports():
     global clientes_con_info
 
     # Lista de correos en copia (supervisores y jefes de venta)
-    cc_emails = ["braianalonso29@gmail.com", "braianalonso29@gmail.com", "braianalonso29@gmail.com"]
+    cc_emails = ['maximiliano.bolado@super-clin.com.ar', 'cuentas@super-clin.com.ar', "braianalonso29@gmail.com"]
 
     report_dir = "reports"
     os.makedirs(report_dir, exist_ok=True)

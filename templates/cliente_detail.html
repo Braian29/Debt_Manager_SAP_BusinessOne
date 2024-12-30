@@ -1,4 +1,3 @@
-<!--templates\cliente_detail.html-->
 {% extends 'base.html' %}
 
 {% block title %}Detalle de Cliente{% endblock %}
@@ -38,7 +37,7 @@
                         <th>Fecha</th>
                         <th>Vencimiento</th>
                         <th data-type="num-fmt">Total</th>
-                        <th data-type="num-fmt">Pagado</th>
+                        <th data-type="num-fmt">Aplicado</th>
                         <th data-type="num-fmt">Saldo</th>
                         <th>Días</th>
                         <th>Clasificación</th>
@@ -48,8 +47,8 @@
                     {% for factura in cliente.facturas %}
                         <tr>
                             <td>{{ factura.NumAtCard }}</td>
-                            <td>{{ factura.DocDate }}</td>
-                            <td>{{ factura.DocDueDate }}</td>
+                            <td class="fecha-formateada">{{ factura.DocDate }}</td>
+                            <td class="fecha-formateada-vencimiento">{{ factura.DocDueDate }}</td>
                             <td data-order="{{ factura.DocTotal }}">$ {{ factura.DocTotal | format_number}}</td>
                             <td data-order="{{ factura.PaidToDate if factura.PaidToDate is number else 0 }}">
                                 {% if factura.PaidToDate is number %}
@@ -106,9 +105,21 @@
                 "url": "{{ url_for('static', filename='Spanish.json') }}"
             },
               columnDefs: [
-                { type: 'num-fmt', targets: 3 }  // Apply the custom type to the "Total" column
+                { type: 'num-fmt', targets: 3 },
+                {
+                    targets: [1, 2],
+                    render: function (data) {
+                        if (data) {
+                            const date = new Date(data);
+                             return date.toLocaleDateString();
+                        } else {
+                         return "";
+                         }
+                    }
+                }
               ]
         });
+
          // Obtener los datos de la tabla
         const facturasData = [];
         $('#facturas-table-body tr').each(function() {
