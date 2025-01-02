@@ -62,7 +62,7 @@ def send_email(subject, body, to_email, pdf_path, cc=None):
 
 def generate_and_send_reports(vendedores, clientes_con_info, format_number):
     """Genera y envía reportes para cada vendedor."""
-    cc_emails = ['maximiliano.bolado@super-clin.com.ar', 'cuentas@super-clin.com.ar', 'braian.alonso@super-clin.com.ar']
+    cc_emails = ['maximiliano.bolado@super-clin.com.ar', 'cuentas@super-clin.com.ar', "braianalonso29@gmail.com"]
 
     report_dir = "reports"
     os.makedirs(report_dir, exist_ok=True)
@@ -75,10 +75,13 @@ def generate_and_send_reports(vendedores, clientes_con_info, format_number):
         clientes_filtrados = [c for c in clientes_con_info if c.get('vendedor_code') == vendedor_code]
         
         if clientes_filtrados:
+            # Ordenar clientes por saldo vencido de mayor a menor
+            clientes_filtrados = sorted(clientes_filtrados, key=lambda k: k['saldos_por_categoria'].get('Vencida', 0), reverse=True)
+
             report_data = {
                 'vendedor_name': vendedor_name,
                 'clientes': clientes_filtrados,
-                'format_number': format_number 
+                'format_number': format_number #Pasamos el filtro
             }
             report_filename = f"{vendedor_code}_report.pdf"
             report_path = os.path.join(report_dir, report_filename)
@@ -87,8 +90,8 @@ def generate_and_send_reports(vendedores, clientes_con_info, format_number):
                 email_body = f"Adjunto encontrarás el reporte de clientes de {vendedor_name}."
                 # Reemplazar con la dirección de correo del vendedor
                 email_to = vendedor_email if vendedor_email else "superclinsys@gmail.com" #Usar el email del vendedor si existe, sino el default
-                if not send_email(email_subject, email_body, email_to, report_path, cc=cc_emails): #Llamar a send_email con cc
-                    return f"Error al enviar correo del vendedor {vendedor_name}."
+                #if not send_email(email_subject, email_body, email_to, report_path, cc=cc_emails): #Llamar a send_email con cc
+                #    return f"Error al enviar correo del vendedor {vendedor_name}."
             else:
                 return f"Error al generar reporte del vendedor {vendedor_name}."
             

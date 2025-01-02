@@ -510,17 +510,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22152",
-                "CardName": "Truchas Sayhueque SRL.",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 962661.95
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20252",
                 "CardName": "Alliance S.A.S",
                 "PayTermsGrpCode": 73,
@@ -1772,17 +1761,6 @@
                 "Cellular": null,
                 "EmailAddress": "info@bungalowsbuenavista.com.ar",
                 "CurrentAccountBalance": 364752.16
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "22371",
-                "CardName": "Nisga SA.",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 3,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "gerencia@hotelpuertomanzano.com",
-                "CurrentAccountBalance": 2576276.48
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3139,17 +3117,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20018",
-                "CardName": "Del Turista SACEI",
-                "PayTermsGrpCode": 68,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "cc2@chocolatesdelturista.com",
-                "CurrentAccountBalance": 6759984.83
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "22240",
                 "CardName": "Fonseca Alejandro Gonzalo",
                 "PayTermsGrpCode": 74,
@@ -3719,6 +3686,39 @@
                 "Cellular": null,
                 "EmailAddress": "info@puertopireo.com.ar",
                 "CurrentAccountBalance": 739151.54
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22371",
+                "CardName": "Nisga SA.",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 3,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "gerencia@hotelpuertomanzano.com",
+                "CurrentAccountBalance": 2576276.48
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "22152",
+                "CardName": "Truchas Sayhueque SRL.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 962661.95
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20018",
+                "CardName": "Del Turista SACEI",
+                "PayTermsGrpCode": 68,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "cc2@chocolatesdelturista.com",
+                "CurrentAccountBalance": 6759984.83
             }
         ]
     }
