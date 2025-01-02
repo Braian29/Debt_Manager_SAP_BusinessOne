@@ -221,7 +221,6 @@ def send_email(subject, body, to_email, pdf_path, cc=None):
     msg['From'] = fromaddr
     msg['To'] = to_email
     msg['Subject'] = subject
-
     if cc:
       msg['Cc'] = ', '.join(cc)
 
@@ -231,7 +230,6 @@ def send_email(subject, body, to_email, pdf_path, cc=None):
         pdf_attachment = MIMEApplication(f.read(), _subtype="pdf")
     pdf_attachment.add_header('Content-Disposition', 'attachment', filename=os.path.basename(pdf_path))
     msg.attach(pdf_attachment)
-
 
     try:
         server = smtplib.SMTP('smtp.super-clin.com.ar', 587)  # Reemplaza con tu servidor SMTP
