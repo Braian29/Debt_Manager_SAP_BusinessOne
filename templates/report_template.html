@@ -1,157 +1,259 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reporte de Clientes de {{ vendedor_name }}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Reporte de Deuda de Clientes - {{ vendedor_name }}</title>
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
-            margin: 20px;
-            background-color: #f8f9fa;
-            color: #212529;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 40px;
+            background-color: #f7fafc;
+            color: #2d3748;
             line-height: 1.6;
         }
-        h1 {
-            text-align: center;
-            color: #01378f;
-            font-size: 2.2em;
-            margin-bottom: 30px;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-        }
-        .table-wrapper {
-             overflow-x: auto;
-            margin: 20px auto;
-            border-radius: 10px;
+
+        .report-container {
+            max-width: 1000px;
+            margin: 0 auto;
             background-color: #fff;
-            padding: 15px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            overflow: hidden;
         }
+
+        .report-header {
+            padding: 30px;
+            text-align: center;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo-container {
+            margin-bottom: 10px;
+        }
+
+        .logo-container img {
+            max-width: 150px;
+            height: 105px;
+        }
+
+        .report-header h1 {
+            color: #3490dc;
+            font-size: 28px;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+        }
+
+        .report-header .date {
+            color: #718096;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .summary-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px 30px;
+            background: #f1f5f9;
+        }
+
+        .summary-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+
+        .summary-card h3 {
+            margin: 0 0 5px 0;
+            font-size: 14px;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .summary-card .value {
+            font-size: 20px;
+            font-weight: 500;
+            color: #2d3748;
+        }
+
+        .table-container {
+            padding: 0 30px 30px;
+            overflow-x: auto;
+        }
+
         table {
             width: 100%;
             border-collapse: collapse;
-            background-color: #fff;
-            border-radius: 10px;
-            overflow: hidden;
-            border-spacing: 0;
-            margin-bottom: 0;
-        }
-        th, td {
-            text-align: center;
-            border-bottom: 1px solid #dee2e6;
-            word-wrap: break-word;
-            font-size: 0.95em;
-            line-height: 1.5;
-            padding: 0.75rem;
-        }
-        th {
-            background-color: #0248b8;
-            color: white;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-            position: sticky;
-            top: 0;
-            z-index: 1;
-        }
-       tr:nth-child(even) {
-            background-color: #f8f9fa;
-        }
-       tr:hover {
-            background-color: #e9ecef;
-       }
-        td[data-type="num-fmt"] {
-            text-align: right;
-        }
-        td[data-type="num-fmt"]::before {
-            content: "$ ";
-            color: #555;
-        }
-        .saldo-en-fecha {
-            background-color: #dcedc8;
-             color: #2e7d32;
-       }
-       .saldo-proxima-vencer {
-            background-color: #fff9c4;
-           color: #f9a825;
-        }
-       .saldo-vencida {
-            background-color: #ffcdd2;
-           color: #c62828;
-        }
-        td[data-type="percent-fmt"] {
-            text-align: right;
-        }
-        /* Nuevos estilos para ajustar el ancho de columnas */
-        #clientes-table th:nth-child(1),
-        #clientes-table td:nth-child(1) {
-            width: 10%; /* Ancho para la columna 'Código' */
+            font-size: 14px;
+            white-space: nowrap;
         }
 
-        #clientes-table th:nth-child(2),
-        #clientes-table td:nth-child(2) {
-             width: 30%; /* Ancho para la columna 'Nombre' */
+        th {
+            background: #f1f5f9;
+            color: #718096;
+            font-weight: 500;
+            text-align: left;
+            padding: 12px 16px;
+            border-bottom: 1px solid #e2e8f0;
         }
-       #clientes-table th:nth-child(3),
-       #clientes-table td:nth-child(3),
-       #clientes-table th:nth-child(4),
-        #clientes-table td:nth-child(4),
-       #clientes-table th:nth-child(5),
-        #clientes-table td:nth-child(5),
-        #clientes-table th:nth-child(6),
-        #clientes-table td:nth-child(6),
-        #clientes-table th:nth-child(7),
-       #clientes-table td:nth-child(7)
-      {
-           width: 12% /* Ancho para las columnas restantes */
-       }
+
+        td {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        .amount {
+            font-family: Arial, monospace;
+            text-align: center;
+            font-size: 10px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .status-success {
+            background-color: #dcfce7;
+            color: #38c172;
+        }
+
+        .status-warning {
+            background-color: #fef3c7;
+            color: #f9a825;
+        }
+
+        .status-danger {
+            background-color: #fee2e2;
+            color: #e3342f;
+        }
+
+        .page-footer {
+            margin-top: 30px;
+            padding: 20px;
+            text-align: center;
+            color: #718096;
+            font-size: 12px;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        /* Ajustes de columnas */
+ 
+        .client-info {
+            white-space: normal;
+            line-height: 1.4;
+        }
+
+        .client-name {
+            font-weight: 500;
+            color: #2d3748;
+            margin-bottom: 4px;
+        }
+
+        .client-code {
+            font-family: Arial, monospace;
+            color: #718096;
+            font-size: 12px;
+            display: inline-block;
+            background: #f1f5f9;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        table th:nth-child(1),
+        table td:nth-child(1) {
+            width: 60%;  
+            text-align: left;
+        }
     </style>
 </head>
+
 <body>
-    <h1>Reporte de Clientes de {{ vendedor_name }}</h1>
-    <div class="table-wrapper">
-        <table id="clientes-table">
-            <thead>
-                <tr>
-                    <th>Código</th>
-                    <th>Nombre</th>
-                    <th>Saldo</th>
-                    <th>En Fecha</th>
-                    <th>Próxima a Vencer</th>
-                    <th>Vencida</th>
-                    <th>% Vencido</th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for cliente in clientes %}
-                <tr>
-                    <td>{{ cliente.CardCode }}</td>
-                    <td>{{ cliente.CardName }}</td>
-                     <td data-type="num-fmt">{{ cliente.CurrentAccountBalance | format_number }}</td>
-                     <td data-type="num-fmt" 
-                        {% if cliente.saldos_por_categoria['En Fecha'] > 0 %}
-                         class="saldo-en-fecha"
-                        {% endif %}>
-                         {{ cliente.saldos_por_categoria['En Fecha'] | format_number }}
-                    </td>
-                     <td data-type="num-fmt" 
-                        {% if cliente.saldos_por_categoria['Proxima a Vencer'] > 0 %}
-                         class="saldo-proxima-vencer"
-                        {% endif %}>
-                        {{ cliente.saldos_por_categoria['Proxima a Vencer'] | format_number }}
-                    </td>
-                    <td data-type="num-fmt" 
-                        {% if cliente.saldos_por_categoria['Vencida'] > 0 %}
-                        class="saldo-vencida"
-                       {% endif %}>
-                        {{ cliente.saldos_por_categoria['Vencida'] | format_number }}
-                    </td>
-                    <td data-type="percent-fmt">{{ cliente.porcentaje_vencido | format_number }}%</td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
+    <div class="report-container">
+        <div class="report-header">
+            <div class="logo-container">
+                <img src="static/logo.png" alt="Logo de la empresa">
+            </div>
+            <h1>Reporte de Deuda de Clientes</h1>
+            <div class="date">Vendedor: <strong>{{ vendedor_name }}</strong></div>
+        </div>
+
+        <div class="summary-cards">
+            <div class="summary-card">
+                <h3>Total Clientes</h3>
+                <div class="value">{{ clientes|length }}</div>
+            </div>
+            <div class="summary-card">
+                <h3>Saldo Total</h3>
+                <div class="value">${{ clientes|sum(attribute='CurrentAccountBalance')|format_number }}</div>
+            </div>
+            <div class="summary-card">
+                <h3>Saldo Vencido</h3>
+                <div class="value">${{ clientes|sum(attribute='saldos_por_categoria.Vencida')|format_number }}</div>
+            </div>
+        </div>
+        <br><br><br><br><br>
+
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cliente</th>
+                        <th>Saldo Total</th>
+                        <th>En Fecha</th>
+                        <th>Próximo</th>
+                        <th>Vencido</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for cliente in clientes %}
+                    <tr>
+                        <td>
+                            <div class="client-info">
+                                <div class="client-name">{{ cliente.CardName }}</div>
+                                <div class="client-code">{{ cliente.CardCode }}</div>
+                            </div>
+                        </td>
+                        <td class="amount">$ {{ cliente.CurrentAccountBalance|format_number }}</td>
+                        <td class="amount">$ {{ cliente.saldos_por_categoria['En Fecha']|format_number }}</td>
+                        <td class="amount">$ {{ cliente.saldos_por_categoria['Proxima a Vencer']|format_number }}</td>
+                        <td class="amount">$ {{ cliente.saldos_por_categoria['Vencida']|format_number }}</td>
+                        <td>
+                            {% if cliente.porcentaje_vencido > 50 %}
+                            <span class="status-badge status-danger">{{ cliente.porcentaje_vencido|format_number }}% Vencido</span>
+                            {% elif cliente.porcentaje_vencido > 20 %}
+                            <span class="status-badge status-warning">{{ cliente.porcentaje_vencido|format_number }}% Vencido</span>
+                            {% else %}
+                            <span class="status-badge status-success">Al día</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+
+        <div class="page-footer">
+            Reporte generado automáticamente por el sistema de gestión
+        </div>
     </div>
 </body>
+
 </html>

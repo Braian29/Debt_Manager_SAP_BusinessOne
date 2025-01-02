@@ -62,7 +62,7 @@ def send_email(subject, body, to_email, pdf_path, cc=None):
 
 def generate_and_send_reports(vendedores, clientes_con_info, format_number):
     """Genera y envía reportes para cada vendedor."""
-    cc_emails = ['maximiliano.bolado@super-clin.com.ar', 'cuentas@super-clin.com.ar', "braianalonso29@gmail.com"]
+    cc_emails = ['maximiliano.bolado@super-clin.com.ar', 'cuentas@super-clin.com.ar', "braian.alonso@super-clin.com.ar", "horacio.rodriguezbarcelone@super-clin.com.ar"]
 
     report_dir = "reports"
     os.makedirs(report_dir, exist_ok=True)
@@ -90,8 +90,8 @@ def generate_and_send_reports(vendedores, clientes_con_info, format_number):
                 email_body = f"Adjunto encontrarás el reporte de clientes de {vendedor_name}."
                 # Reemplazar con la dirección de correo del vendedor
                 email_to = vendedor_email if vendedor_email else "superclinsys@gmail.com" #Usar el email del vendedor si existe, sino el default
-                #if not send_email(email_subject, email_body, email_to, report_path, cc=cc_emails): #Llamar a send_email con cc
-                #    return f"Error al enviar correo del vendedor {vendedor_name}."
+                if not send_email(email_subject, email_body, email_to, report_path, cc=cc_emails): #Llamar a send_email con cc
+                    return f"Error al enviar correo del vendedor {vendedor_name}."
             else:
                 return f"Error al generar reporte del vendedor {vendedor_name}."
             

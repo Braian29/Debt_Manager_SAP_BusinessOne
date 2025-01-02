@@ -254,6 +254,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "20349",
+            "CardName": "Sindicato Obreros Marit Unidos",
+            "DocTotal": 205989.18,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-B-00002656",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20404",
             "CardName": "Adg Travel S.A.",
             "DocTotal": 395471.65,
@@ -298,11 +309,33 @@
     },
     {
         "Invoices": {
+            "CardCode": "20809",
+            "CardName": "Bebusti Olga Y Calori SH",
+            "DocTotal": 167421.5,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027710",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20859",
             "CardName": "Dccion Adm Sub Sal Pci Neuquen (JUNIN)",
             "DocTotal": 219328.04,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-B-00002655",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20879",
+            "CardName": "Futuro Inversiones Sa",
+            "DocTotal": 74979.71,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027717",
             "DocDate": "2025-01-02",
             "DocDueDate": "2025-01-22"
         }
@@ -355,22 +388,22 @@
         "Invoices": {
             "CardCode": "20950",
             "CardName": "Mavica Emprendimientos",
-            "DocTotal": 97923.06,
+            "DocTotal": 65180.58,
             "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027690",
-            "DocDate": "2024-12-31",
-            "DocDueDate": "2025-01-20"
+            "NumAtCard": "0047-A-00027705",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
         "Invoices": {
             "CardCode": "20950",
             "CardName": "Mavica Emprendimientos",
-            "DocTotal": 65180.58,
+            "DocTotal": 97923.06,
             "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027705",
-            "DocDate": "2025-01-02",
-            "DocDueDate": "2025-01-22"
+            "NumAtCard": "0047-A-00027690",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2025-01-20"
         }
     },
     {
@@ -569,17 +602,6 @@
             "NumAtCard": "0047-A-00027569",
             "DocDate": "2024-12-28",
             "DocDueDate": "2025-01-17"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "21217",
-            "CardName": "Tracaltue SA",
-            "DocTotal": 34612.2,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0059-A-00000763",
-            "DocDate": "2024-12-31",
-            "DocDueDate": "2024-12-31"
         }
     },
     {
@@ -2586,6 +2608,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "21735",
+            "CardName": "Badolato S.A.S",
+            "DocTotal": 422268.08,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027715",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "21763",
             "CardName": "Eduar Dos SRL",
             "DocTotal": 161427.01,
@@ -2626,6 +2659,17 @@
             "NumAtCard": "0047-B-00002654",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-20"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21976",
+            "CardName": "Consorcio de cop barrio cerrado dos Lagos Villa Marinas",
+            "DocTotal": 239413.59,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027712",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -2696,6 +2740,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "22152",
+            "CardName": "Truchas Sayhueque SRL.",
+            "DocTotal": 1161733.97,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027709",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "22191",
             "CardName": "Requin SRL.",
             "DocTotal": 63005.99,
@@ -2703,6 +2758,28 @@
             "NumAtCard": "0047-A-00027663",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-20"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22212",
+            "CardName": "Organizacion J.V.C. SRL.",
+            "DocTotal": 200707.1,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027711",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22212",
+            "CardName": "Organizacion J.V.C. SRL.",
+            "DocTotal": 220708.46,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027716",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -2729,6 +2806,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "22303",
+            "CardName": "Maximo Gaston Rodolfo",
+            "DocTotal": 8864.11,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027713",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "22361",
             "CardName": "Hidalgo Ana Yanett",
             "DocTotal": 246511.69,
@@ -2747,6 +2835,17 @@
             "NumAtCard": "0059-A-00000764",
             "DocDate": "2024-12-31",
             "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22371",
+            "CardName": "Nisga SA.",
+            "DocTotal": 281819.91,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027714",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -3847,17 +3946,6 @@
             "NumAtCard": "0047-A-00026054",
             "DocDate": "2024-11-07",
             "DocDueDate": "2024-11-27"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "22109",
-            "CardName": "Pirles Ivana Magdalena",
-            "DocTotal": 409685.01,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027251",
-            "DocDate": "2024-12-16",
-            "DocDueDate": "2025-01-05"
         }
     },
     {
@@ -5974,17 +6062,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "22303",
-            "CardName": "Maximo Gaston Rodolfo",
-            "DocTotal": 706538.96,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026723",
-            "DocDate": "2024-12-02",
-            "DocDueDate": "2024-12-22"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "20354",
             "CardName": "Emp Empresarios Patagonicos SA",
             "DocTotal": 268459.85,
@@ -7712,17 +7789,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "21290",
-            "CardName": "Garcia Jurjo Agustin",
-            "DocTotal": 141569.67,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027035",
-            "DocDate": "2024-12-10",
-            "DocDueDate": "2024-12-30"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "20353",
             "CardName": "Marcas Al Sur SRL",
             "DocTotal": 75653.9,
@@ -8157,17 +8223,6 @@
             "DocTotal": 215843.7,
             "PaidToDate": 0.0,
             "NumAtCard": "9999-A-10001734",
-            "DocDate": "2024-12-11",
-            "DocDueDate": "2024-12-31"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "21057",
-            "CardName": "Balmaceda Jessica Nuria",
-            "DocTotal": 242140.89,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027101",
             "DocDate": "2024-12-11",
             "DocDueDate": "2024-12-31"
         }
@@ -8889,17 +8944,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "21228",
-            "CardName": "Hotton SA",
-            "DocTotal": 81563.39,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027207",
-            "DocDate": "2024-12-13",
-            "DocDueDate": "2025-01-02"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "21913",
             "CardName": "Esencia SRL",
             "DocTotal": 596078.29,
@@ -9191,17 +9235,6 @@
             "DocTotal": 301186.35,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027327",
-            "DocDate": "2024-12-17",
-            "DocDueDate": "2025-01-06"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "21290",
-            "CardName": "Garcia Jurjo Agustin",
-            "DocTotal": 147879.79,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027328",
             "DocDate": "2024-12-17",
             "DocDueDate": "2025-01-06"
         }
@@ -9609,17 +9642,6 @@
             "DocTotal": 108927.76,
             "PaidToDate": 0.0,
             "NumAtCard": "0031-A-00032040",
-            "DocDate": "2024-12-18",
-            "DocDueDate": "2025-01-07"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "21290",
-            "CardName": "Garcia Jurjo Agustin",
-            "DocTotal": 123620.33,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0031-A-00032042",
             "DocDate": "2024-12-18",
             "DocDueDate": "2025-01-07"
         }
@@ -11303,17 +11325,6 @@
             "DocTotal": 53940.7,
             "PaidToDate": 53940.67,
             "NumAtCard": "0058-A-00000907",
-            "DocDate": "2024-12-26",
-            "DocDueDate": "2024-12-26"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "21217",
-            "CardName": "Tracaltue SA",
-            "DocTotal": 42106.28,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0058-A-00000908",
             "DocDate": "2024-12-26",
             "DocDueDate": "2024-12-26"
         }
@@ -14262,17 +14273,6 @@
             "DocTotal": 139118.77,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027550",
-            "DocDate": "2024-12-27",
-            "DocDueDate": "2025-01-16"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "22187",
-            "CardName": "Boo de los Mares SAS",
-            "DocTotal": 289812.2,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027551",
             "DocDate": "2024-12-27",
             "DocDueDate": "2025-01-16"
         }
