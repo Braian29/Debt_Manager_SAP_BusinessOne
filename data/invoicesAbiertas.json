@@ -12,6 +12,83 @@
     },
     {
         "Invoices": {
+            "CardCode": "20018",
+            "CardName": "Del Turista SACEI",
+            "DocTotal": 2889621.45,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027719",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20018",
+            "CardName": "Del Turista SACEI",
+            "DocTotal": 1059373.17,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027754",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20018",
+            "CardName": "Del Turista SACEI",
+            "DocTotal": 14858.19,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027757",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20024",
+            "CardName": "Panatel SA",
+            "DocTotal": 430520.5,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027738",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20045",
+            "CardName": "Ramon SRL",
+            "DocTotal": 480546.2,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027751",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20047",
+            "CardName": "Syosset SA",
+            "DocTotal": 655501.51,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027746",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20047",
+            "CardName": "Syosset SA",
+            "DocTotal": 5.83,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027747",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20058",
             "CardName": "Asoc.Col.De Vac.Pers.Bco.Pcia.",
             "DocTotal": 1194773.54,
@@ -34,11 +111,33 @@
     },
     {
         "Invoices": {
+            "CardCode": "20059",
+            "CardName": "Tronador SAC.",
+            "DocTotal": 404751.5,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027748",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20072",
             "CardName": "Hosteria Las Balsas SA",
             "DocTotal": 75983.47,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027703",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20078",
+            "CardName": "Puelo SRL",
+            "DocTotal": 115961.41,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027753",
             "DocDate": "2025-01-02",
             "DocDueDate": "2025-01-22"
         }
@@ -67,6 +166,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "20118",
+            "CardName": "Union Trabaj De La Educacion",
+            "DocTotal": 80694.28,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027725",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20126",
             "CardName": "All Flags SA",
             "DocTotal": 20.22,
@@ -85,6 +195,39 @@
             "NumAtCard": "0047-A-00027674",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-20"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20126",
+            "CardName": "All Flags SA",
+            "DocTotal": 183821.18,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027756",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20136",
+            "CardName": "Caspani Hnos. SA",
+            "DocTotal": 176880.5,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027724",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20151",
+            "CardName": "Organizacion Hoteler Costa SRL",
+            "DocTotal": 556441.78,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027721",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -265,6 +408,39 @@
     },
     {
         "Invoices": {
+            "CardCode": "20366",
+            "CardName": "Feju SRL",
+            "DocTotal": 663657.77,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027734",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20366",
+            "CardName": "Feju SRL",
+            "DocTotal": 684638.27,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027735",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20366",
+            "CardName": "Feju SRL",
+            "DocTotal": 69511.11,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027744",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20404",
             "CardName": "Adg Travel S.A.",
             "DocTotal": 395471.65,
@@ -287,6 +463,28 @@
     },
     {
         "Invoices": {
+            "CardCode": "20558",
+            "CardName": "Freeline SRL",
+            "DocTotal": 64394.4,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027739",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20560",
+            "CardName": "Hoteleria Cordillerana SA (Val Garden)",
+            "DocTotal": 562648.39,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027741",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20599",
             "CardName": "Lago Roca SA",
             "DocTotal": 113469.82,
@@ -294,6 +492,17 @@
             "NumAtCard": "0053-A-00001117",
             "DocDate": "2024-12-30",
             "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20604",
+            "CardName": "Bernabe De Van Ooost Tomas San",
+            "DocTotal": 177311.11,
+            "PaidToDate": 0.0,
+            "NumAtCard": "9999-A-10001759",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -320,6 +529,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "20816",
+            "CardName": "De Pablos SRL",
+            "DocTotal": 89276.24,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027726",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20859",
             "CardName": "Dccion Adm Sub Sal Pci Neuquen (JUNIN)",
             "DocTotal": 219328.04,
@@ -336,6 +556,17 @@
             "DocTotal": 74979.71,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027717",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20879",
+            "CardName": "Futuro Inversiones Sa",
+            "DocTotal": 356822.87,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027718",
             "DocDate": "2025-01-02",
             "DocDueDate": "2025-01-22"
         }
@@ -388,22 +619,22 @@
         "Invoices": {
             "CardCode": "20950",
             "CardName": "Mavica Emprendimientos",
-            "DocTotal": 65180.58,
+            "DocTotal": 97923.06,
             "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027705",
-            "DocDate": "2025-01-02",
-            "DocDueDate": "2025-01-22"
+            "NumAtCard": "0047-A-00027690",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2025-01-20"
         }
     },
     {
         "Invoices": {
             "CardCode": "20950",
             "CardName": "Mavica Emprendimientos",
-            "DocTotal": 97923.06,
+            "DocTotal": 65180.58,
             "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027690",
-            "DocDate": "2024-12-31",
-            "DocDueDate": "2025-01-20"
+            "NumAtCard": "0047-A-00027705",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -430,22 +661,33 @@
     },
     {
         "Invoices": {
+            "CardCode": "20977",
+            "CardName": "Ergo S.R.L.",
+            "DocTotal": 25617.8,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027732",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20979",
+            "CardName": "Bari Beer S.A.",
+            "DocTotal": 77246.74,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027749",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20984",
             "CardName": "Hotel Sol Bariloche SA",
             "DocTotal": 1272101.94,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027660",
-            "DocDate": "2024-12-31",
-            "DocDueDate": "2025-01-30"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "20985",
-            "CardName": "Hoteleria Andina SA (Rodeo)",
-            "DocTotal": 62854.88,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027670",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-30"
         }
@@ -465,6 +707,17 @@
         "Invoices": {
             "CardCode": "20985",
             "CardName": "Hoteleria Andina SA (Rodeo)",
+            "DocTotal": 170302.26,
+            "PaidToDate": 55627.51,
+            "NumAtCard": "0047-A-00027626",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2025-01-29"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20985",
+            "CardName": "Hoteleria Andina SA (Rodeo)",
             "DocTotal": 34161.75,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027695",
@@ -476,11 +729,11 @@
         "Invoices": {
             "CardCode": "20985",
             "CardName": "Hoteleria Andina SA (Rodeo)",
-            "DocTotal": 170302.26,
-            "PaidToDate": 55627.51,
-            "NumAtCard": "0047-A-00027626",
-            "DocDate": "2024-12-30",
-            "DocDueDate": "2025-01-29"
+            "DocTotal": 176950.76,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027745",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
         }
     },
     {
@@ -509,22 +762,22 @@
         "Invoices": {
             "CardCode": "21093",
             "CardName": "Garate Maria Ines",
-            "DocTotal": 25973.3,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027698",
-            "DocDate": "2025-01-02",
-            "DocDueDate": "2025-01-22"
+            "DocTotal": 229238.97,
+            "PaidToDate": 19692.8,
+            "NumAtCard": "0047-A-00027598",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2025-01-19"
         }
     },
     {
         "Invoices": {
             "CardCode": "21093",
             "CardName": "Garate Maria Ines",
-            "DocTotal": 229238.97,
-            "PaidToDate": 19692.8,
-            "NumAtCard": "0047-A-00027598",
-            "DocDate": "2024-12-30",
-            "DocDueDate": "2025-01-19"
+            "DocTotal": 25973.3,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027698",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -547,6 +800,17 @@
             "NumAtCard": "0053-A-00001123",
             "DocDate": "2024-12-30",
             "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21134",
+            "CardName": "Qualihomes S.A",
+            "DocTotal": 251053.77,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027727",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -606,6 +870,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "21208",
+            "CardName": "Biancucci Jose E Hijos SA",
+            "DocTotal": 84479.42,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027755",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "21231",
             "CardName": "Rio Correntoso SA",
             "DocTotal": 11939.4,
@@ -622,6 +897,17 @@
             "DocTotal": 222098.56,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027707",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21231",
+            "CardName": "Rio Correntoso SA",
+            "DocTotal": 818900.6,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027733",
             "DocDate": "2025-01-02",
             "DocDueDate": "2025-01-22"
         }
@@ -646,6 +932,17 @@
             "NumAtCard": "0051-A-00001578",
             "DocDate": "2024-12-30",
             "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21274",
+            "CardName": "Alcon SRL",
+            "DocTotal": 462726.53,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027722",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -2476,6 +2773,688 @@
     },
     {
         "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 39452.52,
+            "PaidToDate": 39452.51,
+            "NumAtCard": "0060-B-00000144",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 11097.96,
+            "PaidToDate": 11097.95,
+            "NumAtCard": "0060-B-00000147",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 3812.21,
+            "PaidToDate": 3812.2,
+            "NumAtCard": "0060-B-00000171",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 19976.73,
+            "PaidToDate": 19976.72,
+            "NumAtCard": "0060-B-00000181",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 12168.96,
+            "PaidToDate": 12168.95,
+            "NumAtCard": "0060-B-00000191",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 64436.51,
+            "PaidToDate": 64436.5,
+            "NumAtCard": "0060-B-00000121",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 32068.76,
+            "PaidToDate": 32068.75,
+            "NumAtCard": "0060-B-00000122",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 18624.73,
+            "PaidToDate": 18624.72,
+            "NumAtCard": "0060-B-00000139",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 28319.38,
+            "PaidToDate": 28319.35,
+            "NumAtCard": "0060-B-00000005",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 33246.66,
+            "PaidToDate": 33246.65,
+            "NumAtCard": "0060-B-00000062",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 46679.49,
+            "PaidToDate": 46679.47,
+            "NumAtCard": "0060-B-00000065",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 15216.89,
+            "PaidToDate": 15216.88,
+            "NumAtCard": "0060-B-00000066",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 7714.61,
+            "PaidToDate": 7714.6,
+            "NumAtCard": "0060-B-00000094",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 61465.96,
+            "PaidToDate": 61465.93,
+            "NumAtCard": "0060-B-00000097",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 11597.01,
+            "PaidToDate": 11597.0,
+            "NumAtCard": "0060-B-00000104",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 52162.1,
+            "PaidToDate": 52162.09,
+            "NumAtCard": "0060-B-00000016",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 58636.28,
+            "PaidToDate": 58636.27,
+            "NumAtCard": "0060-B-00000287",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 57981.43,
+            "PaidToDate": 57981.4,
+            "NumAtCard": "0060-B-00000293",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 18397.47,
+            "PaidToDate": 18397.45,
+            "NumAtCard": "0060-B-00000308",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 45191.0,
+            "PaidToDate": 45190.97,
+            "NumAtCard": "0060-B-00000223",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 51219.15,
+            "PaidToDate": 51219.14,
+            "NumAtCard": "0060-B-00000234",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 96922.65,
+            "PaidToDate": 96922.64,
+            "NumAtCard": "0060-B-00000236",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 13037.31,
+            "PaidToDate": 13037.3,
+            "NumAtCard": "0060-B-00000239",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 46968.54,
+            "PaidToDate": 46968.53,
+            "NumAtCard": "0060-B-00000244",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 24734.71,
+            "PaidToDate": 24734.7,
+            "NumAtCard": "0060-B-00000266",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 32729.6,
+            "PaidToDate": 32729.59,
+            "NumAtCard": "0060-B-00000276",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 29149.32,
+            "PaidToDate": 29149.31,
+            "NumAtCard": "0060-B-00000329",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 22649.36,
+            "PaidToDate": 22649.35,
+            "NumAtCard": "0060-B-00000348",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 75494.31,
+            "PaidToDate": 75494.3,
+            "NumAtCard": "0060-B-00000352",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 62431.82,
+            "PaidToDate": 62431.81,
+            "NumAtCard": "0060-B-00000357",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 37381.14,
+            "PaidToDate": 37381.13,
+            "NumAtCard": "0060-B-00000367",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 14640.88,
+            "PaidToDate": 14640.87,
+            "NumAtCard": "0060-B-00000369",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 103082.76,
+            "PaidToDate": 103082.75,
+            "NumAtCard": "0060-B-00000380",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 33509.28,
+            "PaidToDate": 33509.26,
+            "NumAtCard": "0060-B-00000386",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 16602.21,
+            "PaidToDate": 16602.2,
+            "NumAtCard": "0060-B-00000394",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 20671.17,
+            "PaidToDate": 20671.15,
+            "NumAtCard": "0060-B-00000399",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 22556.46,
+            "PaidToDate": 22556.45,
+            "NumAtCard": "0060-B-00000401",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 33676.95,
+            "PaidToDate": 33676.94,
+            "NumAtCard": "0060-B-00000405",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 22865.13,
+            "PaidToDate": 22865.12,
+            "NumAtCard": "0060-B-00000413",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 54561.79,
+            "PaidToDate": 54561.78,
+            "NumAtCard": "0060-B-00000449",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 32987.9,
+            "PaidToDate": 32987.89,
+            "NumAtCard": "0060-B-00000468",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 7981.42,
+            "PaidToDate": 7981.41,
+            "NumAtCard": "0060-B-00000472",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 52015.26,
+            "PaidToDate": 52015.25,
+            "NumAtCard": "0060-B-00000546",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 11006.55,
+            "PaidToDate": 11006.54,
+            "NumAtCard": "0060-B-00000612",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 43757.73,
+            "PaidToDate": 43757.72,
+            "NumAtCard": "0060-B-00000637",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 44354.97,
+            "PaidToDate": 44354.96,
+            "NumAtCard": "0060-B-00000643",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 29715.14,
+            "PaidToDate": 29715.13,
+            "NumAtCard": "0060-B-00000483",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 80998.15,
+            "PaidToDate": 80998.14,
+            "NumAtCard": "0060-B-00000503",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 40098.43,
+            "PaidToDate": 40098.41,
+            "NumAtCard": "0060-B-00000577",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 50779.89,
+            "PaidToDate": 50779.88,
+            "NumAtCard": "0060-B-00000586",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 94094.1,
+            "PaidToDate": 94094.09,
+            "NumAtCard": "0060-B-00000597",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 13521.25,
+            "PaidToDate": 13521.24,
+            "NumAtCard": "0060-B-00000598",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 11559.06,
+            "PaidToDate": 11559.05,
+            "NumAtCard": "0060-B-00000600",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 56180.97,
+            "PaidToDate": 56180.96,
+            "NumAtCard": "0060-B-00000654",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 46186.03,
+            "PaidToDate": 46186.02,
+            "NumAtCard": "0060-B-00000668",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 27759.36,
+            "PaidToDate": 27759.35,
+            "NumAtCard": "0060-B-00000674",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 30668.22,
+            "PaidToDate": 30668.21,
+            "NumAtCard": "0060-B-00000742",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 33816.27,
+            "PaidToDate": 33816.26,
+            "NumAtCard": "0060-B-00000707",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 27860.96,
+            "PaidToDate": 27860.95,
+            "NumAtCard": "0060-B-00000720",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 11994.11,
+            "PaidToDate": 11994.1,
+            "NumAtCard": "0060-B-00000722",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 9470.36,
+            "PaidToDate": 9470.35,
+            "NumAtCard": "0060-B-00000729",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21705",
+            "CardName": "Consumidor Final",
+            "DocTotal": 9337.72,
+            "PaidToDate": 9337.71,
+            "NumAtCard": "0060-B-00000733",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "21706",
             "CardName": "DOYLE MARIA SILVANA",
             "DocTotal": 148551.54,
@@ -2608,6 +3587,72 @@
     },
     {
         "Invoices": {
+            "CardCode": "21706",
+            "CardName": "KLEMPA PEDRO ESTEBAN",
+            "DocTotal": 95039.65,
+            "PaidToDate": 95039.64,
+            "NumAtCard": "0060-A-00000004",
+            "DocDate": "2024-12-27",
+            "DocDueDate": "2024-12-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21706",
+            "CardName": "ZAPATA JORGE PEDRO FRANCISCO",
+            "DocTotal": 117705.39,
+            "PaidToDate": 117705.38,
+            "NumAtCard": "0060-A-00000013",
+            "DocDate": "2024-12-28",
+            "DocDueDate": "2024-12-28"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21706",
+            "CardName": "TRAFUL TURISTICO S A S",
+            "DocTotal": 26232.24,
+            "PaidToDate": 26232.18,
+            "NumAtCard": "0060-A-00000033",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21706",
+            "CardName": "HIGH TRAVEL S R L",
+            "DocTotal": 46733.49,
+            "PaidToDate": 46733.48,
+            "NumAtCard": "0060-A-00000037",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21706",
+            "CardName": "IN ARG OUT SAS",
+            "DocTotal": 69785.13,
+            "PaidToDate": 69785.05,
+            "NumAtCard": "0060-A-00000038",
+            "DocDate": "2024-12-31",
+            "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21707",
+            "CardName": "Lo de Mi Abu SAS",
+            "DocTotal": 137190.7,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0060-A-00000032",
+            "DocDate": "2024-12-30",
+            "DocDueDate": "2024-12-30"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "21735",
             "CardName": "Badolato S.A.S",
             "DocTotal": 422268.08,
@@ -2630,6 +3675,28 @@
     },
     {
         "Invoices": {
+            "CardCode": "21848",
+            "CardName": "FADEL S.R.L. (Esandi)",
+            "DocTotal": 47008.64,
+            "PaidToDate": 26600.0,
+            "NumAtCard": "0047-A-00026054",
+            "DocDate": "2024-11-07",
+            "DocDueDate": "2024-11-27"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21848",
+            "CardName": "FADEL S.R.L. (Esandi)",
+            "DocTotal": 121326.02,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027740",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "21936",
             "CardName": "Fernandez Mendy Susana",
             "DocTotal": 316163.79,
@@ -2637,6 +3704,28 @@
             "NumAtCard": "9999-A-10001733",
             "DocDate": "2024-12-11",
             "DocDueDate": "2024-12-31"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21938",
+            "CardName": "Fruticola La Papa SAS.",
+            "DocTotal": 91633.96,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027750",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21938",
+            "CardName": "Fruticola La Papa SAS.",
+            "DocTotal": 91633.96,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027752",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -2670,6 +3759,17 @@
             "NumAtCard": "0047-A-00027712",
             "DocDate": "2025-01-02",
             "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21981",
+            "CardName": "Jardines De Bariloche S.A. (Suites)",
+            "DocTotal": 223861.28,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027743",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
         }
     },
     {
@@ -2718,6 +3818,28 @@
     },
     {
         "Invoices": {
+            "CardCode": "22039",
+            "CardName": "La Casita CLC SAS.",
+            "DocTotal": 504857.12,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027737",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22051",
+            "CardName": "Torno Sanchez Juan Cruz",
+            "DocTotal": 175691.54,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027723",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "22065",
             "CardName": "Hotel Cordillera SRL",
             "DocTotal": 454550.7,
@@ -2736,6 +3858,17 @@
             "NumAtCard": "0047-A-00027661",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-20"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22113",
+            "CardName": "Bernabe SAS.",
+            "DocTotal": 74636.15,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027720",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -2817,6 +3950,28 @@
     },
     {
         "Invoices": {
+            "CardCode": "22342",
+            "CardName": "Sibarits SRL. (Huenu)",
+            "DocTotal": 182324.0,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027736",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22343",
+            "CardName": "Sibarits SRL. (El Bosque)",
+            "DocTotal": 182324.0,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027742",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "22361",
             "CardName": "Hidalgo Ana Yanett",
             "DocTotal": 246511.69,
@@ -2824,6 +3979,39 @@
             "NumAtCard": "9999-B-00000509",
             "DocDate": "2024-12-30",
             "DocDueDate": "2025-01-19"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22365",
+            "CardName": "Rupusur SA.",
+            "DocTotal": 350775.47,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027729",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22365",
+            "CardName": "Rupusur SA.",
+            "DocTotal": 366314.48,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027730",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22365",
+            "CardName": "Rupusur SA.",
+            "DocTotal": 15619.37,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027731",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
         }
     },
     {
@@ -2868,6 +4056,17 @@
             "NumAtCard": "0047-A-00027668",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-30"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "22385",
+            "CardName": "Trattoria I Italliano SRL (Potenza)",
+            "DocTotal": 114859.16,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027728",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-02-01"
         }
     },
     {
@@ -3939,17 +5138,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "21848",
-            "CardName": "FADEL S.R.L. (Esandi)",
-            "DocTotal": 47008.64,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026054",
-            "DocDate": "2024-11-07",
-            "DocDueDate": "2024-11-27"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "22336",
             "CardName": "Punto Rio Negro SAS.",
             "DocTotal": 496042.59,
@@ -3977,17 +5165,6 @@
             "DocTotal": 1679303.12,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00026117",
-            "DocDate": "2024-11-08",
-            "DocDueDate": "2024-11-28"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "20315",
-            "CardName": "Cesari Maria Julia",
-            "DocTotal": 208129.49,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026124",
             "DocDate": "2024-11-08",
             "DocDueDate": "2024-11-28"
         }
@@ -5303,17 +6480,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "21223",
-            "CardName": "Pisman Pablo Alejandro",
-            "DocTotal": 542285.11,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026452",
-            "DocDate": "2024-11-22",
-            "DocDueDate": "2024-12-12"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "21104",
             "CardName": "KM 4 SRL",
             "DocTotal": 297766.1,
@@ -5363,17 +6529,6 @@
             "DocTotal": 357745.7,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00026480",
-            "DocDate": "2024-11-22",
-            "DocDueDate": "2024-12-12"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "21223",
-            "CardName": "Pisman Pablo Alejandro",
-            "DocTotal": 21401.6,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026483",
             "DocDate": "2024-11-22",
             "DocDueDate": "2024-12-12"
         }
@@ -5596,17 +6751,6 @@
             "NumAtCard": "0047-A-00026528",
             "DocDate": "2024-11-25",
             "DocDueDate": "2024-12-25"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "20315",
-            "CardName": "Cesari Maria Julia",
-            "DocTotal": 188813.01,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026529",
-            "DocDate": "2024-11-25",
-            "DocDueDate": "2024-12-15"
         }
     },
     {
@@ -6003,17 +7147,6 @@
             "NumAtCard": "9999-A-10001714",
             "DocDate": "2024-11-29",
             "DocDueDate": "2024-12-19"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "21738",
-            "CardName": "Llofriu Ariel Martin",
-            "DocTotal": 175226.97,
-            "PaidToDate": 13852.77,
-            "NumAtCard": "0047-A-00026717",
-            "DocDate": "2024-11-30",
-            "DocDueDate": "2024-12-20"
         }
     },
     {
@@ -6441,17 +7574,6 @@
             "DocTotal": 196711.79,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00026813",
-            "DocDate": "2024-12-03",
-            "DocDueDate": "2024-12-23"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "22183",
-            "CardName": "Administracion Integral SAS.",
-            "DocTotal": 51337.42,
-            "PaidToDate": 0.0,
-            "NumAtCard": "9999-A-10001719",
             "DocDate": "2024-12-03",
             "DocDueDate": "2024-12-23"
         }
@@ -7503,17 +8625,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "20655",
-            "CardName": "Rich SRL",
-            "DocTotal": 141812.79,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00026991",
-            "DocDate": "2024-12-09",
-            "DocDueDate": "2024-12-29"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "22057",
             "CardName": "Llao Llao Resorts SA.",
             "DocTotal": 3398999.3,
@@ -7882,17 +8993,6 @@
             "DocTotal": 81668.02,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027046",
-            "DocDate": "2024-12-10",
-            "DocDueDate": "2024-12-30"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "20349",
-            "CardName": "Sindicato Obreros Marit Unidos",
-            "DocTotal": 31414.41,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-B-00002618",
             "DocDate": "2024-12-10",
             "DocDueDate": "2024-12-30"
         }
@@ -8823,17 +9923,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "20349",
-            "CardName": "Sindicato Obreros Marit Unidos",
-            "DocTotal": 95159.75,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-B-00002632",
-            "DocDate": "2024-12-13",
-            "DocDueDate": "2025-01-02"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "20977",
             "CardName": "Ergo S.R.L.",
             "DocTotal": 68700.42,
@@ -9345,17 +10434,6 @@
             "DocTotal": 157113.18,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027341",
-            "DocDate": "2024-12-17",
-            "DocDueDate": "2025-01-06"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "22183",
-            "CardName": "Administracion Integral SAS.",
-            "DocTotal": 31941.74,
-            "PaidToDate": 0.0,
-            "NumAtCard": "9999-A-10001737",
             "DocDate": "2024-12-17",
             "DocDueDate": "2025-01-06"
         }
@@ -9890,17 +10968,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "21548",
-            "CardName": "Ceo`S SRL Empresa Hotelera",
-            "DocTotal": 41873.3,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0051-A-00001505",
-            "DocDate": "2024-12-23",
-            "DocDueDate": "2024-12-23"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "21274",
             "CardName": "Alcon SRL",
             "DocTotal": 45026.58,
@@ -9963,17 +11030,6 @@
             "NumAtCard": "0031-A-00032057",
             "DocDate": "2024-12-18",
             "DocDueDate": "2025-01-17"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "22183",
-            "CardName": "Administracion Integral SAS.",
-            "DocTotal": 81368.0,
-            "PaidToDate": 11199.63,
-            "NumAtCard": "9999-A-10001731",
-            "DocDate": "2024-12-10",
-            "DocDueDate": "2024-12-30"
         }
     },
     {
@@ -10128,17 +11184,6 @@
             "NumAtCard": "0031-B-00005560",
             "DocDate": "2024-12-20",
             "DocDueDate": "2025-01-09"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "20161",
-            "CardName": "Pehuen SRL",
-            "DocTotal": 350775.47,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0031-A-00032145",
-            "DocDate": "2024-12-20",
-            "DocDueDate": "2025-01-19"
         }
     },
     {
@@ -10467,17 +11512,6 @@
             "DocTotal": 255522.26,
             "PaidToDate": 0.0,
             "NumAtCard": "0031-A-00032174",
-            "DocDate": "2024-12-21",
-            "DocDueDate": "2025-01-10"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "20349",
-            "CardName": "Sindicato Obreros Marit Unidos",
-            "DocTotal": 21548.77,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0031-B-00005565",
             "DocDate": "2024-12-21",
             "DocDueDate": "2025-01-10"
         }
@@ -10962,17 +11996,6 @@
             "DocTotal": 252034.48,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027466",
-            "DocDate": "2024-12-26",
-            "DocDueDate": "2025-01-15"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "21934",
-            "CardName": "Finnegan Patagonia Azul SRL.",
-            "DocTotal": 118121.47,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027467",
             "DocDate": "2024-12-26",
             "DocDueDate": "2025-01-15"
         }
@@ -13960,17 +14983,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "20161",
-            "CardName": "Pehuen SRL",
-            "DocTotal": 366314.48,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027530",
-            "DocDate": "2024-12-27",
-            "DocDueDate": "2025-01-26"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "21274",
             "CardName": "Alcon SRL",
             "DocTotal": 226766.92,
@@ -14213,17 +15225,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "20161",
-            "CardName": "Pehuen SRL",
-            "DocTotal": 15619.37,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027545",
-            "DocDate": "2024-12-27",
-            "DocDueDate": "2025-01-26"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "20126",
             "CardName": "All Flags SA",
             "DocTotal": 207016.92,
@@ -14240,17 +15241,6 @@
             "DocTotal": 318611.14,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027547",
-            "DocDate": "2024-12-27",
-            "DocDueDate": "2025-01-16"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "22337",
-            "CardName": "Trecar Bariloche SAS.",
-            "DocTotal": 151990.87,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027548",
             "DocDate": "2024-12-27",
             "DocDueDate": "2025-01-16"
         }
@@ -16754,17 +17744,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "20025",
-            "CardName": "AES Argentina Generacion SA",
-            "DocTotal": 1307469.08,
-            "PaidToDate": 1307468.08,
-            "NumAtCard": "0047-A-00026712",
-            "DocDate": "2024-11-30",
-            "DocDueDate": "2024-12-20"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "22303",
             "CardName": "Maximo Gaston Rodolfo",
             "DocTotal": 377905.53,
@@ -17106,17 +18085,6 @@
     },
     {
         "Invoices": {
-            "CardCode": "21496",
-            "CardName": "Guerrero Ivonne Dora",
-            "DocTotal": 40192.66,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027605",
-            "DocDate": "2024-12-30",
-            "DocDueDate": "2025-01-29"
-        }
-    },
-    {
-        "Invoices": {
             "CardCode": "22368",
             "CardName": "Global Oil SRL.",
             "DocTotal": 243240.6,
@@ -17221,17 +18189,6 @@
             "DocTotal": 192540.76,
             "PaidToDate": 0.0,
             "NumAtCard": "0047-A-00027615",
-            "DocDate": "2024-12-30",
-            "DocDueDate": "2025-01-29"
-        }
-    },
-    {
-        "Invoices": {
-            "CardCode": "21496",
-            "CardName": "Guerrero Ivonne Dora",
-            "DocTotal": 64137.1,
-            "PaidToDate": 0.0,
-            "NumAtCard": "0047-A-00027616",
             "DocDate": "2024-12-30",
             "DocDueDate": "2025-01-29"
         }

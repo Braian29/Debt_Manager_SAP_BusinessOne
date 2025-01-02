@@ -99,7 +99,6 @@ def obtener_datos(db_path):
            'porcentaje_vencido':porcentaje_vencido_vendedor
         }
         vendedores_con_saldos.append(vendedor_info)
-    
     vendedores_con_saldos = [vendedor for vendedor in vendedores_con_saldos if vendedor['total_saldo'] > 0]
 
 

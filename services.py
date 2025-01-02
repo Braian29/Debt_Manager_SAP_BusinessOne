@@ -32,8 +32,8 @@ def generate_report_pdf(template_name, data, output_path):
 
 def send_email(subject, body, to_email, pdf_path, cc=None):
     """Envía un correo electrónico con un PDF adjunto."""
-    fromaddr = Config.MAIL_USERNAME  # Tu correo electrónico
-    password = Config.MAIL_PASSWORD      # Tu contraseña
+    fromaddr = Config.MAIL_USERNAME  
+    password = Config.MAIL_PASSWORD  
     
     msg = MIMEMultipart()
     msg['From'] = fromaddr
