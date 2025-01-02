@@ -34,6 +34,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "20072",
+            "CardName": "Hosteria Las Balsas SA",
+            "DocTotal": 75983.47,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027703",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20107",
             "CardName": "Los Abedules SA",
             "DocTotal": 704179.87,
@@ -41,6 +52,17 @@
             "NumAtCard": "0047-A-00027686",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-20"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20115",
+            "CardName": "Lopez Gustavo Carlos",
+            "DocTotal": 58656.77,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027699",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -111,6 +133,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "20219",
+            "CardName": "Cohue SRL",
+            "DocTotal": 85627.95,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027704",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20262",
             "CardName": "Rios Del Sud SA",
             "DocTotal": 211327.58,
@@ -173,6 +206,17 @@
             "NumAtCard": "0047-A-00027683",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-20"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20333",
+            "CardName": "Mamuschka SRL",
+            "DocTotal": 3053642.05,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027702",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -254,6 +298,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "20859",
+            "CardName": "Dccion Adm Sub Sal Pci Neuquen (JUNIN)",
+            "DocTotal": 219328.04,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-B-00002655",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "20885",
             "CardName": "A G O E C E A S E",
             "DocTotal": 23661.2,
@@ -305,6 +360,39 @@
             "NumAtCard": "0047-A-00027690",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-20"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20950",
+            "CardName": "Mavica Emprendimientos",
+            "DocTotal": 65180.58,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027705",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20977",
+            "CardName": "Ergo S.R.L.",
+            "DocTotal": 402322.48,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027700",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "20977",
+            "CardName": "Ergo S.R.L.",
+            "DocTotal": 1.62,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027701",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -375,6 +463,17 @@
     },
     {
         "Invoices": {
+            "CardCode": "21039",
+            "CardName": "Puerto Pireo SA",
+            "DocTotal": 32654.91,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027708",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
+        }
+    },
+    {
+        "Invoices": {
             "CardCode": "21093",
             "CardName": "Garate Maria Ines",
             "DocTotal": 25973.3,
@@ -393,6 +492,17 @@
             "NumAtCard": "0047-A-00027598",
             "DocDate": "2024-12-30",
             "DocDueDate": "2025-01-19"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21109",
+            "CardName": "Dilek SAS",
+            "DocTotal": 200004.3,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027706",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {
@@ -481,6 +591,17 @@
             "NumAtCard": "0047-A-00027664",
             "DocDate": "2024-12-31",
             "DocDueDate": "2025-01-20"
+        }
+    },
+    {
+        "Invoices": {
+            "CardCode": "21231",
+            "CardName": "Rio Correntoso SA",
+            "DocTotal": 222098.56,
+            "PaidToDate": 0.0,
+            "NumAtCard": "0047-A-00027707",
+            "DocDate": "2025-01-02",
+            "DocDueDate": "2025-01-22"
         }
     },
     {

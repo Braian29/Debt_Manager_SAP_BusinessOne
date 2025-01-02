@@ -49,7 +49,7 @@
                     $ {{ cliente.saldos_por_categoria['Vencida'] | format_number }}
                 </td>
                 <td data-order="{{ cliente.porcentaje_vencido }}">{{ cliente.porcentaje_vencido | format_number }}%</td>
-                <td><a href="{{ url_for('cliente_detail', card_code=cliente.CardCode) }}">Detalle</a></td>
+                <td><a href="{{ url_for('routes.cliente_detail', card_code=cliente.CardCode) }}">Detalle</a></td>
             </tr>
             {% endif %}
             {% endfor %}

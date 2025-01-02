@@ -4,16 +4,16 @@
 {% block title %}Actualización{% endblock %}
 
 {% block content %}
-    <h1>Resultado de la Actualización</h1>
+    <h3>Resultado de la Actualización :</h3>
     
     {% if message %}
-        <div class="message-container {{ message_type }}">
-            {{ message }}
+        <div class="message-container {{ message_type }}" >
+            <h1>{{ message }}</h1>
         </div>
     {% endif %}
     
     <!-- Puedes añadir más contenido aquí, si es necesario -->
-    <a href="{{ url_for('dashboard') }}">Volver a la página principal</a>
+    <a href="{{ url_for('routes.dashboard') }}"> Volver a la página principal </a>
 {% endblock %}
 
 {% block scripts %}

@@ -191,17 +191,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20809",
-                "CardName": "Bebusti Olga Y Calori SH",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 4,
-                "SalesPersonCode": 3,
-                "Cellular": null,
-                "EmailAddress": "consultas@hosteriapatagon.com.ar",
-                "CurrentAccountBalance": 105690.03
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "21064",
                 "CardName": "Rivera Juan Leonardo",
                 "PayTermsGrpCode": 71,
@@ -221,17 +210,6 @@
                 "Cellular": null,
                 "EmailAddress": "nenebarbarilochecomercial@gmail.com",
                 "CurrentAccountBalance": 147848.98
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21231",
-                "CardName": "Rio Correntoso SA",
-                "PayTermsGrpCode": 74,
-                "PriceListNum": 2,
-                "SalesPersonCode": 12,
-                "Cellular": null,
-                "EmailAddress": "compras@correntoso.com",
-                "CurrentAccountBalance": 2747214.43
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -774,17 +752,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20859",
-                "CardName": "Dccion Adm Sub Sal Pci Neuquen (JUNIN)",
-                "PayTermsGrpCode": 70,
-                "PriceListNum": 4,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "adm.hvla@gmail.com",
-                "CurrentAccountBalance": 356000.31
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "22309",
                 "CardName": "Pimi SAS",
                 "PayTermsGrpCode": 67,
@@ -804,17 +771,6 @@
                 "Cellular": null,
                 "EmailAddress": "Martina@kandahar.com.ar",
                 "CurrentAccountBalance": 103692.98
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20072",
-                "CardName": "Hosteria Las Balsas SA",
-                "PayTermsGrpCode": 70,
-                "PriceListNum": 3,
-                "SalesPersonCode": 13,
-                "Cellular": null,
-                "EmailAddress": "compras@labalsas.com",
-                "CurrentAccountBalance": 157456.41
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -1002,17 +958,6 @@
                 "Cellular": null,
                 "EmailAddress": "sofia.suitesdellago@gmail.com",
                 "CurrentAccountBalance": 91733.37
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21039",
-                "CardName": "Puerto Pireo SA",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "info@puertopireo.com.ar",
-                "CurrentAccountBalance": 706496.63
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3095,17 +3040,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20005",
-                "CardName": "Bahia Manzano S.A",
-                "PayTermsGrpCode": 70,
-                "PriceListNum": 3,
-                "SalesPersonCode": 12,
-                "Cellular": "2944514543",
-                "EmailAddress": "proveedores@bahiamanzano.com",
-                "CurrentAccountBalance": 7263875.49
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20141",
                 "CardName": "La Fonda Del Tio SRL",
                 "PayTermsGrpCode": 66,
@@ -3513,28 +3447,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20950",
-                "CardName": "Mavica Emprendimientos",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": null,
-                "CurrentAccountBalance": 5157575.7
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "21109",
-                "CardName": "Dilek SAS",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "administracion@dilek.ar",
-                "CurrentAccountBalance": 1397038.54
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "22386",
                 "CardName": "EL LABERINTO SRL",
                 "PayTermsGrpCode": 73,
@@ -3554,17 +3466,6 @@
                 "Cellular": null,
                 "EmailAddress": "shea@mysticfogbeer.com",
                 "CurrentAccountBalance": 293660.32
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20219",
-                "CardName": "Cohue SRL",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "administracion@dilek.ar",
-                "CurrentAccountBalance": 211152.77
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3590,17 +3491,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20977",
-                "CardName": "Ergo S.R.L.",
-                "PayTermsGrpCode": 67,
-                "PriceListNum": 3,
-                "SalesPersonCode": 20,
-                "Cellular": null,
-                "EmailAddress": "romina@grupobold.com.ar",
-                "CurrentAccountBalance": 1774048.22
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "21936",
                 "CardName": "Fernandez Mendy Susana",
                 "PayTermsGrpCode": 73,
@@ -3609,17 +3499,6 @@
                 "Cellular": null,
                 "EmailAddress": "arelauquenbungalows@gmail.com",
                 "CurrentAccountBalance": 767468.07
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20115",
-                "CardName": "Lopez Gustavo Carlos",
-                "PayTermsGrpCode": 73,
-                "PriceListNum": 2,
-                "SalesPersonCode": 21,
-                "Cellular": null,
-                "EmailAddress": "compras@corralonandino.com.ar",
-                "CurrentAccountBalance": 73961.11
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
@@ -3667,17 +3546,6 @@
             },
             {
                 "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
-                "CardCode": "20333",
-                "CardName": "Mamuschka SRL",
-                "PayTermsGrpCode": 66,
-                "PriceListNum": 2,
-                "SalesPersonCode": 14,
-                "Cellular": null,
-                "EmailAddress": "proveedores2@mamuschka.com",
-                "CurrentAccountBalance": 14418041.98
-            },
-            {
-                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
                 "CardCode": "20985",
                 "CardName": "Hoteleria Andina SA (Rodeo)",
                 "PayTermsGrpCode": 68,
@@ -3719,6 +3587,138 @@
                 "Cellular": null,
                 "EmailAddress": "Tinchoig@hotmail.com",
                 "CurrentAccountBalance": 349034.31
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20809",
+                "CardName": "Bebusti Olga Y Calori SH",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 4,
+                "SalesPersonCode": 3,
+                "Cellular": null,
+                "EmailAddress": "consultas@hosteriapatagon.com.ar",
+                "CurrentAccountBalance": 105690.03
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20115",
+                "CardName": "Lopez Gustavo Carlos",
+                "PayTermsGrpCode": 73,
+                "PriceListNum": 2,
+                "SalesPersonCode": 21,
+                "Cellular": null,
+                "EmailAddress": "compras@corralonandino.com.ar",
+                "CurrentAccountBalance": 132617.88
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20977",
+                "CardName": "Ergo S.R.L.",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "romina@grupobold.com.ar",
+                "CurrentAccountBalance": 2176372.32
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20859",
+                "CardName": "Dccion Adm Sub Sal Pci Neuquen (JUNIN)",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 4,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "adm.hvla@gmail.com",
+                "CurrentAccountBalance": 575328.35
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20333",
+                "CardName": "Mamuschka SRL",
+                "PayTermsGrpCode": 66,
+                "PriceListNum": 2,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": "proveedores2@mamuschka.com",
+                "CurrentAccountBalance": 17471684.03
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20072",
+                "CardName": "Hosteria Las Balsas SA",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 3,
+                "SalesPersonCode": 13,
+                "Cellular": null,
+                "EmailAddress": "compras@labalsas.com",
+                "CurrentAccountBalance": 233439.88
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20219",
+                "CardName": "Cohue SRL",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "administracion@dilek.ar",
+                "CurrentAccountBalance": 296780.72
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20950",
+                "CardName": "Mavica Emprendimientos",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 14,
+                "Cellular": null,
+                "EmailAddress": null,
+                "CurrentAccountBalance": 5222756.28
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21109",
+                "CardName": "Dilek SAS",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "administracion@dilek.ar",
+                "CurrentAccountBalance": 1597042.84
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21231",
+                "CardName": "Rio Correntoso SA",
+                "PayTermsGrpCode": 74,
+                "PriceListNum": 2,
+                "SalesPersonCode": 12,
+                "Cellular": null,
+                "EmailAddress": "compras@correntoso.com",
+                "CurrentAccountBalance": 2969312.99
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "20005",
+                "CardName": "Bahia Manzano S.A",
+                "PayTermsGrpCode": 70,
+                "PriceListNum": 3,
+                "SalesPersonCode": 12,
+                "Cellular": "2944514543",
+                "EmailAddress": "proveedores@bahiamanzano.com",
+                "CurrentAccountBalance": 3662544.87
+            },
+            {
+                "odata.etag": "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+                "CardCode": "21039",
+                "CardName": "Puerto Pireo SA",
+                "PayTermsGrpCode": 67,
+                "PriceListNum": 3,
+                "SalesPersonCode": 20,
+                "Cellular": null,
+                "EmailAddress": "info@puertopireo.com.ar",
+                "CurrentAccountBalance": 739151.54
             }
         ]
     }

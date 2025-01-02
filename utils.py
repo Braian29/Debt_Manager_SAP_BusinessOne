@@ -10,3 +10,4 @@ def format_number(value):
        return locale.format_string('%.2f', value, grouping=True)
     except ValueError:
         return str(value)
+    
