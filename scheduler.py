@@ -45,8 +45,8 @@ def scheduled_task():
 # Configurar el scheduler
 scheduler = BackgroundScheduler(daemon=True) #daemon=True
 # Programar la tarea para que se ejecute los lunes y jueves a las 8:00 AM
-trigger = CronTrigger(day_of_week='mon,thu', hour=17, minute=18)
-scheduler.add_job(scheduled_task, trigger=trigger)
+trigger = CronTrigger(day_of_week='mon,thu', hour=7) #, minute=10
+scheduler.add_job(scheduled_task, trigger=trigger, misfire_grace_time=100)
 
 logging.info("Scheduler iniciado. Esperando tareas programadas...")
 # Iniciar el scheduler
