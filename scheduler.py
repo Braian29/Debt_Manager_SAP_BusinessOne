@@ -49,13 +49,3 @@ trigger = CronTrigger(day_of_week='mon,thu', hour=7) #, minute=10
 scheduler.add_job(scheduled_task, trigger=trigger, misfire_grace_time=100)
 
 logging.info("Scheduler iniciado. Esperando tareas programadas...")
-# Iniciar el scheduler
-# No se inicia aquí, se hace desde app.py
-# Mantener el script corriendo, ya no es necesario
-# try:
-#     while True:
-#         time.sleep(1)  # Mantener el script ejecutándose (verificar cada segundo)
-# except (KeyboardInterrupt, SystemExit):
-#     # Detener el scheduler al salir
-#     scheduler.shutdown()
-#     logging.info("Scheduler detenido.")

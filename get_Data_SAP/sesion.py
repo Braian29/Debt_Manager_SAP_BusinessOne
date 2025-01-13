@@ -12,13 +12,25 @@ username = os.getenv("USERNAME_SAP")
 url = os.getenv("URL")
 
 headers = {'Content-Type': 'application/json', 'Prefer': 'odata.maxpagesize=10000'}
-data = {"CompanyDB": company_db, "Password": password, "UserName": username}
-response = httpx.post(url, headers=headers, data=json.dumps(data), verify=False)
+cookies = None # Inicializamos cookies como None
 
-if response.status_code == 200:
-    print("---------------------------------")
-    print("--------Sesión Iniciada----------")
-    print("---------------------------------")
-    cookies = response.cookies
-else:
-    print(response.text)
+def get_new_session():
+    global cookies # Hacemos cookies global
+    data = {"CompanyDB": company_db, "Password": password, "UserName": username}
+    try:
+        response = httpx.post(url, headers=headers, data=json.dumps(data), verify=False)
+        response.raise_for_status() # Raise HTTPError for bad responses (4xx or 5xx)
+        cookies = response.cookies
+        print("---------------------------------")
+        print("--------Sesión Iniciada----------")
+        print("---------------------------------")
+        return True # Return True to confirm a new session was created successfully.
+    except httpx.HTTPError as e:
+      print(f"Error en la solicitud HTTP: {e}")
+      return False # Return False if there is an error when create the new session
+    except Exception as e:
+        print(f"Error inesperado al obtener la nueva sesión: {e}")
+        return False
+
+# Initial session creation on startup.
+get_new_session()

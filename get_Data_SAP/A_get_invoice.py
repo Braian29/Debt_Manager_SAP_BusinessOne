@@ -1,8 +1,45 @@
 # get_Data_SAP/get_invoice_function.py
 import httpx
 import json
-from sesion import cookies, headers
+from sesion import cookies, headers, get_new_session
 import time
+
+def _make_request(url, method, data=None):
+    """Helper function to handle retries and session refresh"""
+    max_retries = 2  # Max retries including the first attempt
+    for attempt in range(max_retries):
+        try:
+          
+            if method == "POST":
+                response = httpx.post(url, headers=headers, cookies=cookies, verify=False, json=data)
+            elif method == "GET":
+                response = httpx.get(url, headers=headers, cookies=cookies, verify=False)
+            else:
+                 raise ValueError(f"Invalid HTTP method: {method}")
+            response.raise_for_status() # Raise an exception for non 200 status
+            return response
+        
+        except httpx.HTTPStatusError as exc:
+            if exc.response.status_code == 401 and attempt < max_retries -1: # 401 Unauthorized, attempt a refresh session
+                print("Error de autenticación detectado, intentando refrescar la sesión...")
+                if get_new_session(): #Get a new session and try again
+                   print("Sesión refrescada con éxito.")
+                   continue # Try again after get a new session
+                else:
+                   print("Fallo al refrescar la sesión")
+                   break #Abort if refresh fails
+            else:
+                print(f"Error al hacer la solicitud HTTP: {exc}")
+                print(f"Detalle de la respuesta: {exc.response.text}")
+                return None # Return None if is other error or max retries
+        except httpx.RequestError as exc:
+            print(f"Error al hacer la solicitud HTTP: {exc}")
+            return None # Return None if RequestError
+        except Exception as exc:
+           print(f"Error inesperado: {exc}")
+           return None
+    print("Máximo número de intentos alcanzados o error irrecuperable.")
+    return None
 
 def get_invoice_data(base_url="https://177.85.33.53:50695/b1s/v1/", output_file="data/invoicesAbiertas.json", page_size=1000):
     """
@@ -32,9 +69,12 @@ def get_invoice_data(base_url="https://177.85.33.53:50695/b1s/v1/", output_file=
         print(json.dumps(data, indent=4))
 
         start_time = time.time()
+        response = _make_request(url, "POST", data=data) # Use helper function for the request
+
+        if response is None:
+            return False # If is none the request fails
+        
         try:
-            response = httpx.post(url, headers=headers, cookies=cookies, verify=False, json=data)
-            response.raise_for_status()
             page_data = response.json()
             end_time = time.time()
             print(f"Petición tardó: {end_time - start_time:.2f} segundos")
@@ -48,16 +88,10 @@ def get_invoice_data(base_url="https://177.85.33.53:50695/b1s/v1/", output_file=
                 break
             skip += page_size
 
-        except httpx.HTTPStatusError as exc:
-            print(f"Error al hacer la solicitud HTTP: {exc}")
-            print(f"Detalle de la respuesta: {exc.response.text}")
-            return False
-        except httpx.RequestError as exc:
-            print(f"Error al hacer la solicitud HTTP: {exc}")
-            return False
         except KeyError as exc:
             print(f"Error al parsear la respuesta JSON: {exc}")
             return False
+
 
     if all_data:
         with open(output_file, 'w') as f:

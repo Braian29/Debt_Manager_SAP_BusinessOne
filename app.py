@@ -12,7 +12,6 @@ if __name__ == '__main__':
 
     try:
         logging.info("Servidor Flask iniciado por Uvicorn...")
-        #app.run(debug=True, host='0.0.0.0', port=5010, use_reloader=False)
     except Exception as e:
         logging.error(f"Error al iniciar el servidor Flask: {e}")
     finally:

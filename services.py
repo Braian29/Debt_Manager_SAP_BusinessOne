@@ -9,7 +9,7 @@ import os
 from models import obtener_datos
 from get_Data_SAP.Z_run_scripts import run_scripts
 from config import Config
-
+from get_Data_SAP.sesion import get_new_session
 
 def get_data():
   db_path = Config.DATABASE_PATH
@@ -98,7 +98,30 @@ def generate_and_send_reports(vendedores, clientes_con_info, format_number):
     return "Reportes generados y enviados con éxito."
 
 def update_data_service():
-     if run_scripts():
-          return "Datos actualizados correctamente!", "success"
-     else:
-        return "Error al actualizar los datos.", "error"
+   
+    max_retries = 2 # Max retries including the first attempt
+    for attempt in range(max_retries):
+        try:
+           if run_scripts():
+             return "Datos actualizados correctamente!", "success"
+           else:
+                if attempt < max_retries -1:
+                   print("Error al actualizar los datos, intentando refrescar la sesión...")
+                   if get_new_session(): #Get a new session and try again
+                     print("Sesión refrescada con éxito.")
+                     continue # Try again after get a new session
+                   else:
+                    print("Fallo al refrescar la sesión")
+                    return "Error al actualizar los datos, y no se pudo refrescar la sesión.", "error" #Abort if refresh fails
+                else:
+                   return "Error al actualizar los datos, y no se pudo refrescar la sesión.", "error" #Return final error after max_retries
+        except Exception as e:
+            print(f"Error inesperado al actualizar los datos: {e}")
+            if attempt < max_retries -1:
+               if get_new_session(): #Get a new session and try again
+                 continue # Try again after get a new session
+               else:
+                   print("Fallo al refrescar la sesión")
+                   return "Error al actualizar los datos, y no se pudo refrescar la sesión.", "error"  #Abort if refresh fails
+            else:
+               return "Error al actualizar los datos, y no se pudo refrescar la sesión.", "error"  #Return final error after max_retries
