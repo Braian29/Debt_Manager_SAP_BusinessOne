@@ -12,7 +12,7 @@ def _make_request(url, method, data=None):
                 response = httpx.post(url, headers=headers, cookies=cookies, verify=False, json=data)
             elif method == "GET":
                 response = httpx.get(url, headers=headers, cookies=cookies, verify=False)
-            else:
+            else: 
                  raise ValueError(f"Invalid HTTP method: {method}")
             response.raise_for_status() # Raise an exception for non 200 status
             return response
