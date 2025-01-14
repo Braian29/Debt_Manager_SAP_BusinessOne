@@ -46,7 +46,7 @@ def _make_request(url, method, data=None):
            return None
     print("Máximo número de intentos alcanzados o error irrecuperable.")
     return None
-
+ 
 def get_client_data(base_url="https://177.85.33.53:50695/b1s/v1/", output_file="data/clientes_con_deuda.json"):
     """
     Obtiene información de clientes con deuda desde la API de SAP y guarda los resultados en un archivo JSON.
