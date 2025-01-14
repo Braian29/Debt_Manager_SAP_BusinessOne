@@ -1,14 +1,18 @@
-#get_Data_SAP\A_get_salesperson_info.py
-# get_Data_SAP/get_salesperson_info_function.py
-from sesion import cookies, headers, get_new_session
+# get_Data_SAP/A_get_salesperson_info.py
 import httpx
 import json
+from get_Data_SAP import sesion # Importar sesion como modulo
 
 def _make_request(url, method, data=None):
     """Helper function to handle retries and session refresh"""
     max_retries = 2  # Max retries including the first attempt
     for attempt in range(max_retries):
+        cookies = sesion.load_cookies() # Obtener las cookies antes de cada intento
+        if cookies is None:
+            print("No se pudieron cargar las cookies. Saliendo.")
+            return None # Break if cannot get cookies.
         try:
+            headers = {'Content-Type': 'application/json', 'Prefer': 'odata.maxpagesize=10000'} # Se inicializa aqui por si se usa diferente headers
             if method == "POST":
                 response = httpx.post(url, headers=headers, cookies=cookies, verify=False, json=data)
             elif method == "GET":
@@ -21,7 +25,7 @@ def _make_request(url, method, data=None):
         except httpx.HTTPStatusError as exc:
             if exc.response.status_code == 401 and attempt < max_retries -1: # 401 Unauthorized, attempt a refresh session
                 print("Error de autenticación detectado, intentando refrescar la sesión...")
-                if get_new_session(): #Get a new session and try again
+                if sesion.get_new_session(): #Get a new session and try again
                    print("Sesión refrescada con éxito.")
                    continue # Try again after get a new session
                 else:

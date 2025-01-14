@@ -1,28 +1,34 @@
 # get_Data_SAP/get_invoice_function.py
 import httpx
 import json
-from sesion import cookies, headers, get_new_session
+from get_Data_SAP import sesion # Importar sesion como modulo
 import time
 
 def _make_request(url, method, data=None):
     """Helper function to handle retries and session refresh"""
     max_retries = 2  # Max retries including the first attempt
     for attempt in range(max_retries):
+        cookies = sesion.load_cookies() # Obtener las cookies antes de cada intento
+        if cookies is None:
+            print("No se pudieron cargar las cookies. Saliendo.")
+            return None # Break if cannot get cookies.
+
         try:
-          
-            if method == "POST":
-                response = httpx.post(url, headers=headers, cookies=cookies, verify=False, json=data)
-            elif method == "GET":
+             headers = {'Content-Type': 'application/json', 'Prefer': 'odata.maxpagesize=10000'} # Se inicializa aqui por si se usa diferente headers
+            
+             if method == "POST":
+                 response = httpx.post(url, headers=headers, cookies=cookies, verify=False, json=data)
+             elif method == "GET":
                 response = httpx.get(url, headers=headers, cookies=cookies, verify=False)
-            else:
+             else:
                  raise ValueError(f"Invalid HTTP method: {method}")
-            response.raise_for_status() # Raise an exception for non 200 status
-            return response
+             response.raise_for_status() # Raise an exception for non 200 status
+             return response
         
         except httpx.HTTPStatusError as exc:
             if exc.response.status_code == 401 and attempt < max_retries -1: # 401 Unauthorized, attempt a refresh session
                 print("Error de autenticación detectado, intentando refrescar la sesión...")
-                if get_new_session(): #Get a new session and try again
+                if sesion.get_new_session(): #Get a new session and try again
                    print("Sesión refrescada con éxito.")
                    continue # Try again after get a new session
                 else:
