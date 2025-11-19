@@ -39,7 +39,7 @@
             },
             {
                 "SalesEmployeeCode": 5,
-                "SalesEmployeeName": "Mariano Lisbichoff",
+                "SalesEmployeeName": "Leonardo Rosas",
                 "Telephone": null,
                 "Mobile": null,
                 "Email": null
@@ -66,11 +66,11 @@
                 "Email": null
             },
             {
-                "SalesEmployeeCode": 3,
-                "SalesEmployeeName": "Valeria Rodriguez",
+                "SalesEmployeeCode": 13,
+                "SalesEmployeeName": "Vendedor VLA-SMA-TRF",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": "ventasoficina@superclin.com"
+                "Email": "tomas.molina@super-clin.com.ar"
             },
             {
                 "SalesEmployeeCode": 10,
@@ -115,25 +115,25 @@
                 "Email": null
             },
             {
+                "SalesEmployeeCode": 15,
+                "SalesEmployeeName": "Hotel Llao Llao",
+                "Telephone": null,
+                "Mobile": null,
+                "Email": "pamela.boock@super-clin.com.ar"
+            },
+            {
                 "SalesEmployeeCode": 18,
                 "SalesEmployeeName": "Vendedor Cerro",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": null
+                "Email": "luciano.suppes@superclin.com"
             },
             {
                 "SalesEmployeeCode": 19,
                 "SalesEmployeeName": "Maximiliano Bolado",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": "maximiliano.bolado@super-clin.com.ar"
-            },
-            {
-                "SalesEmployeeCode": 15,
-                "SalesEmployeeName": "Hotel Llao Llao",
-                "Telephone": null,
-                "Mobile": null,
-                "Email": "maximiliano.bolado@super-clin.com.ar"
+                "Email": "romina.galdos@superclin.com"
             },
             {
                 "SalesEmployeeCode": 28,
@@ -172,10 +172,10 @@
             },
             {
                 "SalesEmployeeCode": 24,
-                "SalesEmployeeName": "11",
+                "SalesEmployeeName": "Tom\u00e1s Molina",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": null
+                "Email": "tomas.molina@super-clin.com.ar"
             },
             {
                 "SalesEmployeeCode": 25,
@@ -193,17 +193,17 @@
             },
             {
                 "SalesEmployeeCode": 26,
-                "SalesEmployeeName": "Aldana Maestu",
+                "SalesEmployeeName": "Maximiliano Fernandez",
                 "Telephone": null,
                 "Mobile": null,
                 "Email": "ventas@superclin.com"
             },
             {
-                "SalesEmployeeCode": 13,
-                "SalesEmployeeName": "Vendedor VLA-SMA-TRF",
+                "SalesEmployeeCode": 3,
+                "SalesEmployeeName": "Ver\u00f3nica Zurita",
                 "Telephone": null,
                 "Mobile": null,
-                "Email": "maximiliano.bolado@super-clin.com.ar"
+                "Email": "ventasoficina@superclin.com"
             }
         ]
     }
