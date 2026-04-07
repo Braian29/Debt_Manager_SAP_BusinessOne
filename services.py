@@ -62,7 +62,7 @@ def send_email(subject, body, to_email, pdf_path, cc=None):
 
 def generate_and_send_reports(vendedores, clientes_con_info, format_number):
     """Genera y envía reportes para cada vendedor."""
-    cc_emails = ['maximiliano.bolado@super-clin.com.ar', 'cuentas@super-clin.com.ar', "braian.alonso@super-clin.com.ar", "horacio.rodriguezbarcelone@super-clin.com.ar"]
+    cc_emails = ['romina.galdos@super-clin.com.ar', 'cuentas@super-clin.com.ar', "braian.alonso@super-clin.com.ar", "horacio.rodriguezbarcelone@super-clin.com.ar"]
 
     report_dir = "reports"
     os.makedirs(report_dir, exist_ok=True)
