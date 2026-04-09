@@ -4,255 +4,300 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reporte de Deuda de Clientes - {{ vendedor_name }}</title>
+    <title>Reporte de Cuentas Corrientes / Cobranzas - {{ vendedor_name }}</title>
     <style>
+        /* xhtml2pdf: mantener CSS simple */
+        @page {
+            size: A4;
+            margin: 1.2cm 1.0cm 1.4cm 1.0cm;
+
+            @frame footer_frame {
+                -pdf-frame-content: footer_content;
+                left: 1.0cm;
+                top: 28.1cm;
+                width: 19.0cm;
+                height: 0.9cm;
+            }
+        }
+
         body {
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 40px;
-            background-color: #f7fafc;
-            color: #2d3748;
-            line-height: 1.6;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 9.6pt;
+            color: #111827;
+            line-height: 1.25;
         }
 
-        .report-container {
-            max-width: 1000px;
-            margin: 0 auto;
-            background-color: #fff;
-            border-radius: 12px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-            overflow: hidden;
-        }
+        .muted { color: #6b7280; }
 
-        .report-header {
-            padding: 30px;
-            text-align: center;
-            border-bottom: 1px solid #e2e8f0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .logo-container {
-            margin-bottom: 10px;
-        }
-
-        .logo-container img {
-            max-width: 150px;
-            height: 105px;
-        }
-
-        .report-header h1 {
-            color: #3490dc;
-            font-size: 28px;
-            font-weight: 700;
-            margin: 0 0 8px 0;
-        }
-
-        .report-header .date {
-            color: #718096;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-
-        .summary-cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            padding: 20px 30px;
-            background: #f1f5f9;
-        }
-
-        .summary-card {
-            background: white;
-            padding: 15px;
+        /* Portada */
+        .cover {
+            border: 1px solid #e5e7eb;
             border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+            padding: 18px 18px 14px 18px;
+            background: #f9fafb;
         }
 
-        .summary-card h3 {
-            margin: 0 0 5px 0;
-            font-size: 14px;
-            color: #718096;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
+        .cover-title {
+            font-size: 18pt;
+            font-weight: 800;
+            color: #0f172a;
+            margin: 0;
+            padding: 0;
         }
 
-        .summary-card .value {
-            font-size: 20px;
-            font-weight: 500;
-            color: #2d3748;
+        .cover-subtitle {
+            margin-top: 6px;
+            font-size: 11pt;
+            color: #374151;
         }
 
-        .table-container {
-            padding: 0 30px 30px;
-            overflow-x: auto;
+        .cover-meta {
+            margin-top: 10px;
+            font-size: 10pt;
+            color: #374151;
         }
 
-        table {
+        .kpis {
+            margin-top: 14px;
             width: 100%;
             border-collapse: collapse;
-            font-size: 14px;
-            white-space: nowrap;
         }
 
-        th {
-            background: #f1f5f9;
-            color: #718096;
-            font-weight: 500;
-            text-align: left;
-            padding: 12px 16px;
-            border-bottom: 1px solid #e2e8f0;
+        .kpis td {
+            width: 33.33%;
+            padding: 10px 10px;
+            border: 1px solid #e5e7eb;
+            background: #ffffff;
+            vertical-align: top;
         }
 
-        td {
-            padding: 12px 16px;
-            border-bottom: 1px solid #e2e8f0;
-        }
-
-        tr:last-child td {
-            border-bottom: none;
-        }
-
-        .amount {
-            font-family: Arial, monospace;
-            text-align: center;
-            font-size: 10px;
-        }
-
-        .status-badge {
-            display: inline-block;
-            padding: 4px 8px;
-            border-radius: 4px;
-            font-size: 12px;
-            font-weight: 500;
-        }
-
-        .status-success {
-            background-color: #dcfce7;
-            color: #38c172;
-        }
-
-        .status-warning {
-            background-color: #fef3c7;
-            color: #f9a825;
-        }
-
-        .status-danger {
-            background-color: #fee2e2;
-            color: #e3342f;
-        }
-
-        .page-footer {
-            margin-top: 30px;
-            padding: 20px;
-            text-align: center;
-            color: #718096;
-            font-size: 12px;
-            border-top: 1px solid #e2e8f0;
-        }
-
-        /* Ajustes de columnas */
- 
-        .client-info {
-            white-space: normal;
-            line-height: 1.4;
-        }
-
-        .client-name {
-            font-weight: 500;
-            color: #2d3748;
+        .kpi-k {
+            font-size: 8.2pt;
+            text-transform: uppercase;
+            letter-spacing: 0.5pt;
+            color: #6b7280;
             margin-bottom: 4px;
         }
 
-        .client-code {
-            font-family: Arial, monospace;
-            color: #718096;
-            font-size: 12px;
-            display: inline-block;
-            background: #f1f5f9;
-            padding: 2px 6px;
-            border-radius: 4px;
+        .kpi-v {
+            font-size: 14pt;
+            font-weight: 800;
+            color: #0f172a;
         }
 
-        table th:nth-child(1),
-        table td:nth-child(1) {
-            width: 60%;  
+        .kpi-v-danger { color: #b91c1c; }
+
+        /* Tabla */
+        table.report {
+            width: 800px;
+            border-collapse: collapse;
+            /* NO usar table-layout fijo (xhtml2pdf se comporta raro) */
+        }
+
+        table.report thead {
+            display: table-header-group; /* se repite en cada página */
+        }
+
+        table.report th {
+            font-size: 8.4pt;
+            text-transform: uppercase;
+            letter-spacing: 0.5pt;
+            color: #6b7280;
+            background: #f3f4f6;
+            border-top: 1px solid #e5e7eb;
+            border-bottom: 1px solid #e5e7eb;
+            padding: 7px 8px;
             text-align: left;
         }
+
+        table.report td {
+            border-bottom: 1px solid #eef2f7;
+            padding: 7px 8px;
+            vertical-align: top;
+        }
+
+        tr.row-alt td { background: #fcfcfd; }
+
+        /* Anchos fijos por columna (robusto en PDF) */
+        .col-client { width: 220px; }
+        .col-saldo { width: 120px; }
+        .col-enfecha { width: 120px; }
+        .col-proximo { width: 120px; }
+        .col-vencido { width: 120px; }
+        .col-estado { width: 100px; }
+
+        .client-name { font-weight: 800; color: #0f172a; }
+        .client-code { font-size: 8.8pt; color: #6b7280; }
+
+        .num {
+            text-align: right;
+            font-family: "Courier New", monospace;
+            font-size: 9pt;
+            white-space: nowrap;
+            word-break: keep-all;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .dash { color: #9ca3af; }
+
+        .num-vencido {
+            font-weight: 900;
+            font-size: 10.6pt;
+        }
+        .num-vencido-high { color: #b91c1c; }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 10px;
+            border: 1px solid #e5e7eb;
+            background: #f9fafb;
+            font-size: 8.4pt;
+            white-space: nowrap;
+            font-weight: 800;
+        }
+        .badge-danger { background: #fef2f2; border-color: #fecaca; color: #b91c1c; }
+        .badge-warning { background: #fffbeb; border-color: #fde68a; color: #92400e; }
+        .badge-ok { background: #ecfdf5; border-color: #bbf7d0; color: #065f46; }
+
+        .estado-sub {
+            font-size: 8.2pt;
+            color: #6b7280;
+            white-space: nowrap;
+            word-break: keep-all;
+        }
+
+        /* Footer */
+        .footer {
+            border-top: 1px solid #e5e7eb;
+            padding-top: 5px;
+            font-size: 8.4pt;
+            color: #6b7280;
+        }
+        .footer-table { width: 100%; border-collapse: collapse; }
+        .footer-left { text-align: left; }
+        .footer-right { text-align: right; }
     </style>
 </head>
 
 <body>
-    <div class="report-container">
-        <div class="report-header">
-            <div class="logo-container">
-                <img src="static/logo.png" alt="Logo de la empresa">
-            </div>
-            <h1>Reporte de Deuda de Clientes</h1>
-            <div class="date">Vendedor: <strong>{{ vendedor_name }}</strong></div>
+    {# helpers para reducir ruido visual #}
+    {% macro money_or_dash(value) -%}
+        {%- if value is none or value == 0 -%}
+            <span class="num dash">—</span>
+        {%- else -%}
+            <span class="num">$&nbsp;{{ value|format_number }}</span>
+        {%- endif -%}
+    {%- endmacro %}
+
+    <!-- Portada -->
+    <div class="cover">
+        <p class="cover-title">Reporte de Cuentas Corrientes / Cobranzas</p>
+        <div class="cover-subtitle">Vendedor: <strong>{{ vendedor_name }}</strong></div>
+        <div class="cover-meta">
+            <span class="muted">Generado:</span> <strong>{{ generated_at }}</strong>
         </div>
 
-        <div class="summary-cards">
-            <div class="summary-card">
-                <h3>Total Clientes</h3>
-                <div class="value">{{ clientes|length }}</div>
-            </div>
-            <div class="summary-card">
-                <h3>Saldo Total</h3>
-                <div class="value">${{ clientes|sum(attribute='CurrentAccountBalance')|format_number }}</div>
-            </div>
-            <div class="summary-card">
-                <h3>Saldo Vencido</h3>
-                <div class="value">${{ clientes|sum(attribute='saldos_por_categoria.Vencida')|format_number }}</div>
-            </div>
-        </div>
-        <br><br><br><br><br>
+        <table class="kpis">
+            <tr>
+                <td>
+                    <div class="kpi-k">Clientes</div>
+                    <div class="kpi-v">{{ clientes|length }}</div>
+                </td>
+                <td>
+                    <div class="kpi-k">Saldo total</div>
+                    <div class="kpi-v">$&nbsp;{{ clientes|sum(attribute='CurrentAccountBalance')|format_number }}</div>
+                </td>
+                <td>
+                    <div class="kpi-k">Vencido (principal)</div>
+                    <div class="kpi-v kpi-v-danger">$&nbsp;{{ clientes|sum(attribute='saldos_por_categoria.Vencida')|format_number }}</div>
+                </td>
+            </tr>
+        </table>
+    </div>
 
-        <div class="table-container">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Cliente</th>
-                        <th>Saldo Total</th>
-                        <th>En Fecha</th>
-                        <th>Próximo</th>
-                        <th>Vencido</th>
-                        <th>Estado</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for cliente in clientes %}
-                    <tr>
-                        <td>
-                            <div class="client-info">
-                                <div class="client-name">{{ cliente.CardName }}</div>
-                                <div class="client-code">{{ cliente.CardCode }}</div>
-                            </div>
-                        </td>
-                        <td class="amount">$ {{ cliente.CurrentAccountBalance|format_number }}</td>
-                        <td class="amount">$ {{ cliente.saldos_por_categoria['En Fecha']|format_number }}</td>
-                        <td class="amount">$ {{ cliente.saldos_por_categoria['Proxima a Vencer']|format_number }}</td>
-                        <td class="amount">$ {{ cliente.saldos_por_categoria['Vencida']|format_number }}</td>
-                        <td>
-                            {% if cliente.porcentaje_vencido > 50 %}
-                            <span class="status-badge status-danger">{{ cliente.porcentaje_vencido|format_number }}% Vencido</span>
-                            {% elif cliente.porcentaje_vencido > 20 %}
-                            <span class="status-badge status-warning">{{ cliente.porcentaje_vencido|format_number }}% Vencido</span>
-                            {% else %}
-                            <span class="status-badge status-success">Al día</span>
-                            {% endif %}
-                        </td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
+    <pdf:nextpage />
 
+    <table class="report">
+            <thead>
+                <tr>
+                    <!-- Header repetible por página: titulo + meta -->
+                    <th colspan="6" style="padding:7px 8px; border-top:0; border-bottom:1px solid #e5e7eb; background:#ffffff; font-size:9.6pt; color:#374151;">
+                        <strong style="color:#0f172a;">Cuentas Corrientes / Cobranzas</strong>
+                        &nbsp;-&nbsp; {{ vendedor_name }}
+                        &nbsp;-&nbsp; {{ generated_at }}
+                    </th>
+                </tr>
+                <tr>
+                    <th class="col-client">Cliente</th>
+                    <th class="col-saldo" style="text-align:right;">Saldo</th>
+                    <th class="col-enfecha" style="text-align:right;">En fecha</th>
+                    <th class="col-proximo" style="text-align:right;">Próximo</th>
+                    <th class="col-vencido" style="text-align:right;">Vencido</th>
+                    <th class="col-estado">Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for cliente in clientes %}
+                {% set saldo_total = cliente.CurrentAccountBalance or 0 %}
+                {% set en_fecha = cliente.saldos_por_categoria['En Fecha'] or 0 %}
+                {% set proximo = cliente.saldos_por_categoria['Proxima a Vencer'] or 0 %}
+                {% set vencido = cliente.saldos_por_categoria['Vencida'] or 0 %}
+                {% set mora = cliente.porcentaje_vencido or 0 %}
 
-        <div class="page-footer">
-            Reporte generado automáticamente por el sistema de gestión
-        </div>
+                <tr class="{% if loop.index is even %}row-alt{% endif %}">
+                    <td class="col-client">
+                        <span class="client-name">{{ cliente.CardName }}</span><br>
+                        <span class="client-code">{{ cliente.CardCode }}</span>
+                    </td>
+
+                    <td class="col-saldo">
+                        {{ money_or_dash(saldo_total) }}
+                    </td>
+
+                    <td class="col-enfecha">
+                        {{ money_or_dash(en_fecha) }}
+                    </td>
+
+                    <td class="col-proximo">
+                        {{ money_or_dash(proximo) }}
+                    </td>
+
+                    <td class="col-vencido">
+                        {% if vencido == 0 %}
+                            <span class="num dash">—</span>
+                        {% else %}
+                            <span class="num num-vencido {% if mora >= 50 %}num-vencido-high{% endif %}">$&nbsp;{{ vencido|format_number }}</span>
+                        {% endif %}
+                    </td>
+
+                    <td class="col-estado">
+                        {% if mora >= 50 %}
+                            <span class="badge badge-danger">Vencido</span>
+                            <br><span class="estado-sub">{{ mora|format_number }}% mora</span>
+                        {% elif mora >= 20 %}
+                            <span class="badge badge-warning">Atención</span>
+                            <br><span class="estado-sub">{{ mora|format_number }}% mora</span>
+                        {% else %}
+                            <span class="badge badge-ok">Al día</span>
+                            <br><span class="estado-sub">{{ mora|format_number }}% mora</span>
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+    <div id="footer_content" class="footer">
+        <table class="footer-table">
+            <tr>
+                <td class="footer-left">Reporte generado automáticamente</td>
+                <td class="footer-right">
+                    Página <pdf:pagenumber /> de <pdf:pagecount />
+                </td>
+            </tr>
+        </table>
     </div>
 </body>
 

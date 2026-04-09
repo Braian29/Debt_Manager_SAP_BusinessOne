@@ -1,11 +1,25 @@
 # models.py
 import sqlite3
 from collections import defaultdict
+from datetime import datetime, date
 
 def obtener_conexion(db_path):
    conn = sqlite3.connect(db_path)
    conn.row_factory = sqlite3.Row
    return conn
+
+
+def _parse_date(d):
+    if not d:
+        return None
+    s = str(d)
+    try:
+        return datetime.fromisoformat(s.replace("Z", "+00:00")).date()
+    except Exception:
+        try:
+            return datetime.strptime(s[:10], "%Y-%m-%d").date()
+        except Exception:
+            return None
 
 def obtener_datos(db_path):
     conn = obtener_conexion(db_path)
@@ -34,6 +48,9 @@ def obtener_datos(db_path):
            invoice['PaidToDate'] = float(invoice.get('PaidToDate', 0))
         except (ValueError, TypeError):
           invoice['PaidToDate'] = 0
+        # Normalizar fechas para uso posterior (criterio por vencimiento)
+        invoice['_DocDueDate'] = _parse_date(invoice.get('DocDueDate'))
+        invoice['_DocDate'] = _parse_date(invoice.get('DocDate'))
         facturas_por_cliente[card_code].append(invoice)
     clientes_con_info = []
     for cliente in clientes:
@@ -56,16 +73,28 @@ def obtener_datos(db_path):
 
         saldo_vencido = saldos_por_categoria['Vencida']
         porcentaje_vencido = (saldo_vencido / total_saldo) * 100 if total_saldo else 0
+
+        # Criterio pedido: "vencido si hay al menos 1 factura con DocDueDate < hoy"
+        today = date.today()
+        facturas_cliente = facturas_por_cliente.get(cliente.get('CardCode'), [])
+        has_overdue_due_date = any(
+            (f.get('_DocDueDate') is not None)
+            and (f.get('_DocDueDate') < today)
+            and float(f.get('SaldoPendiente') or 0) > 0
+            for f in facturas_cliente
+        )
        
         cliente_info = {
             'CardCode': cliente.get('CardCode'),
             'CardName': cliente.get('CardName'),
             'CurrentAccountBalance': cliente.get('CurrentAccountBalance'),
+            'EmailAddress': cliente.get('EmailAddress'),
             'vendedor': vendedor.get('SalesEmployeeName') if vendedor else "Sin Vendedor Asignado",
             'vendedor_code': vendedor_code if vendedor else None,
-             'facturas': facturas_por_cliente.get(cliente.get('CardCode'), []),
+            'facturas': facturas_cliente,
             'saldos_por_categoria': saldos_por_categoria,
-            'porcentaje_vencido': porcentaje_vencido
+            'porcentaje_vencido': porcentaje_vencido,
+            'has_overdue_due_date': has_overdue_due_date,
         }
         clientes_con_info.append(cliente_info)
 

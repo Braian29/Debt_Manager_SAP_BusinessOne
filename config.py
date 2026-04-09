@@ -45,3 +45,5 @@ class Config:
     MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
     MAIL_SERVER = os.getenv('MAIL_SERVER')
     MAIL_PORT = os.getenv('MAIL_PORT')
+    # Pausa entre correos a clientes (segundos) para evitar 450 "too much mail"
+    MAIL_DELAY_SECONDS = float(os.getenv('MAIL_DELAY_SECONDS', '2.5'))

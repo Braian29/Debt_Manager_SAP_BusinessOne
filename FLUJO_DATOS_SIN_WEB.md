@@ -90,8 +90,8 @@ Archivo: `services.py`
   - Incluye `<img src="static/logo.png" ...>` (si el logo falta o la ruta no es accesible en PDF, puede quedar en blanco).
 
 ### Render a PDF
-Función: `generate_report_pdf(template_name, data, output_path)`
-- Renderiza el HTML (hoy usa `render_template(...)` de Flask/Jinja).
+Función: `generate_report_pdf(template_name, data, output_path, format_number)`
+- Renderiza el HTML con **Jinja2** (sin Flask).
 - Convierte a PDF con `xhtml2pdf` (`pisa.CreatePDF(...)`).
 - Guarda en `reports/{SalesEmployeeCode}_report.pdf`.
 
@@ -142,27 +142,16 @@ La tarea `scheduled_task()` hace:
   - Lunes y jueves a las 07:00 (minuto por defecto 0).
 
 ### Dependencia “web” dentro del scheduler
-Actualmente `scheduled_task()` ejecuta:
-
-- `from routes import app`
-- `with app.app_context(): ...`
-
-Esto **no es para servir páginas**, sino para que `render_template(...)` funcione al generar el PDF (Jinja/Flask necesita contexto de aplicación para resolver templates).
+Ya no aplica: el `scheduler` corre sin Flask porque el render del template del PDF se hace con **Jinja2** directo.
 
 ## Qué se puede borrar si “no usamos la web”
 
-Si el objetivo es **no tener UI web**, lo que hoy es puramente “web” es:
+Si el objetivo es **no tener UI web**, lo que se elimina es:
 
-- `controllers.py` (rutas/handlers que renderizan páginas)
-- `routes.py` (creación de `Flask app` y registro de blueprint)
-- Templates de navegación:
-  - `templates/index.html`
-  - `templates/cliente_detail.html`
-  - `templates/vendedores.html`
-  - `templates/vendedores_con_saldos.html`
-  - `templates/dashboard.html`
-  - `templates/update_result.html`
-  - `templates/report_result.html`
+- `controllers.py`
+- `routes.py`
+- `app.py`
+- templates de navegación (index/detalle/dashboard/etc)
 
 Pero **ojo**: `templates/report_template.html` es parte del flujo de reportes PDF, no de la UI web. Si lo eliminás, no hay PDF.
 
@@ -184,15 +173,8 @@ Para eso, el flujo mínimo a mantener es:
 5) **Reportes + email**: `services.py` (`generate_and_send_reports`, `send_email`)
 6) **Template PDF**: `templates/report_template.html`
 
-### Punto clave a resolver al eliminar Flask
-`services.generate_report_pdf()` hoy depende de `flask.render_template`.
-
-Dos opciones equivalentes:
-
-- **Opción A (mínimo cambio)**: mantener Flask solo como motor de templates (sin rutas) y crear un `app` mínimo para contexto.
-- **Opción B (más limpio “sin web”)**: reemplazar `render_template` por Jinja2 puro (cargando `templates/` con `jinja2.Environment(FileSystemLoader(...))`) y así eliminar Flask por completo.
-
-Este documento deja el flujo; la implementación final depende de cuál opción elijas.
+### Estado actual (sin Flask)
+El render del PDF se hace con **Jinja2** directo, así que no hay dependencia de Flask.
 
 ## Checklist de funcionalidad (sin web)
 
