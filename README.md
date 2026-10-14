@@ -1,6 +1,9 @@
-# Proyecto de Reportes de Deudas de Clientes (sin web)
+# Proyecto de Reportes de Deudas (sin web)
 
-Este proyecto tiene como objetivo generar y enviar informes de deudas de clientes a sus respectivos vendedores, utilizando datos provenientes de una base de datos SQLite y ejecutando scripts que obtienen información de SAP.
+Este proyecto genera y envía reportes usando datos de **SAP Business One (Service Layer)**.
+
+- **Vendedores**: 1 **PDF por vendedor** (adjunto por email).
+- **Clientes**: 1 **email por cliente** con el **estado de cuenta en el cuerpo** (sin PDF).
 
 ## Estructura del Proyecto
 
@@ -11,7 +14,11 @@ El proyecto está estructurado de la siguiente manera:
 - **`utils.py`**: Incluye funciones de utilidad, como el formateo de números para la presentación en reportes.
 - **`services.py`**: Implementa la lógica de negocio de la aplicación, como la generación de informes en PDF, el envío de correos electrónicos y la actualización de datos.
 - **`scheduler.py`**: Configura y ejecuta las tareas programadas, como la actualización de datos y el envío de reportes.
-- **`run_headless.py`**: Ejecuta el flujo completo manualmente (actualiza datos, genera PDFs y envía emails) sin servidor web.
+- **`run_full.py`**: Flujo completo para **vendedores** (actualiza datos → genera PDFs → envía emails).
+- **`run_headless.py`**: Solo **genera PDFs por vendedor** (no envía correos).
+- **`run_clients.py`**: Flujo completo para **clientes** (actualiza datos → envía mails con estado de cuenta en el cuerpo).
+- **`run_clients_test.py`**: Prueba controlada (toma 5 clientes y envía todo a un mail de test).
+- **`run_all.py`**: Ejecuta **vendedores + clientes** en un solo comando.
 - **`get_Data_SAP/Z_run_scripts.py`**: Script encargado de obtener datos de SAP y actualizarlos en la base de datos SQLite.
 
 ## Dependencias
@@ -33,9 +40,12 @@ MAIL_USERNAME="tu_email@example.com"
 MAIL_PASSWORD="tu_password"
 MAIL_SERVER="smtp.example.com"
 MAIL_PORT=587
+MAIL_DELAY_SECONDS=2.5
 ```
 
 Reemplaza estos valores con los de tu cuenta de correo.
+
+`MAIL_DELAY_SECONDS` controla la pausa entre correos a clientes para evitar límites del servidor SMTP (errores 450).
 
 ### Base de Datos
 
@@ -57,17 +67,52 @@ Para ejecutar el proyecto, sigue los siguientes pasos:
 
 1. Asegúrate de tener todas las dependencias instaladas como se indica en la sección de dependencias.
 2. Configura el archivo `.env` como se indica en la sección de configuración.
-3. Ejecuta el flujo sin web:
+3. Ejecuta el flujo que necesites.
 
-```bash
-python run_headless.py
+### Windows / PowerShell (recomendado)
+
+En este repo se recomienda usar el launcher de Python:
+
+```powershell
+py --version
+```
+
+#### Enviar reportes a vendedores (PDF adjunto)
+
+```powershell
+py run_full.py
+```
+
+#### Enviar reportes a clientes (sin PDF, estado de cuenta en el cuerpo)
+
+```powershell
+py run_clients.py
+```
+
+#### Enviar ambos (vendedores + clientes) en un solo comando
+
+```powershell
+py run_all.py
+```
+
+#### Solo generar PDFs por vendedor (sin enviar mails)
+
+```powershell
+py run_headless.py
+```
+
+#### Prueba a clientes (5 clientes a un mail fijo)
+
+```powershell
+py run_clients_test.py
 ```
 
 ## Funcionalidades
 
 - **Actualizar datos**: ejecuta extracción de SAP y refresca SQLite.
 - **Generar reportes PDF**: 1 PDF por vendedor con sus clientes.
-- **Enviar emails**: envía el PDF al vendedor (y CC a administración).
+- **Enviar emails a vendedores**: envía el PDF al vendedor (y CC a administración).
+- **Enviar emails a clientes**: envía el estado de cuenta en el cuerpo del correo (sin PDF).
 
 ## Tareas Programadas
 
@@ -81,5 +126,5 @@ El proyecto incluye una tarea programada que se ejecuta los lunes y jueves a las
 - Asegúrate de que el script `get_Data_SAP/Z_run_scripts.py` esté correctamente configurado y funcione para obtener los datos de SAP.
 - Verifica la configuración de tu servidor de correo en el archivo `.env`.
 - Es posible que necesites ajustar la zona horaria del scheduler, ya que los horarios en `scheduler.py` se encuentran en hora UTC.
-- El proyecto utiliza `xhtml2pdf` para la generación de PDF, que puede tener algunas limitaciones en el renderizado de HTML complejo.
+- Los PDFs de vendedores se generan con **ReportLab/Platypus**.
 

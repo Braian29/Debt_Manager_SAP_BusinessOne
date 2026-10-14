@@ -69,7 +69,8 @@ def _build_mime_message(subject, body, to_email, pdf_path=None, cc=None):
 
 
 def _smtp_open():
-    s = smtplib.SMTP(Config.MAIL_SERVER, int(Config.MAIL_PORT))
+    # timeout evita que quede colgado “en silencio” ante red/SMTP lento
+    s = smtplib.SMTP(Config.MAIL_SERVER, int(Config.MAIL_PORT), timeout=40)
     s.starttls()
     s.login(Config.MAIL_USERNAME, Config.MAIL_PASSWORD)
     return s
@@ -188,7 +189,13 @@ def generate_reports_only(vendedores, clientes_con_info, format_number):
 
 def generate_and_send_reports(vendedores, clientes_con_info, format_number):
     """Genera y envía reportes para cada vendedor."""
-    cc_emails = ['romina.galdos@super-clin.com.ar', 'cuentas@super-clin.com.ar', "braian.alonso@super-clin.com.ar", "horacio.rodriguezbarcelone@super-clin.com.ar"]
+    cc_emails = ['romina.galdos@super-clin.com.ar', 
+                 'cuentas@super-clin.com.ar', 
+                 "braian.alonso@super-clin.com.ar", 
+                 "carolina.kundler@super-clin.com.ar",
+                 "miguel.molachino@super-clin.com.ar",
+                     ]
+                     # "horacio.rodriguezbarcelone@super-clin.com.ar", 
 
     report_dir = "reports"
     os.makedirs(report_dir, exist_ok=True)
@@ -459,6 +466,11 @@ def generate_and_send_client_reports(clientes_con_info, format_number, *, limit:
                 continue
 
             sent += 1
+            if sent == 1 or (sent % 10) == 0:
+                print(
+                    f"Progreso clientes: enviados={sent}, sin_email={skipped_no_email}, "
+                    f"email_invalido={skipped_invalid_email}, errores={errors}"
+                )
             time.sleep(mail_delay)
     finally:
         if smtp is not None:

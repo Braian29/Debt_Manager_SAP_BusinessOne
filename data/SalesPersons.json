@@ -67,7 +67,7 @@
             },
             {
                 "SalesEmployeeCode": 13,
-                "SalesEmployeeName": "Vendedor VLA-SMA-TRF",
+                "SalesEmployeeName": "Vendedor VLA-TRF",
                 "Telephone": null,
                 "Mobile": null,
                 "Email": "tomas.molina@super-clin.com.ar"
@@ -88,7 +88,7 @@
             },
             {
                 "SalesEmployeeCode": 27,
-                "SalesEmployeeName": "26",
+                "SalesEmployeeName": "Vendedor SMA",
                 "Telephone": null,
                 "Mobile": null,
                 "Email": null
