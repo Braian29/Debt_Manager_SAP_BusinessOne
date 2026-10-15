@@ -11,10 +11,10 @@ def main() -> int:
     """
     Flujo completo:
     1) Actualiza datos (SAP → JSON → SQLite)
-    2) Genera PDFs por vendedor
+    2) Genera un Excel por vendedor
     3) Envía emails a vendedores (con CC según configuración)
     """
-    logging.info("Iniciando flujo completo (SAP → PDFs → envío a vendedores)...")
+    logging.info("Iniciando flujo completo (SAP → Excel → envío a vendedores)...")
 
     if not update_data():
         logging.error("Falló la actualización de datos. No se generan/envían reportes.")

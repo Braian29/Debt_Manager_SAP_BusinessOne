@@ -12,6 +12,8 @@ from get_Data_SAP.Z_run_scripts import run_scripts
 from config import Config
 from get_Data_SAP.sesion import get_new_session
 
+from client_email import build_client_email
+from excel_report import generate_excel_report, generate_manager_excel
 from reportlab_report import ReportData, generate_pdf_report
 
 _EMAIL_RE = re.compile(
@@ -47,7 +49,13 @@ def is_valid_client_email(addr: str | None) -> bool:
     return _EMAIL_RE.match(s) is not None
 
 
-def _build_mime_message(subject, body, to_email, pdf_path=None, cc=None):
+_ATTACHMENT_SUBTYPES = {
+    ".pdf": "pdf",
+    ".xlsx": "vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+}
+
+
+def _build_mime_message(subject, body, to_email, attachment_path=None, cc=None, html=None):
     fromaddr = Config.MAIL_USERNAME
     msg = MIMEMultipart()
     msg["From"] = fromaddr
@@ -55,16 +63,23 @@ def _build_mime_message(subject, body, to_email, pdf_path=None, cc=None):
     msg["Subject"] = subject
     if cc:
         msg["Cc"] = ", ".join(cc)
-    msg.attach(MIMEText(body, "plain"))
-    if pdf_path:
+    if html:
+        alternative = MIMEMultipart("alternative")
+        alternative.attach(MIMEText(body, "plain", "utf-8"))
+        alternative.attach(MIMEText(html, "html", "utf-8"))
+        msg.attach(alternative)
+    else:
+        msg.attach(MIMEText(body, "plain"))
+    if attachment_path:
         from email.mime.application import MIMEApplication
 
-        with open(pdf_path, "rb") as f:
-            pdf_attachment = MIMEApplication(f.read(), _subtype="pdf")
-        pdf_attachment.add_header(
-            "Content-Disposition", "attachment", filename=os.path.basename(pdf_path)
+        ext = os.path.splitext(attachment_path)[1].lower()
+        with open(attachment_path, "rb") as f:
+            attachment = MIMEApplication(f.read(), _subtype=_ATTACHMENT_SUBTYPES.get(ext, "octet-stream"))
+        attachment.add_header(
+            "Content-Disposition", "attachment", filename=os.path.basename(attachment_path)
         )
-        msg.attach(pdf_attachment)
+        msg.attach(attachment)
     return msg
 
 
@@ -124,10 +139,19 @@ def generate_report_pdf_reportlab(vendedor_name: str, generated_at: str, cliente
         return False
 
 
-def send_email(subject, body, to_email, pdf_path=None, cc=None, smtp=None):
-    """Envía un correo electrónico. Adjunta PDF si `pdf_path` no es None.
+def generate_report_excel(vendedor_name: str, generated_at: str, clientes: list[dict], output_path: str) -> bool:
+    try:
+        generate_excel_report(output_path=output_path, vendedor_name=vendedor_name, generated_at=generated_at, clientes=clientes)
+        return True
+    except Exception as exc:
+        print(f"Error al generar Excel: {exc}")
+        return False
+
+
+def send_email(subject, body, to_email, attachment_path=None, cc=None, smtp=None):
+    """Envía un correo electrónico. Adjunta el archivo si `attachment_path` no es None (PDF o Excel).
     Si se pasa `smtp`, reutiliza la conexión y no la cierra."""
-    msg = _build_mime_message(subject, body, to_email, pdf_path, cc)
+    msg = _build_mime_message(subject, body, to_email, attachment_path, cc)
     own = smtp is None
     if smtp is None:
         smtp = _smtp_open()
@@ -169,14 +193,13 @@ def generate_reports_only(vendedores, clientes_con_info, format_number):
             reverse=True,
         )
 
-        report_filename = f"{vendedor_code}_report.pdf"
+        report_filename = f"{vendedor_code}_reporte_{datetime.now():%Y-%m-%d}.xlsx"
         report_path = os.path.join(report_dir, report_filename)
-        if not generate_report_pdf_reportlab(
+        if not generate_report_excel(
             vendedor_name=vendedor_name,
             generated_at=generated_at,
             clientes=clientes_filtrados,
             output_path=report_path,
-            format_number=format_number,
         ):
             return f"Error al generar reporte del vendedor {vendedor_name}."
 
@@ -212,17 +235,20 @@ def generate_and_send_reports(vendedores, clientes_con_info, format_number):
             # Ordenar clientes por saldo vencido de mayor a menor
             clientes_filtrados = sorted(clientes_filtrados, key=lambda k: k['saldos_por_categoria'].get('Vencida', 0), reverse=True)
 
-            report_filename = f"{vendedor_code}_report.pdf"
+            report_filename = f"{vendedor_code}_reporte_{datetime.now():%Y-%m-%d}.xlsx"
             report_path = os.path.join(report_dir, report_filename)
-            if generate_report_pdf_reportlab(
+            if generate_report_excel(
                 vendedor_name=vendedor_name,
                 generated_at=generated_at,
                 clientes=clientes_filtrados,
                 output_path=report_path,
-                format_number=format_number,
             ):
                 email_subject = f"Reporte de Clientes de {vendedor_name}"
-                email_body = f"Adjunto encontrarás el reporte de clientes de {vendedor_name}."
+                email_body = (
+                    f"Adjunto encontrarás el reporte de clientes de {vendedor_name}.\n\n"
+                    "Hoja 'Urgente': facturas con más de 60 días desde la venta y, después, las de 31 a 60 días.\n"
+                    "Hoja 'Reporte completo': todas las facturas abiertas, con filtros por columna."
+                )
                 # Reemplazar con la dirección de correo del vendedor
                 email_to = vendedor_email if vendedor_email else "superclinsys@gmail.com" #Usar el email del vendedor si existe, sino el default
                 if not send_email(email_subject, email_body, email_to, report_path, cc=cc_emails): #Llamar a send_email con cc
@@ -233,126 +259,54 @@ def generate_and_send_reports(vendedores, clientes_con_info, format_number):
     return "Reportes generados y enviados con éxito."
 
 
-def _build_client_email(
-    has_overdue: bool,
-    cliente_nombre: str,
-    saldo_total: float,
-    saldo_vencido: float,
-    generated_at: str,
-    format_number,
-):
-    """
-    Construye asunto y cuerpo según si existe al menos 1 documento vencido por DocDueDate < hoy.
-    """
-    saldo_total_txt = f"$ {format_number(saldo_total)}" if saldo_total else "—"
-    saldo_vencido_txt = f"$ {format_number(saldo_vencido)}" if saldo_vencido else "—"
+MANAGER_EMAILS = [
+    "rodolfo.bouabdo@super-clin.com.ar",
+    "cuentas@super-clin.com.ar",
+    "carolina.kundler@super-clin.com.ar",
+    "braian.alonso@super-clin.com.ar",
+]
 
-    if has_overdue:
-        subject = "Estado de cuenta – Documentos vencidos"
-        body = (
-            f"Estimado/a {cliente_nombre},\n\n"
-            f"Adjuntamos su estado de cuenta al {generated_at}.\n"
-            f"Saldo total: {saldo_total_txt}\n"
-            f"Total vencido: {saldo_vencido_txt}\n\n"
-            "Si alguna facturas ya fue abonada, por favor ignore este correo.\n"
-            "Ante cualquier consulta, puede responder a este correo.\n\n"
-            "Saludos.\n"
+
+def generate_manager_report(clientes_con_info) -> str | None:
+    """Genera el Excel de gerentes en reports/. Devuelve la ruta o None si falla."""
+    report_dir = "reports"
+    os.makedirs(report_dir, exist_ok=True)
+    report_path = os.path.join(report_dir, f"gerentes_reporte_{datetime.now():%Y-%m-%d}.xlsx")
+    try:
+        generate_manager_excel(
+            output_path=report_path,
+            generated_at=datetime.now().strftime("%d/%m/%Y %H:%M"),
+            clientes=clientes_con_info,
         )
+        return report_path
+    except Exception as exc:
+        print(f"Error al generar Excel de gerentes: {exc}")
+        return None
+
+
+def generate_and_send_manager_report(clientes_con_info, *, override_to: str | None = None) -> str:
+    """Genera el Excel de gerentes y lo envía a MANAGER_EMAILS (o solo a `override_to` para pruebas)."""
+    report_path = generate_manager_report(clientes_con_info)
+    if not report_path:
+        return "Error al generar el reporte de gerentes."
+
+    subject = f"Status de Deuda al {datetime.now():%d-%m-%y}"
+    body = (
+        "Adjunto el status de deuda de clientes, clasificado por días desde la venta "
+        "(0-30, 31-60, 61-90 y 91+).\n\n"
+        "Hoja 'Resumen': totales por vendedor y tramo.\n"
+        "Hoja 'Por cliente': deuda de cada cliente por tramo.\n"
+        "Hoja 'Detalle': todas las facturas abiertas, con filtros por columna.\n"
+    )
+    if override_to:
+        to_email, cc = override_to, None
+        subject = f"[TEST GERENTES] {subject}"
     else:
-        subject = "Estado de cuenta – Próximos vencimientos"
-        body = (
-            f"Estimado/a {cliente_nombre},\n\n"
-            f"Adjuntamos su estado de cuenta al {generated_at}.\n"
-            f"Saldo total: {saldo_total_txt}\n"
-            f"Total vencido: {saldo_vencido_txt}\n\n"
-            "Recordatorio: revise los próximos vencimientos para evitar mora.\n"
-            "Ante cualquier consulta, puede responder a este correo.\n\n"
-            "Saludos.\n"
-        )
-    return subject, body
+        to_email, cc = MANAGER_EMAILS[0], MANAGER_EMAILS[1:]
 
-
-def _format_invoices_table(facturas: list[dict], format_number) -> tuple[str, float, float, float]:
-    """
-    Construye una tabla de texto monoespaciada para el cuerpo del mail.
-    Retorna: (table_str, total_total, total_pagado, total_saldo)
-    """
-    today = datetime.now().date()
-
-    def due_date(f: dict):
-        return f.get("_DocDueDate")
-
-    # Orden: vencidas primero (por due date), luego por saldo desc
-    facturas_sorted = sorted(
-        facturas,
-        key=lambda f: (
-            0 if (due_date(f) is not None and due_date(f) < today) else 1,
-            -float(f.get("SaldoPendiente") or 0),
-        ),
-    )
-
-    def money(v):
-        try:
-            x = float(v or 0)
-        except (TypeError, ValueError):
-            x = 0.0
-        if x == 0:
-            return "—"
-        return f"$ {format_number(x)}"
-
-    def fmt_due(d):
-        if not d:
-            return "—"
-        try:
-            return d.strftime("%d/%m/%Y")
-        except Exception:
-            return str(d)
-
-    # Column widths for plain text table
-    W_DOC = 18
-    W_VTO = 10
-    W_MONEY = 16
-
-    header = (
-        f"{'Doc':<{W_DOC}}"
-        f"{'Vto':<{W_VTO}}"
-        f"{'Total':>{W_MONEY}}"
-        f"{'Pagado':>{W_MONEY}}"
-        f"{'Saldo':>{W_MONEY}}"
-    )
-    lines = [header]
-
-    total_total = 0.0
-    total_pagado = 0.0
-    total_saldo = 0.0
-
-    for f in facturas_sorted:
-        doc = str(f.get("NumAtCard") or "—")[:W_DOC]
-        vto = fmt_due(due_date(f))[:W_VTO]
-        total = float(f.get("DocTotal") or 0)
-        pagado = float(f.get("PaidToDate") or 0)
-        saldo = float(f.get("SaldoPendiente") or 0)
-
-        total_total += total
-        total_pagado += pagado
-        total_saldo += saldo
-
-        lines.append(
-            f"{doc:<{W_DOC}}"
-            f"{vto:<{W_VTO}}"
-            f"{money(total):>{W_MONEY}}"
-            f"{money(pagado):>{W_MONEY}}"
-            f"{money(saldo):>{W_MONEY}}"
-        )
-
-    lines.append(
-        f"{'Totales':<{W_DOC + W_VTO}}"
-        f"{money(total_total):>{W_MONEY}}"
-        f"{money(total_pagado):>{W_MONEY}}"
-        f"{money(total_saldo):>{W_MONEY}}"
-    )
-
-    return "\n".join(lines), total_total, total_pagado, total_saldo
+    if not send_email(subject, body, to_email, report_path, cc=cc):
+        return "Error al enviar el reporte de gerentes."
+    return "Reporte de gerentes enviado con éxito."
 
 
 def generate_and_send_client_reports(clientes_con_info, format_number, *, limit: int | None = None, override_to: str | None = None):
@@ -409,57 +363,19 @@ def generate_and_send_client_reports(clientes_con_info, format_number, *, limit:
 
             card_code = c.get("CardCode")
             card_name = c.get("CardName") or card_code
-            facturas = c.get("facturas") or []
 
-            # Criterio pedido basado en vencimiento real
-            has_overdue = bool(c.get("has_overdue_due_date"))
+            test_banner = None
+            if override_to:
+                test_banner = f"PRUEBA - Destinatario real: {email or 'SIN EMAIL'}\nCliente: {card_code} - {card_name}"
 
-            saldo_total = float(c.get("CurrentAccountBalance") or 0)
-            # saldo vencido por due date (sumar saldo pendiente de facturas vencidas)
-            saldo_vencido = _saldo_vencido_due_date(c)
-
-            subject, body = _build_client_email(
-                has_overdue=has_overdue,
-                cliente_nombre=card_name,
-                saldo_total=saldo_total,
-                saldo_vencido=saldo_vencido,
-                generated_at=generated_at,
-                format_number=format_number,
-            )
-
-            # Desglose factura-a-factura dentro del correo
-            table_txt, total_total, total_pagado, total_saldo = _format_invoices_table(facturas, format_number)
-            body += (
-                "\n"
-                "El listado de Facturas abiertas son las siguientes:\n"
-                f"{table_txt}\n\n"
-            )
-
-            if has_overdue:
-                body += (
-                    "Le solicitamos por favor regularizar los documentos vencidos y proximos a vencer a la brevedad.\n"
-                )
-            else:
-                body += (
-                    "Le solicitamos por favor tener en cuenta los próximos vencimientos para evitar mora.\n"
-                )
-            body += (
-                "Ante cualquier consulta, puede responder a este correo.\n\n"
-                "NOTA IMPORTANTE: LA información presente no cuenta con Notas de Crédito o Pagos no conciliados. La próxima semana recibirá la información completa.\n\n"
-                "Saludos.\n"
-            )
-
+            subject, body, html = build_client_email(c, generated_at, format_number, test_banner=test_banner)
             if override_to:
                 subject = f"[TEST CLIENTES] {subject} | {card_code} {card_name}"
-                body = (
-                    f"DESTINATARIO REAL: {email or 'SIN EMAIL'}\n"
-                    f"CLIENTE: {card_code} - {card_name}\n\n"
-                ) + body
 
             if smtp is None:
                 smtp = _smtp_open()
 
-            msg = _build_mime_message(subject, body, to_email, None, None)
+            msg = _build_mime_message(subject, body, to_email, None, None, html=html)
             ok, smtp = _send_message_with_rate_limit_retries(smtp, msg)
             if not ok:
                 errors += 1

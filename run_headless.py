@@ -1,6 +1,6 @@
 import logging
 
-from services import generate_reports_only, get_data, update_data
+from services import generate_manager_report, generate_reports_only, get_data, update_data
 from utils import format_number
 
 
@@ -11,7 +11,7 @@ def main() -> int:
     """
     Ejecuta el flujo completo sin web:
     1) Actualiza datos (SAP → JSON → SQLite)
-    2) Genera PDFs por vendedor
+    2) Genera un Excel por vendedor y el Excel de gerentes
     3) (No envía correos)
     """
     logging.info("Iniciando flujo headless (sin web)...")
@@ -26,8 +26,13 @@ def main() -> int:
     if "Error" in result:
         logging.error(result)
         return 2
-
     logging.info(result)
+
+    manager_path = generate_manager_report(clientes_con_info)
+    if not manager_path:
+        logging.error("Error al generar el reporte de gerentes.")
+        return 2
+    logging.info("Reporte de gerentes generado: %s", manager_path)
     return 0
 
 

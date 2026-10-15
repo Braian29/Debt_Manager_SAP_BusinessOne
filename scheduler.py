@@ -1,7 +1,7 @@
 from apscheduler.schedulers.background import BackgroundScheduler
 from apscheduler.triggers.cron import CronTrigger
 import logging
-from services import generate_and_send_reports, get_data, update_data
+from services import generate_and_send_manager_report, generate_and_send_reports, get_data, update_data
 from utils import format_number
 
 # Configurar logging
@@ -31,6 +31,13 @@ def scheduled_task():
             logging.error(f"La generación de reportes falló: {report_result}")
         else:
             logging.info("Reportes generados y enviados exitosamente.")
+
+        logging.info("Generando y enviando reporte de gerentes...")
+        manager_result = generate_and_send_manager_report(clientes_con_info)
+        if "Error" in manager_result:
+            logging.error(f"El reporte de gerentes falló: {manager_result}")
+        else:
+            logging.info(manager_result)
 
     except Exception as e:
         logging.error(f"Ocurrió un error inesperado: {e}")
